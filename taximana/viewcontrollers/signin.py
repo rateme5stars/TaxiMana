@@ -2,8 +2,10 @@ from tkinter import *
 from tkmacosx import Button
 from tkinter import messagebox
 from taximana.constant import *
+from taximana.viewcontrollers.signup import SignUpController
+from pathlib import Path
 
-class LoginController:
+class SignInController:
     def load_view(self):
         self.login_window = Tk()
         self.login_window.title("Taxi Management")
@@ -35,24 +37,28 @@ class LoginController:
         # Password Entry
         self.password_entry = Entry(login_frame, highlightthickness=3, border=0, width=30, fg='black', bg=LOGIN_COLOR, font=(FONT, 15))
         self.password_entry.config(highlightbackground=LOGIN_COLOR, highlightcolor=LOGIN_COLOR)
+        self.password_entry.configure(show="*")
         self.password_entry.place(x=90, y=130)
-        self.password_entry.insert(0, ' Password')
+        self.password_entry.insert(0, '***')
         self.password_entry.bind('<FocusIn>', self.on_enter_password)
         self.password_entry.bind('<FocusOut>', self.on_leave_password)
 
         # Line
         Frame(login_frame,width=300, height=1, bg='black').place(x=92, y=158)
 
+        # Show password Button
+        Checkbutton(login_frame, text="Show password", bg=LOGIN_COLOR, command=self.show_password).place(x=85, y=180)
+
         # Login Button 
         login_bt = Button(login_frame, width=200, pady=6, text='Sign In',fg='black', bg="white", borderless=1, command=self.sign_in)
-        login_bt.place(x=140, y=200)
+        login_bt.place(x=140, y=220)
 
         lb = Label(login_frame, text="Don't have an account?", fg='black', bg=LOGIN_COLOR, font=(FONT, 15, 'normal'))
-        lb.place(x=100, y=260)
+        lb.place(x=100, y=280)
 
         # Sign up button
-        sign_up = Button(login_frame, width=55, text='Sign Up', bg=LOGIN_COLOR, cursor='hand2', fg='black', borderwidth=0, border=0, borderless=1)
-        sign_up.place(x=280, y=260)
+        sign_up = Button(login_frame, width=55, text='Sign Up', cursor='hand2', fg='black', borderwidth=0, border=0, borderless=1, command=self.push_to_signup_view)
+        sign_up.place(x=280, y=280)
 
         self.login_window.mainloop()
 
@@ -71,28 +77,49 @@ class LoginController:
     def on_leave_password(self, *arg):
         name = self.password_entry.get()
         if name == '':
-            self.password_entry.insert(0, 'Password')
+            self.password_entry.insert(0, '***')
     
+    def push_to_signup_view(self, *arg):
+        signup_view = SignUpController()
+        signup_view.load_view()
+    
+    def show_password(self):
+        if self.password_entry.cget('show') == "*":
+            self.password_entry.configure(show="")
+        else:
+            self.password_entry.configure(show="*")
+
     # Handle sign in event
     def sign_in(self):
-        username = self.username_entry.get()
-        password = self.password_entry.get()
-
-        if username == 'admin' and password == '1234':
-            self.login_window.destroy()
-            # root = Toplevel(self.login_window)
-            root = Tk()
-            root.title('Taxi Management')
-            root.geometry('1440x1024')
-            root.config(bg='white')
-            Label(root, text='Hello Mother Fucker', bg='#fff', font=('Calibri(Body)', 50, 'bold')).pack(expand=True)
-            
-            root.mainloop()
-            
-        elif username != 'admin' or password != '1234':
+        username = self.username_entry.get().strip()
+        password = self.password_entry.get().strip()
+        user_password = {f'{username}':f'{password}'}
+        if Path(DATA_PATH).is_file():
+            if user_password in self.check_existence():
+                self.login_window.destroy()
+                # root = Toplevel(self.login_window)
+                root = Tk()
+                root.title('Taxi Management')
+                root.geometry('1440x1024')
+                root.config(bg='white')
+                Label(root, text='Hello Mother Fucker', bg='#fff', font=('Calibri(Body)', 50, 'bold')).pack(expand=True)
+                
+                root.mainloop()
+            else:
+                messagebox.showerror('Invalid', 'Something is wrong')
+        else:
             messagebox.showerror('Invalid', 'Something is wrong')
-            
+
+    def check_existence(self): 
+        user_password_list = list()
+        data_file = open(DATA_PATH, 'r')
+        for user_password in data_file:
+            user_password = eval(user_password)
+            user_password_list.append(user_password)
+        
+        return user_password_list
+
 if __name__ == "__main__":
-    login = LoginController()
+    login = SignInController()
     login.load_view()
     
