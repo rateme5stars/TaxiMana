@@ -3,62 +3,62 @@ from tkmacosx import Button
 from tkinter import messagebox
 from taximana.constant import *
 from pathlib import Path
+from taximana.model.user import User as user
 
 class SignInController(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent, bg=LOGIN_COLOR)
         self.controller = controller
         self.controller.title("Sign In")
-
         img = tk.PhotoImage(file='taximana/asset/logo.png')
         logo = tk.Label(self, image=img, bg=LOGIN_COLOR)
-        logo.place(x=50, y=50)
+        logo.place(x=50, y=150)
         logo.image = img
 
         login_frame = tk.Frame(self, width=400, height=400, bg=LOGIN_COLOR)
-        login_frame.place(x=600, y=70)
+        login_frame.place(x=600, y=120)
 
         # Heading
         heading = tk.Label(login_frame, text="Sign In", fg='black', bg=LOGIN_COLOR, font=(FONT, 32))
-        heading.place(x=185, y=5)
+        heading.place(x=185, y=85)
         
         # Username Entry
         self.username_entry = tk.Entry(login_frame, highlightthickness=3, border=0, width=30, fg='black', bg=LOGIN_COLOR, font=(FONT, 15))
         self.username_entry.config(highlightbackground=LOGIN_COLOR, highlightcolor=LOGIN_COLOR)
-        self.username_entry.place(x=90, y=80)
+        self.username_entry.place(x=90, y=130)
         self.username_entry.insert(0, ' Username')
         self.username_entry.bind('<FocusIn>', self.on_enter_username)
         self.username_entry.bind('<FocusOut>', self.on_leave_username)
 
         # Line
-        tk.Frame(login_frame,width=300, height=1, bg='black').place(x=92, y=108)
+        tk.Frame(login_frame,width=300, height=1, bg='black').place(x=92, y=158)
 
         # Password Entry
         self.password_entry = tk.Entry(login_frame, highlightthickness=3, border=0, width=30, fg='black', bg=LOGIN_COLOR, font=(FONT, 15))
         self.password_entry.config(highlightbackground=LOGIN_COLOR, highlightcolor=LOGIN_COLOR)
         self.password_entry.configure(show="*")
-        self.password_entry.place(x=90, y=130)
+        self.password_entry.place(x=90, y=180)
         self.password_entry.insert(0, '***')
         self.password_entry.bind('<FocusIn>', self.on_enter_password)
         self.password_entry.bind('<FocusOut>', self.on_leave_password)
 
         # Line
-        tk.Frame(login_frame,width=300, height=1, bg='black').place(x=92, y=158)
+        tk.Frame(login_frame,width=300, height=1, bg='black').place(x=92, y=208)
 
         # Show password Button
-        tk.Checkbutton(login_frame, text="Show password", bg=LOGIN_COLOR, command=self.show_password).place(x=85, y=180)
+        tk.Checkbutton(login_frame, text="Show password", bg=LOGIN_COLOR, command=self.show_password).place(x=85, y=230)
 
         # Login Button 
         login_bt = Button(login_frame, width=200, pady=6, text='Sign In',fg='black', bg="white", borderless=1, command=self.sign_in)
-        login_bt.place(x=140, y=220)
+        login_bt.place(x=140, y=270)
 
         lb = tk.Label(login_frame, text="Don't have an account?", fg='black', bg=LOGIN_COLOR, font=(FONT, 15, 'normal'))
-        lb.place(x=100, y=280)
+        lb.place(x=100, y=330)
 
         # Sign up button
         sign_up = Button(login_frame, width=55, text='Sign Up', cursor='hand2', fg='black', borderwidth=0, border=0, borderless=1, bg=LOGIN_COLOR,
         command=lambda: controller.show_frame('SignUpController'))
-        sign_up.place(x=280, y=280)
+        sign_up.place(x=280, y=330)
     
     # Handle click on entry events
     def on_enter_username(self, *arg):
@@ -90,13 +90,7 @@ class SignInController(tk.Frame):
         user_password = {f'{username}':f'{password}'}
         if Path(DATA_PATH).is_file():
             if user_password in self.check_existence():
-                main = tk.Tk()
-                main.title('Taxi Management')
-                main.geometry('1440x1024')
-                main.config(bg='white')
-                tk.Label(main, text='Hello Mother Fucker', bg='#fff', font=('Calibri(Body)', 50, 'bold')).pack(expand=True)
-                
-                main.mainloop()
+                self.controller.show_frame("DashBoard")
             else:
                 messagebox.showerror('Invalid', 'Something is wrong')
         else:

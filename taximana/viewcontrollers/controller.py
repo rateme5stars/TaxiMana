@@ -1,26 +1,26 @@
 import tkinter as tk
-from tkinter import font as tkfont
 from taximana.constant import *
-from taximana.viewcontrollers.rootcontroller.signin import SignInController
-from taximana.viewcontrollers.rootcontroller.signup import SignUpController
+from taximana.viewcontrollers.signin import SignInController
+from taximana.viewcontrollers.signup import SignUpController
+from taximana.viewcontrollers.dashboard import DashBoard
+from taximana.viewcontrollers.car import Car
+from taximana.viewcontrollers.income import Income
+from taximana.viewcontrollers.driver import Driver
+from taximana.viewcontrollers.expense import Expense
+from taximana.viewcontrollers.summary import Summary
 
 class Root(tk.Tk):
 
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
-        self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
-
-        # the container is where we'll stack a bunch of frames
-        # on top of each other, then the one we want visible
-        # will be raised above the others
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (SignInController, SignUpController):
+        for F in (SignInController, SignUpController, DashBoard, Car, Driver, Income, Expense, Summary):
             page_name = F.__name__
             frame = F(parent=container, controller=self)
             self.frames[page_name] = frame
@@ -36,3 +36,4 @@ class Root(tk.Tk):
         '''Show a frame for the given page name'''
         frame = self.frames[page_name]
         frame.tkraise()
+
