@@ -82,7 +82,7 @@ class DashBoard(tk.Frame):
         stat_frame.place(x=250, y=0)
 
         # Stat Label 
-        tk.Label(stat_frame, text='Statistic', bg='#FFF5D2', fg='black', font=(FONT, 22)).place(x=20, y=20)
+        tk.Label(stat_frame, text='Statistic', bg='#FFF5D2', fg='black', font=(FONT, 22)).place(x=20, y=8)
 
         # Date
         tk.Label(stat_frame, text=f'Date: {date.today().strftime("%B %d, %Y")}', bg='#FFF5D2', fg='black', font=(FONT, 15)).place(x=20, y=55)
@@ -144,8 +144,11 @@ class DashBoard(tk.Frame):
         total_frame.place(x=0, y=700)
         tk.Label(total_frame, text='Total Income: 1234567 vnd', bg='#FFE5A1', fg='black', font=(FONT, 20)).place(x=60, y=33)
 
+        # Vertical line
+        tk.Frame(self, width=1, height=800, bg='black').place(x=650, y=0)
+
         # Details
-        tk.Label(self, text='Details', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=20)
+        tk.Label(self, text='Details', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=8)
         img = tk.PhotoImage(file='taximana/asset/profit.png')
         logo = tk.Label(self, image=img, bg='white', width=160, height=110)
         logo.place(x=700, y=80)

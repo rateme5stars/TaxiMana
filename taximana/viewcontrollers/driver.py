@@ -1,6 +1,5 @@
 import tkinter as tk
 import os
-from numpy import empty
 from taximana.constant import *
 from tkmacosx import Button
 from datetime import date
@@ -9,13 +8,10 @@ from pathlib import Path
 import json
 from tkinter import messagebox
 
-
 '''
-# TODO:
-- Change index to car id 
-- remove feature 
+#TODO:
+- ID regex 
 '''
- 
 
 class Driver(tk.Frame):
     def __init__(self, parent, controller):
@@ -121,20 +117,12 @@ class Driver(tk.Frame):
         self.treev.configure(xscrollcommand=verscrlbar.set)
         self.treev['columns'] = ('1', '2', '3')
         self.treev['show'] = 'headings'
-        self.treev.column('1', width=50, anchor='c')
-        self.treev.column('2', width=230, anchor='c')
-        self.treev.column('3', width=120, anchor='c')
-        self.treev.heading('1', text='Index')
-        self.treev.heading('2', text='Name')
-        self.treev.heading('3', text='ID')
-        # for i in range(20):
-        #     self.treev.insert("", 'end', text=f'L{i}', values=(f'{i}', "Name", 'ID'))
-        
-        # row = 
-        # for line in self.treev.get_children():
-        #     for value in self.treev.item(line)['values']:
-        #         print(value)
-
+        self.treev.column('1', width=240, anchor='c')
+        self.treev.column('2', width=80, anchor='c')
+        self.treev.column('3', width=80, anchor='c')
+        self.treev.heading('1', text='Name')
+        self.treev.heading('2', text='ID')
+        self.treev.heading('3', text='Car ID')
         self.treev.bind("<<TreeviewSelect>>", self.treeview_click)
         self.load_table()
 
@@ -180,19 +168,23 @@ class Driver(tk.Frame):
         self.type_entry.place(x=50, y=720)
         tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=745)
 
+        # Clear Button
+        add_bt = Button(stat_frame, width=50, pady=6, text='Clear',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.clear_add_entries)
+        add_bt.place(x=100, y=760)
+
         # Add Button
         add_bt = Button(stat_frame, width=50, pady=6, text='Add',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.add_click)
         add_bt.place(x=170, y=760)
 
-        # Remove Button
-        remove_bt = Button(stat_frame, width=50, pady=6, text='Change',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.change_click)
-        remove_bt.place(x=240, y=760)
-
         # Update Button
-        update_bt = Button(stat_frame, width=50, pady=6, text='Remove',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.remove_click)
-        update_bt.place(x=310, y=760)
+        update_bt = Button(stat_frame, width=50, pady=6, text='Change',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.change_click)
+        update_bt.place(x=240, y=760)
 
-        # Line 
+        # Remove Button
+        remove_bt = Button(stat_frame, width=50, pady=6, text='Remove',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.remove_click)
+        remove_bt.place(x=310, y=760)
+
+        # Vertical Line 
         tk.Frame(self, width=1, height=800, bg='black').place(x=650, y=0)
 
         # Details
@@ -228,6 +220,20 @@ class Driver(tk.Frame):
         tk.Label(self, text="Car ID:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=650)
         tk.Label(self, text="Type:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=700)
 
+        # Search 
+        tk.Label(self,text='Search:', bg='white', fg='black', font=(FONT, 16)).place(x=700, y=750)
+        self.search_entry = tk.Entry(self, highlightthickness=3, border=0, width=25, fg='black', bg='white', font=(FONT, 14))
+        self.search_entry.config(highlightbackground='white', highlightcolor='white')
+        self.search_entry.place(x=765, y=750)
+        tk.Frame(self,width=232, height=1, bg='black').place(x=765, y=775)
+
+        # Search Button
+        search_bt = Button(self, width=50, pady=6, text='Search',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.search_click)
+        search_bt.place(x=1025, y=750)
+
+        clear_search_bt = Button(self, width=50, pady=6, text='Clear',fg='black', bg="white",font=(FONT, 10), borderless=1, command=lambda:self.search_entry.delete(0, tk.END))
+        clear_search_bt.place(x=1100, y=750)
+
         # Handle Click
         dashboard.bind("<Button-1>", lambda e: controller.show_frame('DashBoard'))
         driver.bind("<Button-1>", lambda e: controller.show_frame('Driver'))
@@ -248,11 +254,11 @@ class Driver(tk.Frame):
         if data_file is not None:
             for driver_info in data_file:
                 driver_json = eval(driver_info)
-                self.treev.insert("", 'end', text=f'driver', values=('1', driver_json['name'], driver_json['id']))
+                self.treev.insert("", 'end', text=f'driver', values=(driver_json['name'], driver_json['id'], driver_json['car_id']))
             
     def treeview_click(self, *arg):
         cur_item = self.treev.focus()
-        driver_id = self.treev.item(cur_item)['values'][2]
+        driver_id = self.treev.item(cur_item)['values'][1]
         data_file = open(DRIVER_PATH, 'r')
         for driver_info in data_file:
             driver_json = eval(driver_info)
@@ -293,22 +299,22 @@ class Driver(tk.Frame):
             elif condition == 3:
                 messagebox.showerror('Invalid','Phone number already exist')
             elif condition == 0:
-                self.treev.insert("", 'end', text=f'driver', values=('1', name, driver_id))
+                self.treev.insert("", 'end', text=f'driver', values=(name, driver_id, car_id))
                 file = open(DRIVER_PATH, 'a')
                 file.write(f'{driver_json_str}\n')
                 file.close()
                 self.show_info(name, driver_id, dob, edu, phone, car_id, driver_type)
-                self.clear_entries()
+                self.clear_add_entries()
             
         else:
-            self.treev.insert("", 'end', text=f'driver', values=('1', name, driver_id))
+            self.treev.insert("", 'end', text=f'driver', values=(name, driver_id, car_id))
             file = open(DRIVER_PATH, 'w')
             file.write(f'{driver_json_str}\n')
             file.close()
             self.show_info()
-            self.clear_entries()
+            self.clear_add_entries()
             
-    def clear_entries(self):
+    def clear_add_entries(self):
         self.name_entry.delete(0, tk.END)
         self.id_entry.delete(0, tk.END)
         self.dob_entry.delete(0, tk.END)
@@ -316,9 +322,11 @@ class Driver(tk.Frame):
         self.edu_entry.delete(0, tk.END)
         self.phone_entry.delete(0, tk.END)
         self.type_entry.delete(0, tk.END)
+
+
     
     def show_in_entry(self, name, driver_id, dob, edu, phone, car_id, driver_type):
-        self.clear_entries()
+        self.clear_add_entries()
         self.name_entry.insert(0, name)
         self.id_entry.insert(0, driver_id)
         self.dob_entry.insert(0, dob)
@@ -366,11 +374,69 @@ class Driver(tk.Frame):
             return 0
         
     def remove_click(self):
-        selected_item = self.treev.selection()[0] 
+        selected_item = self.treev.selection()
+        self.clear_add_entries()
+        self.clear_info()
+
+        driver_id = self.treev.item(selected_item)['values'][1]
+        drivers = []
+
+        with open(DRIVER_PATH, 'r') as f:
+            drivers = f.readlines()
+
+        for i, driver in enumerate(drivers):
+            driver_json = eval(driver)
+            if driver_json['id'] == driver_id:
+                with open(DRIVER_PATH, 'w') as f:
+                    f.writelines(drivers[:i] + drivers[i+1:])
         self.treev.delete(selected_item)
+        
+    def clear_info(self):
+        tk.Frame(self, bg='white', width=380, height=30).place(x=755, y=397)
+        tk.Frame(self, bg='white', width=380, height=30).place(x=735, y=447)
+        tk.Frame(self, bg='white', width=380, height=30).place(x=745, y=497)
+        tk.Frame(self, bg='white', width=350, height=30).place(x=830, y=547)
+        tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=597)
+        tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=647)
+        tk.Frame(self, bg='white', width=380, height=30).place(x=755, y=697)
 
     def change_click(self):
-        print("Change")
+        name = self.name_entry.get()
+        driver_id = self.id_entry.get()
+        dob = self.dob_entry.get()
+        car_id = self.car_id_entry.get()
+        edu = self.edu_entry.get()
+        phone = self.phone_entry.get()
+        driver_type = self.type_entry.get()
+
+        selected_item = self.treev.selection()
+        driver_id = self.treev.item(selected_item)['values'][1]
+        drivers = []
+
+        with open(DRIVER_PATH, 'r', encoding='utf-8') as file:
+            data = file.readlines()
+
+        with open(DRIVER_PATH, 'r') as f:
+            drivers = f.readlines()
+
+        new_data = {"id": driver_id, "name": name, "dob": dob, "car_id": car_id, "edu_lv": edu, "phone": phone, "type": driver_type}
+        for i, driver in enumerate(drivers):
+            driver_json = eval(driver)
+            if driver_json['id'] == driver_id:
+                data[i] = str(new_data) + '\n'
+                
+        with open(DRIVER_PATH, 'w', encoding='utf-8') as file:
+            file.writelines(data)
+    
+    def search_click(self):
+        query = self.search_entry.get()
+        selections = []
+        for child in self.treev.get_children():
+            if query.lower() in self.treev.item(child)['values'][0].lower():   # compare strings in  lower cases.
+                print(self.treev.item(child)['values'])
+                selections.append(child)
+        print('search completed')
+        self.treev.selection_set(selections)
 
 
         

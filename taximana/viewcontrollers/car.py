@@ -87,10 +87,47 @@ class Car(tk.Frame):
         # Date
         tk.Label(stat_frame, text=f'Date: {date.today().strftime("%B %d, %Y")}', bg='#FFF5D2', fg='black', font=(FONT, 15)).place(x=20, y=55)
 
-        # Total Frame 
-        total_frame = tk.Frame(stat_frame, width=400, height=150, bg='#FFE5A1')
-        total_frame.place(x=0, y=700)
-        tk.Label(total_frame, text='Total Income: 1234567 vnd', bg='#FFE5A1', fg='black', font=(FONT, 20)).place(x=60, y=33)
+        tk.Label(stat_frame,text='Name:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=480)
+        self.name_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.name_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.name_entry.place(x=50, y=480)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=505)
+
+        tk.Label(stat_frame,text='ID:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=520)
+        self.id_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.id_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.id_entry.place(x=50, y=520)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=545)
+
+        tk.Label(stat_frame,text='DoB:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=560)
+        self.dob_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.dob_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.dob_entry.place(x=50, y=560)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=585)
+        
+        tk.Label(stat_frame,text='Edu Level:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=600)
+        self.edu_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.edu_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.edu_entry.place(x=80, y=600)
+        tk.Frame(stat_frame,width=223, height=1, bg='black').place(x=83, y=625)
+
+        tk.Label(stat_frame,text='Phone:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=640)
+        self.phone_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.phone_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.phone_entry.place(x=55, y=640)
+        tk.Frame(stat_frame,width=248, height=1, bg='black').place(x=58, y=665)
+        
+        tk.Label(stat_frame,text='CarID:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=680)
+        self.car_id_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.car_id_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.car_id_entry.place(x=50, y=680)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=705)
+
+        tk.Label(stat_frame,text='Type:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=720)
+        self.type_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        self.type_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        self.type_entry.place(x=50, y=720)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=745)
 
 
 
