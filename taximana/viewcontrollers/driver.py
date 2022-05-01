@@ -11,6 +11,7 @@ from tkinter import messagebox
 '''
 #TODO:
 - ID regex 
+- Change unique value 
 '''
 
 class Driver(tk.Frame):
@@ -266,8 +267,8 @@ class Driver(tk.Frame):
             driver_json['edu_lv'], driver_json['phone'], driver_json['type'],]}
             for key, value in tmp.items():
                 if key == driver_id:
-                    self.show_info(value[0], str(driver_id), value[1], value[2], value[3], value[4], value[5])
-                    self.show_in_entry(value[0], str(driver_id), value[1], value[2], value[3], value[4], value[5])
+                    self.show_info(value[0], driver_id, value[1], value[2], value[3], value[4], value[5])
+                    self.show_in_entry(value[0], driver_id, value[1], value[2], value[3], value[4], value[5])
                     
     def add_click(self):
         name = self.name_entry.get()
@@ -323,8 +324,6 @@ class Driver(tk.Frame):
         self.phone_entry.delete(0, tk.END)
         self.type_entry.delete(0, tk.END)
 
-
-    
     def show_in_entry(self, name, driver_id, dob, edu, phone, car_id, driver_type):
         self.clear_add_entries()
         self.name_entry.insert(0, name)
@@ -437,8 +436,3 @@ class Driver(tk.Frame):
                 selections.append(child)
         print('search completed')
         self.treev.selection_set(selections)
-
-
-        
-
-        

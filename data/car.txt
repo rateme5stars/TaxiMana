@@ -1,0 +1,2 @@
+{'car_id': 'a', 'driver_id': '12312ni', 'license_plate': '29A1-12344', 'brand': 'Volvo', 'model': 'i10', 'seats': 'woineqio', 'engine_num': 'qfn', 'chassis_num': 'onoi21n3i', 'import_day': 'a', 'regist_dl': 'woicneio', 'travelled': 'wionfwie'}
+{"car_id": "0abc", "driver_id": "0xyz", "license_plate": "29P1-01234", "brand": "Merc", "model": "S450", "seats": "4", "engine_num": "we0f9w", "chassis_num": "dw9we", "import_day": "10/3/2020", "regist_dl": "20/3/2030", "travelled": "100"}
