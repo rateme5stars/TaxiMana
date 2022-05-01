@@ -3,7 +3,6 @@ from tkmacosx import Button
 from tkinter import messagebox
 from taximana.constant import *
 from pathlib import Path
-from taximana.model.user import User as user
 
 class SignInController(tk.Frame):
     def __init__(self, parent, controller):

@@ -1,11 +1,14 @@
 class Driver:
-    def __init__(self, name, sex, DoB, phone, driver_id, car_id, recruitment_day, days_off, km_run):
+    def __init__(self, name, driver_id, DoB, edu_level, phone, car_id, kind, km_run, is_reported):
         self.name = name
-        self.sex = sex 
-        self.DoB = DoB
-        self.phone = phone
         self.driver_id = driver_id
+        self.DoB = DoB
+        self.edu_lv = edu_level
+        self.phone = phone
         self.car_id = car_id
-        self.recruitment_day = recruitment_day
-        self.days_off = days_off
-        self.salary = km_run * 7000
+        self.kind = kind
+
+        self.km_run = km_run
+        self.is_reported = is_reported
+
+

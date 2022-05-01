@@ -99,13 +99,13 @@ class Driver(tk.Frame):
         tk.Label(stat_frame, text=f'Date: {date.today().strftime("%B %d, %Y")}', bg='#FFF5D2', fg='black', font=(FONT, 15)).place(x=20, y=55)
 
         # Income Label 
-        tk.Label(stat_frame, text='Working (Employee)', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=100)
+        tk.Label(stat_frame, text='Employee', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=100)
         tk.Label(stat_frame, text='123/150', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=135)
 
         tk.Label(stat_frame, text='Late', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=270, y=100)
         tk.Label(stat_frame, text='123', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=270, y=135)
 
-        tk.Label(stat_frame, text='Working (Co-Worker)', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=180)
+        tk.Label(stat_frame, text='Co-Worker', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=180)
         tk.Label(stat_frame, text='30/100', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=215)
 
         tk.Label(stat_frame, text='Report', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=270, y=180)

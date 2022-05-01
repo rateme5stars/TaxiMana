@@ -142,7 +142,7 @@ class DashBoard(tk.Frame):
         # Total Frame 
         total_frame = tk.Frame(stat_frame, width=400, height=150, bg='#FFE5A1')
         total_frame.place(x=0, y=700)
-        tk.Label(total_frame, text='Total Income: 1234567 vnd', bg='#FFE5A1', fg='black', font=(FONT, 20)).place(x=60, y=33)
+        tk.Label(total_frame, text='Total Bookings: 1234567 vnd', bg='#FFE5A1', fg='black', font=(FONT, 20)).place(x=60, y=33)
 
         # Vertical line
         tk.Frame(self, width=1, height=800, bg='black').place(x=650, y=0)

@@ -2,4 +2,4 @@
 {'id': 'xyz ', 'name': 'Tùng Núi', 'dob': '12/2/1999', 'car_id': 'xyz', 'edu_lv': '12/12', 'phone': '09123012', 'type': 'Co-Worker'}
 {'id': 'mn[p', 'name': 'Nghịch Trong ', 'dob': '02/12/2012', 'car_id': 'mnp', 'edu_lv': '10/12', 'phone': '001273017', 'type': 'fof'}
 {"id": "01abc", "name": "Th\u00e0nh Cry", "dob": "29/3/2001", "car_id": "02abc", "edu_lv": "12/12", "phone": "099274938", "type": "Employee"}
-{"id": "kbcs", "name": "Jack 0 Bao", "dob": "12/05/2000", "car_id": "0bcs", "edu_lv": "12/12", "phone": "093287423", "type": "Co-Worker"}
+{'id': 'kbcs', 'name': 'Jack 0 Bao', 'dob': '12/05/1999', 'car_id': '0bcs', 'edu_lv': '12/12', 'phone': '093287423', 'type': 'Co-Worker'}
