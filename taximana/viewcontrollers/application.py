@@ -1,6 +1,12 @@
 from controller import Root
+from taximana.viewcontrollers.generate_data import (DriverData, CarData)
+
 
 def run_application():
+    driver = DriverData()
+    car = CarData()
+    driver.save_data()
+    car.save_data()
     app = Root()
     sc_width = app.winfo_screenwidth()
     sc_height = app.winfo_screenheight()

@@ -8,11 +8,6 @@ import json
 from pathlib import Path
 from tkinter import messagebox
 
-'''
-#TODO:
-- more condition engine and chassis number
-'''
-
 
 class Car(tk.Frame):
     def __init__(self, parent, controller):
@@ -27,7 +22,7 @@ class Car(tk.Frame):
         # Username
         username_frame = tk.Frame(navigation_frame, width=265, height=50, bg=NAVIBAR_COLOR)
         username_frame.place(x=0, y=0)
-        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Username', fg='white', font=(FONT, 20))
+        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Taxi Manager', fg='white', font=(FONT, 20))
         username_label.place(relx=.5, rely=.5,anchor= tk.CENTER)
 
         # Information Label
@@ -100,16 +95,16 @@ class Car(tk.Frame):
 
         # Statistic
         tk.Label(stat_frame, text='Work Well', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=120)
-        tk.Label(stat_frame, text='12345678 vnd', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=155)
+        tk.Label(stat_frame, text='480/500', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=155)
 
         tk.Label(stat_frame, text='Maintain', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=250, y=120)
-        tk.Label(stat_frame, text='2342345 vnd', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=250, y=155)
+        tk.Label(stat_frame, text='15/500', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=250, y=155)
 
         tk.Label(stat_frame, text='Out Date', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=200)
-        tk.Label(stat_frame, text='12000 vnd', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=235)
+        tk.Label(stat_frame, text='5/500', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=235)
 
         tk.Label(stat_frame, text='Valid', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=250, y=200)
-        tk.Label(stat_frame, text='50/80', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=250, y=235)
+        tk.Label(stat_frame, text='495/500', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=250, y=235)
 
         # Horizontal Line 
         tk.Frame(stat_frame, width=400, height=1, bg='gray').place(x=0, y=300)
@@ -174,11 +169,11 @@ class Car(tk.Frame):
         self.car_id_entry.place(x=60, y=680)
         tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=63, y=705)
 
-        tk.Label(stat_frame,text='Driver ID:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=720)
-        self.driver_id_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
-        self.driver_id_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
-        self.driver_id_entry.place(x=90, y=720)
-        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=93, y=745)
+        # tk.Label(stat_frame,text='Driver ID:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=720)
+        # self.driver_id_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
+        # self.driver_id_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
+        # self.driver_id_entry.place(x=90, y=720)
+        # tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=93, y=745)
 
         # Clear Button
         add_bt = Button(stat_frame, width=50, pady=6, text='Clear',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.clear_add_entries)
@@ -210,8 +205,8 @@ class Car(tk.Frame):
         self.treev.column('2', width=180, anchor='c')
         self.treev.column('3', width=180, anchor='c')
         self.treev.heading('1', text='License Plate')
-        self.treev.heading('2', text='Car ID')
-        self.treev.heading('3', text='Driver ID')
+        self.treev.heading('2', text='ID')
+        self.treev.heading('3', text='Seats')
         self.treev.bind("<<TreeviewSelect>>", self.treeview_click)
         
         self.load_table()
@@ -232,7 +227,7 @@ class Car(tk.Frame):
         tk.Label(self, text="Registration Deadline:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=580)    
         tk.Label(self, text="Travelled(Km):", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=620)
         tk.Label(self, text="Car ID:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=660)
-        tk.Label(self, text="Driver ID:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=700)
+        # tk.Label(self, text="Driver ID:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=700)
         tk.Label(self, text="Search:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=740)
 
         self.search_entry = tk.Entry(self, highlightthickness=3, border=0, width=25, fg='black', bg='white', font=(FONT, 14))
@@ -254,17 +249,17 @@ class Car(tk.Frame):
     
     def treeview_click(self, *arg):
         cur_item = self.treev.focus()
-        car_id = self.treev.item(cur_item)['values'][1]
+        my_id = self.treev.item(cur_item)['values'][1]
         data_file = open(CAR_PATH, 'r')
         for car_info in data_file:
             car_json = eval(car_info)
-            tmp = {car_json['car_id'] : [car_json['license_plate'], car_json['brand'], car_json['model'], car_json['seats'], car_json['engine_num'], car_json['chassis_num'], car_json['import_day'], car_json['regist_dl'], car_json['travelled'], car_json['driver_id'],]}
+            tmp = {car_json['id'] : [car_json['license_plate'], car_json['brand'], car_json['model'], car_json['seats'], car_json['engine_num'], car_json['chassis_num'], car_json['import_day'], car_json['regist_dl'], car_json['travelled'],]}
             for key, value in tmp.items():
-                if key == car_id:
-                    self.show_info(value[0], value[1], value[2], value[3], value[4], value[5], value[6], value[7], value[8], car_id, value[9])
-                    self.show_in_entry(value[0], value[1], value[2], value[3], value[4], value[5], value[6], value[7], value[8], car_id, value[9])
+                if key == my_id:
+                    self.show_info(value[0], value[1], value[2], value[3], value[4], value[5], value[6], value[7], value[8], my_id)
+                    self.show_in_entry(value[0], value[1], value[2], value[3], value[4], value[5], value[6], value[7], value[8], my_id)
     
-    def show_info(self, license_plate, brand, model, car_id, driver_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl):
+    def show_info(self, license_plate, brand, model, seats, engine_num, chassis_num, import_day, regist_dl, travelled, my_id):
         tk.Frame(self, bg='white', width=200, height=30).place(x=820, y=297)
         tk.Frame(self, bg='white', width=200, height=30).place(x=763, y=337)
         tk.Frame(self, bg='white', width=200, height=30).place(x=763, y=377)
@@ -275,7 +270,6 @@ class Car(tk.Frame):
         tk.Frame(self, bg='white', width=200, height=30).place(x=885, y=577)
         tk.Frame(self, bg='white', width=200, height=30).place(x=825, y=617)
         tk.Frame(self, bg='white', width=200, height=30).place(x=765, y=657)
-        tk.Frame(self, bg='white', width=200, height=30).place(x=785, y=697)
         tk.Label(self, text=license_plate, bg='white', fg='black', font=(FONT, 16)).place(x=825, y=300)
         tk.Label(self, text=brand, bg='white', fg='black', font=(FONT, 16)).place(x=768, y=340)
         tk.Label(self, text=model, bg='white', fg='black', font=(FONT, 16)).place(x=768, y=380)        
@@ -285,10 +279,9 @@ class Car(tk.Frame):
         tk.Label(self, text=import_day, bg='white', fg='black', font=(FONT, 16)).place(x=810, y=540)
         tk.Label(self, text=regist_dl, bg='white', fg='black', font=(FONT, 16)).place(x=890, y=580)    
         tk.Label(self, text=travelled, bg='white', fg='black', font=(FONT, 16)).place(x=830, y=620)
-        tk.Label(self, text=car_id, bg='white', fg='black', font=(FONT, 16)).place(x=770, y=660)
-        tk.Label(self, text=driver_id, bg='white', fg='black', font=(FONT, 16)).place(x=790, y=700)
+        tk.Label(self, text=my_id, bg='white', fg='black', font=(FONT, 16)).place(x=770, y=660)
     
-    def show_in_entry(self, license_plate, brand, model, car_id, driver_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl):
+    def show_in_entry(self, license_plate, brand, model, seats, engine_num, chassis_num, import_day, regist_dl, travelled, my_id):
         self.clear_add_entries()
         self.license_plate_entry.insert(0, license_plate)
         self.brand_entry.insert(0, brand)      
@@ -299,15 +292,14 @@ class Car(tk.Frame):
         self.import_entry.insert(0, import_day)   
         self.regist_dl_entry.insert(0, regist_dl)
         self.travelled_entry.insert(0, travelled)
-        self.car_id_entry.insert(0, car_id)  
-        self.driver_id_entry.insert(0, driver_id)
+        self.car_id_entry.insert(0, my_id)  
 
     def load_table(self):
         data_file = open(CAR_PATH, 'r')
         if data_file is not None:
             for car_info in data_file:
                 car_json = eval(car_info)
-                self.treev.insert("", 'end', text=f'driver', values=(car_json['license_plate'], car_json['car_id'], car_json['driver_id']))
+                self.treev.insert("", 'end', text=f'driver', values=(car_json['license_plate'], car_json['id'], car_json['seats']))
     
     def clear_add_entries(self):
         self.license_plate_entry.delete(0, tk.END)
@@ -320,7 +312,6 @@ class Car(tk.Frame):
         self.regist_dl_entry.delete(0, tk.END)
         self.travelled_entry.delete(0, tk.END)
         self.car_id_entry.delete(0, tk.END)
-        self.driver_id_entry.delete(0, tk.END)
     
     def clear_info(self):
         tk.Frame(self, bg='white', width=200, height=30).place(x=820, y=297)
@@ -333,7 +324,7 @@ class Car(tk.Frame):
         tk.Frame(self, bg='white', width=200, height=30).place(x=885, y=577)
         tk.Frame(self, bg='white', width=200, height=30).place(x=825, y=617)
         tk.Frame(self, bg='white', width=200, height=30).place(x=765, y=657)
-        tk.Frame(self, bg='white', width=200, height=30).place(x=785, y=697)
+
 
     def add_click(self):
         license_plate = self.license_plate_entry.get()
@@ -345,12 +336,10 @@ class Car(tk.Frame):
         import_day = self.import_entry.get()
         regist_dl = self.regist_dl_entry.get()
         travelled = self.travelled_entry.get()
-        car_id = self.car_id_entry.get()
-        driver_id = self.driver_id_entry.get()
+        my_id = self.car_id_entry.get()
 
         car = {
-            'car_id': car_id,
-            'driver_id' : driver_id,
+            'id': my_id,
             'license_plate' : license_plate,
             'brand' : brand,
             'model' : model,
@@ -365,25 +354,23 @@ class Car(tk.Frame):
         car_json = json.dumps(car)
         car_json_str = str(car_json)
         if Path(CAR_PATH).is_file():
-            condition = self.check_existence(driver_id, car_id)
-            if condition == 1:
-                messagebox.showerror('Invalid','Driver ID already exist')
-            elif condition == 2:
-                messagebox.showerror('Invalid','Car ID already exist')
-            elif condition == 0:
-                self.treev.insert("", 'end', text=f'driver', values=(license_plate, car_id, driver_id))
+            condition = self.check_existence(my_id)
+            if condition:
+                messagebox.showerror('Invalid','ID already exist')
+            else:
+                self.treev.insert("", 'end', text=f'driver', values=(license_plate, my_id, seats))
                 file = open(CAR_PATH, 'a')
                 file.write(f'{car_json_str}\n')
                 file.close()
-                self.show_info(license_plate, brand, model, car_id, driver_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl)
+                self.show_info(license_plate, brand, model, my_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl)
                 self.clear_add_entries()
 
         else:
-            self.treev.insert("", 'end', text=f'driver', values=(license_plate, car_id, driver_id))
+            self.treev.insert("", 'end', text=f'driver', values=(license_plate, my_id, seats))
             file = open(CAR_PATH, 'w')
             file.write(f'{car_json_str}\n')
             file.close()
-            self.show_info(license_plate, brand, model, car_id, driver_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl)
+            self.show_info(license_plate, brand, model, my_id, chassis_num, engine_num, travelled, seats, import_day, regist_dl)
             self.clear_add_entries()
 
     def remove_click(self):
@@ -399,7 +386,7 @@ class Car(tk.Frame):
 
         for i, car in enumerate(cars):
             car_json = eval(car)
-            if car_json['car_id'] == car_id:
+            if car_json['id'] == car_id:
                 with open(CAR_PATH, 'w') as f:
                     f.writelines(cars[:i] + cars[i+1:])
         self.treev.delete(selected_item)
@@ -414,11 +401,10 @@ class Car(tk.Frame):
         import_day = self.import_entry.get()
         regist_dl = self.regist_dl_entry.get()
         travelled = self.travelled_entry.get()
-        car_id = self.car_id_entry.get()
-        driver_id = self.driver_id_entry.get()
+        my_id = self.car_id_entry.get()
 
         selected_item = self.treev.selection()
-        car_id = self.treev.item(selected_item)['values'][1]
+        my_id = self.treev.item(selected_item)['values'][1]
         cars = []
 
         with open(CAR_PATH, 'r', encoding='utf-8') as file:
@@ -428,8 +414,7 @@ class Car(tk.Frame):
             cars = f.readlines()
 
         new_data = {
-            'car_id': car_id, 
-            'driver_id' : driver_id, 
+            'id': my_id, 
             'license_plate' : license_plate, 
             'brand' : brand, 
             'model' : model, 
@@ -437,12 +422,12 @@ class Car(tk.Frame):
             'engine_num' : engine_num, 
             'chassis_num' : chassis_num, 
             'import_day' : import_day, 
-            'regist_dl':regist_dl, 
-            'travelled':travelled,}
+            'regist_dl': regist_dl, 
+            'travelled': travelled,}
 
         for i, car in enumerate(cars):
             car_json = eval(car)
-            if car_json['car_id'] == car_id:
+            if car_json['id'] == my_id:
                 data[i] = str(new_data) + '\n'
         with open(CAR_PATH, 'w', encoding='utf-8') as file:
             file.writelines(data)
@@ -455,23 +440,19 @@ class Car(tk.Frame):
                 selections.append(child)
         self.treev.selection_set(selections)
 
-    def check_existence(self, driver_id, car_id):
-        existing_driver_id_list = list()
-        existing_car_id_list = list()
+    def check_existence(self, my_id):
+        existing_id_list = list()
         data_file = open(CAR_PATH, 'r')
         if os.path.getsize(CAR_PATH) != 0:
             for driver_info in data_file:
                 car_json = eval(driver_info)
-                existing_driver_id_list.append(car_json['driver_id'])
-                existing_car_id_list.append(car_json['car_id'])
-            if driver_id in existing_driver_id_list:
-                return 1
-            elif car_id in existing_car_id_list:
-                return 2
+                existing_id_list.append(car_json['id'])
+            if my_id in existing_id_list:
+                return True
             else:
-                return 0
+                return False
         elif os.path.getsize(CAR_PATH) == 0:
-            return 0
+            return False
 
         
 

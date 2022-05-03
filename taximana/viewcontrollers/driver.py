@@ -7,27 +7,26 @@ import tkinter.ttk as ttk
 from pathlib import Path
 import json
 from tkinter import messagebox
+from taximana.viewcontrollers.generate_data import DriverData
 
-'''
-#TODO:
-- ID regex 
-- Change unique value 
-'''
 
 class Driver(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent, bg='white')
+        driver = DriverData()
+        last_month_df = driver.driver_df_list[-1]
+        
         self.controller = controller
         self.controller.title("Driver")
 
-        # Navigation Bar ======================================
+        # Navigation Bar 
         navigation_frame = tk.Frame(self, width=250, height=850, bg=NAVIBAR_COLOR)
         navigation_frame.place(x=0, y=0)
         
         # Username
         username_frame = tk.Frame(navigation_frame, width=265, height=50, bg=NAVIBAR_COLOR)
         username_frame.place(x=0, y=0)
-        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Username', fg='white', font=(FONT, 20))
+        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Taxi Manager', fg='white', font=(FONT, 20))
         username_label.place(relx=.5, rely=.5,anchor= tk.CENTER)
 
         # Information Label
@@ -99,17 +98,22 @@ class Driver(tk.Frame):
         tk.Label(stat_frame, text=f'Date: {date.today().strftime("%B %d, %Y")}', bg='#FFF5D2', fg='black', font=(FONT, 15)).place(x=20, y=55)
 
         # Income Label 
-        tk.Label(stat_frame, text='Employee', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=100)
-        tk.Label(stat_frame, text='123/150', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=135)
+        highest = last_month_df.loc[last_month_df['income'] == max(last_month_df['income'])]['name'].to_list()[0]
+        tk.Label(stat_frame, text='Highest Income', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=50, y=100)
+        tk.Label(stat_frame, text=f'{highest}', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=50, y=135)
 
-        tk.Label(stat_frame, text='Late', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=270, y=100)
-        tk.Label(stat_frame, text='123', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=270, y=135)
+        positive = len(last_month_df.loc[last_month_df['reported'] == 'Positive'])
 
-        tk.Label(stat_frame, text='Co-Worker', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=180)
-        tk.Label(stat_frame, text='30/100', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=215)
+        tk.Label(stat_frame, text='Positive Report', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=220, y=100)
+        tk.Label(stat_frame, text=f'{positive}', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=220, y=135)
 
-        tk.Label(stat_frame, text='Report', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=270, y=180)
-        tk.Label(stat_frame, text='123', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=270, y=215)
+        lowest = last_month_df.loc[last_month_df['income'] == min(last_month_df['income'])]['name'].to_list()[0]
+        tk.Label(stat_frame, text='Lowest Income', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=50, y=180)
+        tk.Label(stat_frame, text=f'{lowest}', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=50, y=215)
+        
+        negative = len(last_month_df.loc[last_month_df['reported'] == 'Negative'])
+        tk.Label(stat_frame, text='Negative Report', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=220, y=180)
+        tk.Label(stat_frame, text=f'{negative}', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=220, y=215)
 
         # TreeView
         self.treev = ttk.Treeview(stat_frame, select='browse')
@@ -118,12 +122,12 @@ class Driver(tk.Frame):
         self.treev.configure(xscrollcommand=verscrlbar.set)
         self.treev['columns'] = ('1', '2', '3')
         self.treev['show'] = 'headings'
-        self.treev.column('1', width=240, anchor='c')
+        self.treev.column('1', width=200, anchor='c')
         self.treev.column('2', width=80, anchor='c')
-        self.treev.column('3', width=80, anchor='c')
+        self.treev.column('3', width=120, anchor='c')
         self.treev.heading('1', text='Name')
         self.treev.heading('2', text='ID')
-        self.treev.heading('3', text='Car ID')
+        self.treev.heading('3', text='Phone')
         self.treev.bind("<<TreeviewSelect>>", self.treeview_click)
         self.load_table()
 
@@ -157,17 +161,11 @@ class Driver(tk.Frame):
         self.phone_entry.place(x=55, y=640)
         tk.Frame(stat_frame,width=248, height=1, bg='black').place(x=58, y=665)
         
-        tk.Label(stat_frame,text='CarID:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=680)
-        self.car_id_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
-        self.car_id_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
-        self.car_id_entry.place(x=50, y=680)
-        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=705)
-
-        tk.Label(stat_frame,text='Type:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=720)
+        tk.Label(stat_frame,text='Type:', bg='#FFF5D2', fg='black', font=(FONT, 12)).place(x=10, y=680)
         self.type_entry = tk.Entry(stat_frame, highlightthickness=3, border=0, width=25, fg='black', bg='#FFF5D2', font=(FONT, 12))
         self.type_entry.config(highlightbackground='#FFF5D2', highlightcolor='#FFF5D2')
-        self.type_entry.place(x=50, y=720)
-        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=745)
+        self.type_entry.place(x=50, y=680)
+        tk.Frame(stat_frame,width=252, height=1, bg='black').place(x=53, y=705)
 
         # Clear Button
         add_bt = Button(stat_frame, width=50, pady=6, text='Clear',fg='black', bg="white",font=(FONT, 10), borderless=1, command=self.clear_add_entries)
@@ -189,7 +187,7 @@ class Driver(tk.Frame):
         tk.Frame(self, width=1, height=800, bg='black').place(x=650, y=0)
 
         # Details
-        tk.Label(self, text='Details', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=8)
+        tk.Label(self, text='Overview', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=8)
         img = tk.PhotoImage(file='taximana/asset/profit.png')
         logo = tk.Label(self, image=img, bg='white', width=160, height=110)
         logo.place(x=700, y=80)
@@ -218,8 +216,7 @@ class Driver(tk.Frame):
         tk.Label(self, text="DoB:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=500)        
         tk.Label(self, text="Education Level:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=550)    
         tk.Label(self, text="Phone:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=600)
-        tk.Label(self, text="Car ID:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=650)
-        tk.Label(self, text="Type:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=700)
+        tk.Label(self, text="Type:", bg='white', fg='black', font=(FONT, 16)).place(x=700, y=650)
 
         # Search 
         tk.Label(self,text='Search:', bg='white', fg='black', font=(FONT, 16)).place(x=700, y=750)
@@ -255,35 +252,33 @@ class Driver(tk.Frame):
         if data_file is not None:
             for driver_info in data_file:
                 driver_json = eval(driver_info)
-                self.treev.insert("", 'end', text=f'driver', values=(driver_json['name'], driver_json['id'], driver_json['car_id']))
+                self.treev.insert("", 'end', text=f'driver', values=(driver_json['name'], driver_json['id'], driver_json['phone']))
             
     def treeview_click(self, *arg):
         cur_item = self.treev.focus()
-        driver_id = self.treev.item(cur_item)['values'][1]
+        my_id = self.treev.item(cur_item)['values'][1]
         data_file = open(DRIVER_PATH, 'r')
         for driver_info in data_file:
             driver_json = eval(driver_info)
-            tmp = {driver_json['id'] : [driver_json['name'], driver_json['dob'], driver_json['car_id'], 
+            tmp = {driver_json['id'] : [driver_json['name'], driver_json['dob'], 
             driver_json['edu_lv'], driver_json['phone'], driver_json['type'],]}
             for key, value in tmp.items():
-                if key == driver_id:
-                    self.show_info(value[0], driver_id, value[1], value[2], value[3], value[4], value[5])
-                    self.show_in_entry(value[0], driver_id, value[1], value[2], value[3], value[4], value[5])
+                if key == my_id:
+                    self.show_info(value[0], my_id, value[1], value[2], value[3], value[4])
+                    self.show_in_entry(value[0], my_id, value[1], value[2], value[3], value[4])
                     
     def add_click(self):
         name = self.name_entry.get()
-        driver_id = self.id_entry.get()
+        my_id = self.id_entry.get()
         dob = self.dob_entry.get()
-        car_id = self.car_id_entry.get()
         edu = self.edu_entry.get()
         phone = self.phone_entry.get()
         driver_type = self.type_entry.get()
 
         driver = {
-            'id': driver_id,
+            'id': my_id,
             'name' : name,
             'dob': dob,
-            'car_id': car_id,
             'edu_lv': edu,
             'phone': phone,
             'type': driver_type
@@ -292,23 +287,21 @@ class Driver(tk.Frame):
         driver_json = json.dumps(driver)
         driver_json_str = str(driver_json)
         if Path(DRIVER_PATH).is_file():
-            condition = self.check_existence(driver_id, car_id, phone)
+            condition = self.check_existence(my_id, phone)
             if condition == 1:
-                messagebox.showerror('Invalid','Driver ID already exist')
+                messagebox.showerror('Invalid','ID already exist')
             elif condition == 2:
-                messagebox.showerror('Invalid','Car ID already exist')
-            elif condition == 3:
                 messagebox.showerror('Invalid','Phone number already exist')
             elif condition == 0:
-                self.treev.insert("", 'end', text=f'driver', values=(name, driver_id, car_id))
+                self.treev.insert("", 'end', text=f'driver', values=(name, my_id, phone))
                 file = open(DRIVER_PATH, 'a')
                 file.write(f'{driver_json_str}\n')
                 file.close()
-                self.show_info(name, driver_id, dob, edu, phone, car_id, driver_type)
+                self.show_info(name, my_id, dob, edu, phone, driver_type)
                 self.clear_add_entries()
             
         else:
-            self.treev.insert("", 'end', text=f'driver', values=(name, driver_id, car_id))
+            self.treev.insert("", 'end', text=f'driver', values=(name, my_id, phone))
             file = open(DRIVER_PATH, 'w')
             file.write(f'{driver_json_str}\n')
             file.close()
@@ -319,54 +312,46 @@ class Driver(tk.Frame):
         self.name_entry.delete(0, tk.END)
         self.id_entry.delete(0, tk.END)
         self.dob_entry.delete(0, tk.END)
-        self.car_id_entry.delete(0, tk.END)
         self.edu_entry.delete(0, tk.END)
         self.phone_entry.delete(0, tk.END)
         self.type_entry.delete(0, tk.END)
 
-    def show_in_entry(self, name, driver_id, dob, edu, phone, car_id, driver_type):
+    def show_in_entry(self, name, my_id, dob, edu, phone, driver_type):
         self.clear_add_entries()
         self.name_entry.insert(0, name)
-        self.id_entry.insert(0, driver_id)
+        self.id_entry.insert(0, my_id)
         self.dob_entry.insert(0, dob)
-        self.car_id_entry.insert(0, edu)
-        self.edu_entry.insert(0, phone)
-        self.phone_entry.insert(0, car_id)
+        self.edu_entry.insert(0, edu)
+        self.phone_entry.insert(0, phone)
         self.type_entry.insert(0, driver_type)
         
-    def show_info(self, name, driver_id, dob, edu, phone, car_id, driver_type):
+    def show_info(self, name, my_id, dob, edu, phone, driver_type):
         tk.Frame(self, bg='white', width=380, height=30).place(x=755, y=397)
         tk.Frame(self, bg='white', width=380, height=30).place(x=735, y=447)
         tk.Frame(self, bg='white', width=380, height=30).place(x=745, y=497)
         tk.Frame(self, bg='white', width=350, height=30).place(x=830, y=547)
         tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=597)
         tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=647)
-        tk.Frame(self, bg='white', width=380, height=30).place(x=755, y=697)
         tk.Label(self, text=name, bg='white', fg='black', font=(FONT, 16)).place(x=760, y=400)
-        tk.Label(self, text=driver_id, bg='white', fg='black', font=(FONT, 16)).place(x=740, y=450)
+        tk.Label(self, text=my_id, bg='white', fg='black', font=(FONT, 16)).place(x=740, y=450)
         tk.Label(self, text=dob, bg='white', fg='black', font=(FONT, 16)).place(x=750, y=500)        
         tk.Label(self, text=edu, bg='white', fg='black', font=(FONT, 16)).place(x=835, y=550)    
         tk.Label(self, text=phone, bg='white', fg='black', font=(FONT, 16)).place(x=765, y=600)
-        tk.Label(self, text=car_id, bg='white', fg='black', font=(FONT, 16)).place(x=765, y=650)
-        tk.Label(self, text=driver_type, bg='white', fg='black', font=(FONT, 16)).place(x=760, y=700)
+        tk.Label(self, text=driver_type, bg='white', fg='black', font=(FONT, 16)).place(x=765, y=650)
 
-    def check_existence(self, driver_id, car_id, phone_num):
-        existing_driver_id_list = list()
-        existing_car_id_list = list()
+    def check_existence(self, my_id, phone_num):
+        existing_id_list = list()
         existing_phone_list = list()
         data_file = open(DRIVER_PATH, 'r')
         if os.path.getsize(DRIVER_PATH) != 0:
             for driver_info in data_file:
                 driver_json = eval(driver_info)
-                existing_driver_id_list.append(driver_json['id'])
-                existing_car_id_list.append(driver_json['car_id'])
+                existing_id_list.append(driver_json['id'])
                 existing_phone_list.append(driver_json['phone'])
-            if driver_id in existing_driver_id_list:
+            if my_id in existing_id_list:
                 return 1
-            elif car_id in existing_car_id_list:
-                return 2
             elif phone_num in existing_phone_list:
-                return 3
+                return 2
             else:
                 return 0
         elif os.path.getsize(DRIVER_PATH) == 0:
@@ -377,7 +362,7 @@ class Driver(tk.Frame):
         self.clear_add_entries()
         self.clear_info()
 
-        driver_id = self.treev.item(selected_item)['values'][1]
+        my_id = self.treev.item(selected_item)['values'][1]
         drivers = []
 
         with open(DRIVER_PATH, 'r') as f:
@@ -385,7 +370,7 @@ class Driver(tk.Frame):
 
         for i, driver in enumerate(drivers):
             driver_json = eval(driver)
-            if driver_json['id'] == driver_id:
+            if driver_json['id'] == my_id:
                 with open(DRIVER_PATH, 'w') as f:
                     f.writelines(drivers[:i] + drivers[i+1:])
         self.treev.delete(selected_item)
@@ -397,13 +382,11 @@ class Driver(tk.Frame):
         tk.Frame(self, bg='white', width=350, height=30).place(x=830, y=547)
         tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=597)
         tk.Frame(self, bg='white', width=380, height=30).place(x=760, y=647)
-        tk.Frame(self, bg='white', width=380, height=30).place(x=755, y=697)
 
     def change_click(self):
         name = self.name_entry.get()
         driver_id = self.id_entry.get()
         dob = self.dob_entry.get()
-        car_id = self.car_id_entry.get()
         edu = self.edu_entry.get()
         phone = self.phone_entry.get()
         driver_type = self.type_entry.get()
@@ -418,7 +401,7 @@ class Driver(tk.Frame):
         with open(DRIVER_PATH, 'r') as f:
             drivers = f.readlines()
 
-        new_data = {"id": driver_id, "name": name, "dob": dob, "car_id": car_id, "edu_lv": edu, "phone": phone, "type": driver_type}
+        new_data = {"id": driver_id, "name": name, "dob": dob, "edu_lv": edu, "phone": phone, "type": driver_type}
         for i, driver in enumerate(drivers):
             driver_json = eval(driver)
             if driver_json['id'] == driver_id:

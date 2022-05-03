@@ -2,10 +2,14 @@ import tkinter as tk
 from taximana.constant import *
 from tkmacosx import Button
 from datetime import date
+from taximana.viewcontrollers.generate_data import DriverData
+import numpy as np
 
 
 class Expense(tk.Frame):
     def __init__(self, parent, controller):
+        driver = DriverData()
+        self.last_12_month_df = driver.driver_df_list[-12:]
         tk.Frame.__init__(self, parent, bg='white')
         self.controller = controller
         self.controller.title("Expense")
@@ -17,7 +21,7 @@ class Expense(tk.Frame):
         # Username
         username_frame = tk.Frame(navigation_frame, width=265, height=50, bg=NAVIBAR_COLOR)
         username_frame.place(x=0, y=0)
-        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Username', fg='white', font=(FONT, 20))
+        username_label = tk.Label(username_frame, bg=NAVIBAR_COLOR, text='Taxi Manager', fg='white', font=(FONT, 20))
         username_label.place(relx=.5, rely=.5,anchor= tk.CENTER)
 
         # Information Label
@@ -85,6 +89,20 @@ class Expense(tk.Frame):
         tk.Label(self, text=f'Date: {date.today().strftime("%B %d, %Y")}', bg='white', fg='black', font=(FONT, 15)).place(x=270, y=55)
 
         # Graph
+
+        op_pro = list()
+        sa_pro = list()
+        for m in self.last_12_month_df:
+            opcost = sum(m['opcost'])
+            salary = int(sum(m['salary']))
+            ex_op = opcost / 20000000000
+            ex_sa = salary / 20000000000
+            op_pro.append(ex_op)
+            sa_pro.append(ex_sa)
+        
+        em_height = np.array(op_pro) * 500
+        co_height = np.array(sa_pro) * 500
+
         graph = tk.Frame(self, width=850, height=500, bg='white')
         graph.place(x=320, y=100)
 
@@ -110,28 +128,63 @@ class Expense(tk.Frame):
         w = 49
         bar1 = tk.Frame(graph, width=w, height=500, bg='white')
         bar1.place(x=0*w + 1*gap, y=0)
+        tk.Frame(bar1, width=23, height=em_height[0], bg = '#2D319E').place(x=0, y=500-em_height[0])
+        tk.Frame(bar1, width=23, height=co_height[0], bg = '#B57F71').place(x=26, y=500-co_height[0])
+
         bar2 = tk.Frame(graph, width=w, height=500, bg='white')
         bar2.place(x=1*w + 2*gap, y=0)
+        tk.Frame(bar2, width=23, height=em_height[1], bg = '#2D319E').place(x=0, y=500-em_height[1])
+        tk.Frame(bar2, width=23, height=co_height[1], bg = '#B57F71').place(x=26, y=500-co_height[1])
+
         bar3 = tk.Frame(graph, width=w, height=500, bg='white')
         bar3.place(x=2*w + 3*gap, y=0)
+        tk.Frame(bar3, width=23, height=em_height[2], bg = '#2D319E').place(x=0, y=500-em_height[2])
+        tk.Frame(bar3, width=23, height=co_height[2], bg = '#B57F71').place(x=26, y=500-co_height[2])
+
         bar4 = tk.Frame(graph, width=w, height=500, bg='white')
         bar4.place(x=3*w + 4*gap, y=0)
+        tk.Frame(bar4, width=23, height=em_height[3], bg = '#2D319E').place(x=0, y=500-em_height[3])
+        tk.Frame(bar4, width=23, height=co_height[3], bg = '#B57F71').place(x=26, y=500-co_height[3])
+
         bar5 = tk.Frame(graph, width=w, height=500, bg='white')
         bar5.place(x=4*w + 5*gap, y=0)
+        tk.Frame(bar5, width=23, height=em_height[4], bg = '#2D319E').place(x=0, y=500-em_height[4])
+        tk.Frame(bar5, width=23, height=co_height[4], bg = '#B57F71').place(x=26, y=500-co_height[4])
+
         bar6 = tk.Frame(graph, width=w, height=500, bg='white')
         bar6.place(x=5*w + 6*gap, y=0)
+        tk.Frame(bar6, width=23, height=em_height[5], bg = '#2D319E').place(x=0, y=500-em_height[5])
+        tk.Frame(bar6, width=23, height=co_height[5], bg = '#B57F71').place(x=26, y=500-co_height[5])
+
         bar7 = tk.Frame(graph, width=w, height=500, bg='white')
         bar7.place(x=6*w + 7*gap, y=0)
+        tk.Frame(bar7, width=23, height=em_height[6], bg = '#2D319E').place(x=0, y=500-em_height[6])
+        tk.Frame(bar7, width=23, height=co_height[6], bg = '#B57F71').place(x=26, y=500-co_height[6])
+
         bar8 = tk.Frame(graph, width=w, height=500, bg='white')
         bar8.place(x=7*w + 8*gap, y=0)
+        tk.Frame(bar8, width=23, height=em_height[7], bg = '#2D319E').place(x=0, y=500-em_height[7])
+        tk.Frame(bar8, width=23, height=co_height[7], bg = '#B57F71').place(x=26, y=500-co_height[7])
+
         bar9 = tk.Frame(graph, width=w, height=500, bg='white')
         bar9.place(x=8*w + 9*gap, y=0)
+        tk.Frame(bar9, width=23, height=em_height[8], bg = '#2D319E').place(x=0, y=500-em_height[8])
+        tk.Frame(bar9, width=23, height=co_height[8], bg = '#B57F71').place(x=26, y=500-co_height[8])
+
         bar10 = tk.Frame(graph, width=w, height=500, bg='white')
         bar10.place(x=9*w + 10*gap, y=0)
+        tk.Frame(bar10, width=23, height=em_height[9], bg = '#2D319E').place(x=0, y=500-em_height[9])
+        tk.Frame(bar10, width=23, height=co_height[9], bg = '#B57F71').place(x=26, y=500-co_height[9])
+
         bar11 = tk.Frame(graph, width=w, height=500, bg='white')
         bar11.place(x=10*w + 11*gap, y=0)
+        tk.Frame(bar11, width=23, height=em_height[10], bg = '#2D319E').place(x=0, y=500-em_height[10])
+        tk.Frame(bar11, width=23, height=co_height[10], bg = '#B57F71').place(x=26, y=500-co_height[10])
+
         bar12 = tk.Frame(graph, width=w, height=500, bg='white')
         bar12.place(x=11*w + 12*gap, y=0)
+        tk.Frame(bar12, width=23, height=em_height[11], bg = '#2D319E').place(x=0, y=500-em_height[11])
+        tk.Frame(bar12, width=23, height=co_height[11], bg = '#B57F71').place(x=26, y=500-co_height[11])
 
         tk.Label(self, text=('Jan'), bg='white', font=(FONT, 12)).place(x=350, y=610)
         tk.Label(self, text=('Feb'), bg='white', font=(FONT, 12)).place(x=420, y=610)
@@ -146,20 +199,11 @@ class Expense(tk.Frame):
         tk.Label(self, text=('Nov'), bg='white', font=(FONT, 12)).place(x=1045, y=610)
         tk.Label(self, text=('Dec'), bg='white', font=(FONT, 12)).place(x=1115, y=610)
 
-        
-        bars = [bar1, bar2, bar3, bar4, bar5, bar6, bar7, bar8, bar9, bar10, bar11, bar12]
-        self.create_expense(500*0.6, 500*0.2, bars)
-
-        # Statistic 
-        tk.Label(self, text="Spend 50% of total expense for maintaince per month", bg='white', font=(FONT, 15)).place(x=320, y=660)
-        tk.Label(self, text="Spend 50% of total expense for salary per month", bg='white', font=(FONT, 15)).place(x=320, y=690)
-        tk.Label(self, text="Average Expense per month:", bg='white', font=(FONT, 15)).place(x=320, y=720)
-
         # Note
         tk.Frame(self, width=50, height=20, bg='#2D319E').place(x=1000, y=665)
         tk.Frame(self, width=50, height=20, bg='#B57F71').place(x=1000, y=715)
 
-        tk.Label(self, text=": Maintaince", bg='white', font=(FONT, 16)).place(x=1055, y=660)
+        tk.Label(self, text=": Operating Cost", bg='white', font=(FONT, 16)).place(x=1055, y=660)
         tk.Label(self, text=": Salary", bg='white', font=(FONT, 16)).place(x=1055, y=710)
 
         # Handle Click
@@ -169,12 +213,6 @@ class Expense(tk.Frame):
         income.bind("<Button-1>", lambda e: controller.show_frame('Income'))
         expense.bind("<Button-1>", lambda e: controller.show_frame('Expense'))
         summary.bind("<Button-1>", lambda e: controller.show_frame('Summary'))
-    
-    def create_expense(self, s_height, m_height, bars):
-        for bar in bars:
-            bar.update()
-            tk.Frame(bar, width=23, height=s_height, bg = '#2D319E').place(x=0, y=500-s_height)
-            tk.Frame(bar, width=23, height=m_height, bg = '#B57F71').place(x=26, y=500-m_height)
 
         
 

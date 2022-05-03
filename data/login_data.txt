@@ -1,3 +1,1 @@
-{'Username': '***'}
-{'123456': '***'}
-{'dzungdeptrai': 'ditmebach'}
+{'dzung123': '123456'}
