@@ -1,5 +1,4 @@
 import tkinter as tk
-from cv2 import sepFilter2D
 from tkmacosx import Button
 from datetime import date
 from taximana.constant import *
@@ -96,7 +95,7 @@ class DashBoard(tk.Frame):
         # Income Label 
         inc = sum(self.last_month_df['income'])
         tk.Label(stat_frame, text='Income', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=60, y=120)
-        tk.Label(stat_frame, text=f'{inc}vnd', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=155)
+        tk.Label(stat_frame, text=f'{inc} vnd', bg='#FFF5D2', fg='black', font=(FONT, 14)).place(x=60, y=155)
 
         exp = sum(self.last_month_df['opcost']) + sum(self.last_month_df['salary'])
         tk.Label(stat_frame, text='Expense', bg='#FFF5D2', fg='black', font=(FONT, 17)).place(x=250, y=120)
@@ -157,7 +156,7 @@ class DashBoard(tk.Frame):
         tk.Frame(self, width=1, height=800, bg='black').place(x=650, y=0)
 
         # Details
-        tk.Label(self, text='Details', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=8)
+        tk.Label(self, text='Overview', bg='white', fg='black', font=(FONT, 22)).place(x=700, y=8)
         img = tk.PhotoImage(file='taximana/asset/profit.png')
         logo = tk.Label(self, image=img, bg='white', width=160, height=110)
         logo.place(x=700, y=80)

@@ -1,7 +1,6 @@
 from controller import Root
 from taximana.viewcontrollers.generate_data import (DriverData, CarData)
 
-
 def run_application():
     driver = DriverData()
     car = CarData()

@@ -1,500 +1,500 @@
-{"id": "32a0eeae", "name": "Ng\u00f4 T\u00e0i", "dob": "27-10-1988", "edu_lv": "10/12", "phone": "0974819240", "type": "Employee"}
-{"id": "32a0f174", "name": "Ng\u00f4 D\u0169ng", "dob": "20-02-1982", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997597353", "type": "Co-Worker"}
-{"id": "32a0f1ba", "name": "Ng\u00f4 D\u01b0\u01a1ng", "dob": "19-11-1972", "edu_lv": "Trung C\u1ea5p", "phone": "0915711448", "type": "Employee"}
-{"id": "32a0f1e2", "name": "Ng\u00f4 L\u00e2m", "dob": "12-04-1972", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0928607756", "type": "Employee"}
-{"id": "32a0f264", "name": "Ng\u00f4 Minh", "dob": "18-10-1970", "edu_lv": "12/12", "phone": "0969578034", "type": "Employee"}
-{"id": "32a0f2a0", "name": "Ng\u00f4 \u0110\u1ee9c", "dob": "24-08-1978", "edu_lv": "9/12", "phone": "0982086865", "type": "Co-Worker"}
-{"id": "32a0f2c8", "name": "Ng\u00f4 B\u00e1ch", "dob": "11-04-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0944131745", "type": "Employee"}
-{"id": "32a0f2e6", "name": "Ng\u00f4 Tu\u1ea5n", "dob": "28-12-1971", "edu_lv": "10/12", "phone": "0963679520", "type": "Co-Worker"}
-{"id": "32a0f30e", "name": "Ng\u00f4 Quy\u1ebft", "dob": "16-06-1987", "edu_lv": "11/12", "phone": "0921920410", "type": "Co-Worker"}
-{"id": "32a0f336", "name": "Ng\u00f4 Nam", "dob": "28-11-1995", "edu_lv": "10/12", "phone": "0939902616", "type": "Co-Worker"}
-{"id": "32a0f354", "name": "Ng\u00f4 B\u1eafc", "dob": "29-09-1981", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0960537963", "type": "Employee"}
-{"id": "32a0f37c", "name": "Ng\u00f4 Trung", "dob": "04-08-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0989209377", "type": "Employee"}
-{"id": "32a0f3a4", "name": "Ng\u00f4 Giang", "dob": "20-06-1980", "edu_lv": "10/12", "phone": "0997020670", "type": "Employee"}
-{"id": "32a0f3c2", "name": "Ng\u00f4 Qu\u00e2n", "dob": "08-01-1984", "edu_lv": "11/12", "phone": "0975180980", "type": "Employee"}
-{"id": "32a0f3ea", "name": "Ng\u00f4 Linh", "dob": "26-02-1990", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0974491545", "type": "Employee"}
-{"id": "32a0f408", "name": "Ng\u00f4 Huy\u1ec1n", "dob": "16-12-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0965465804", "type": "Co-Worker"}
-{"id": "32a0f430", "name": "Ng\u00f4 Tr\u01b0\u1eddng", "dob": "03-08-1991", "edu_lv": "12/12", "phone": "0972336578", "type": "Co-Worker"}
-{"id": "32a0f44e", "name": "Ng\u00f4 Th\u1ecd", "dob": "12-04-1995", "edu_lv": "Trung C\u1ea5p", "phone": "0979593576", "type": "Employee"}
-{"id": "32a0f476", "name": "Ng\u00f4 Ki\u1ec7t", "dob": "01-10-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0927210286", "type": "Co-Worker"}
-{"id": "32a0f49e", "name": "Ng\u00f4 \u0110\u1ea1t", "dob": "17-01-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0916303049", "type": "Co-Worker"}
-{"id": "32a0f4bc", "name": "Nguy\u1ec5n T\u00e0i", "dob": "04-05-1998", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0991215723", "type": "Co-Worker"}
-{"id": "32a0f4e4", "name": "Nguy\u1ec5n D\u0169ng", "dob": "04-12-1981", "edu_lv": "11/12", "phone": "0964127347", "type": "Co-Worker"}
-{"id": "32a0f502", "name": "Nguy\u1ec5n D\u01b0\u01a1ng", "dob": "02-01-1973", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0990641358", "type": "Co-Worker"}
-{"id": "32a0f52a", "name": "Nguy\u1ec5n L\u00e2m", "dob": "22-02-1993", "edu_lv": "11/12", "phone": "0960509171", "type": "Co-Worker"}
-{"id": "32a0f548", "name": "Nguy\u1ec5n Minh", "dob": "06-08-1999", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0968335406", "type": "Co-Worker"}
-{"id": "32a0f570", "name": "Nguy\u1ec5n \u0110\u1ee9c", "dob": "05-09-1982", "edu_lv": "11/12", "phone": "0986175315", "type": "Employee"}
-{"id": "32a0f598", "name": "Nguy\u1ec5n B\u00e1ch", "dob": "04-08-1988", "edu_lv": "12/12", "phone": "0989200582", "type": "Employee"}
-{"id": "32a0f5b6", "name": "Nguy\u1ec5n Tu\u1ea5n", "dob": "30-07-1999", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0930398745", "type": "Employee"}
-{"id": "32a0f5de", "name": "Nguy\u1ec5n Quy\u1ebft", "dob": "24-02-1978", "edu_lv": "9/12", "phone": "0971388849", "type": "Employee"}
-{"id": "32a0f5fc", "name": "Nguy\u1ec5n Nam", "dob": "25-10-1981", "edu_lv": "12/12", "phone": "0954535860", "type": "Co-Worker"}
-{"id": "32a0f624", "name": "Nguy\u1ec5n B\u1eafc", "dob": "30-04-1975", "edu_lv": "12/12", "phone": "0967305831", "type": "Employee"}
-{"id": "32a0f64c", "name": "Nguy\u1ec5n Trung", "dob": "09-08-2000", "edu_lv": "9/12", "phone": "0941041633", "type": "Employee"}
-{"id": "32a0f66a", "name": "Nguy\u1ec5n Giang", "dob": "18-09-1997", "edu_lv": "9/12", "phone": "0921039274", "type": "Employee"}
-{"id": "32a0f692", "name": "Nguy\u1ec5n Qu\u00e2n", "dob": "21-06-1987", "edu_lv": "9/12", "phone": "0979987177", "type": "Co-Worker"}
-{"id": "32a0f6ba", "name": "Nguy\u1ec5n Linh", "dob": "19-04-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0940248831", "type": "Co-Worker"}
-{"id": "32a0f6d8", "name": "Nguy\u1ec5n Huy\u1ec1n", "dob": "04-11-1976", "edu_lv": "10/12", "phone": "0973194080", "type": "Employee"}
-{"id": "32a0f700", "name": "Nguy\u1ec5n Tr\u01b0\u1eddng", "dob": "24-07-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0914889980", "type": "Employee"}
-{"id": "32a0f728", "name": "Nguy\u1ec5n Th\u1ecd", "dob": "11-08-1997", "edu_lv": "Trung C\u1ea5p", "phone": "0975155624", "type": "Employee"}
-{"id": "32a0f746", "name": "Nguy\u1ec5n Ki\u1ec7t", "dob": "17-10-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0961648663", "type": "Employee"}
-{"id": "32a0f76e", "name": "Nguy\u1ec5n \u0110\u1ea1t", "dob": "02-03-1978", "edu_lv": "9/12", "phone": "0953319283", "type": "Co-Worker"}
-{"id": "32a0f796", "name": "\u0110\u1eb7ng T\u00e0i", "dob": "16-12-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0978956980", "type": "Employee"}
-{"id": "32a0f7b4", "name": "\u0110\u1eb7ng D\u0169ng", "dob": "15-06-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0949449860", "type": "Co-Worker"}
-{"id": "32a0f84a", "name": "\u0110\u1eb7ng D\u01b0\u01a1ng", "dob": "26-11-1982", "edu_lv": "11/12", "phone": "0994897260", "type": "Employee"}
-{"id": "32a0f912", "name": "\u0110\u1eb7ng L\u00e2m", "dob": "20-10-1988", "edu_lv": "10/12", "phone": "0941479950", "type": "Employee"}
-{"id": "32a0f96c", "name": "\u0110\u1eb7ng Minh", "dob": "18-09-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0999568563", "type": "Employee"}
-{"id": "32a0fb74", "name": "\u0110\u1eb7ng \u0110\u1ee9c", "dob": "01-02-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0951830176", "type": "Employee"}
-{"id": "32a0fc1e", "name": "\u0110\u1eb7ng B\u00e1ch", "dob": "13-01-2000", "edu_lv": "12/12", "phone": "0996439332", "type": "Co-Worker"}
-{"id": "32a0fc82", "name": "\u0110\u1eb7ng Tu\u1ea5n", "dob": "18-03-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0989778942", "type": "Co-Worker"}
-{"id": "32a0fcc8", "name": "\u0110\u1eb7ng Quy\u1ebft", "dob": "30-11-1987", "edu_lv": "9/12", "phone": "0943580446", "type": "Co-Worker"}
-{"id": "32a0fd04", "name": "\u0110\u1eb7ng Nam", "dob": "12-04-1993", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0916857576", "type": "Employee"}
-{"id": "32a0fd40", "name": "\u0110\u1eb7ng B\u1eafc", "dob": "12-07-1991", "edu_lv": "12/12", "phone": "0932076915", "type": "Employee"}
-{"id": "32a0fd7c", "name": "\u0110\u1eb7ng Trung", "dob": "05-03-1978", "edu_lv": "11/12", "phone": "0975411958", "type": "Employee"}
-{"id": "32a0fdc2", "name": "\u0110\u1eb7ng Giang", "dob": "14-07-1998", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0988586884", "type": "Employee"}
-{"id": "32a0fdfe", "name": "\u0110\u1eb7ng Qu\u00e2n", "dob": "13-03-1979", "edu_lv": "9/12", "phone": "0953896771", "type": "Co-Worker"}
-{"id": "32a0fe44", "name": "\u0110\u1eb7ng Linh", "dob": "25-10-1980", "edu_lv": "11/12", "phone": "0965455855", "type": "Employee"}
-{"id": "32a0fe76", "name": "\u0110\u1eb7ng Huy\u1ec1n", "dob": "02-09-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0937580749", "type": "Co-Worker"}
-{"id": "32a1007e", "name": "\u0110\u1eb7ng Tr\u01b0\u1eddng", "dob": "28-04-1973", "edu_lv": "9/12", "phone": "0990182347", "type": "Co-Worker"}
-{"id": "32a103bc", "name": "\u0110\u1eb7ng Th\u1ecd", "dob": "30-06-1972", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0936386654", "type": "Co-Worker"}
-{"id": "32a10434", "name": "\u0110\u1eb7ng Ki\u1ec7t", "dob": "04-07-1974", "edu_lv": "10/12", "phone": "0966050167", "type": "Employee"}
-{"id": "32a10484", "name": "\u0110\u1eb7ng \u0110\u1ea1t", "dob": "10-04-1975", "edu_lv": "10/12", "phone": "0950502627", "type": "Employee"}
-{"id": "32a104ca", "name": "Ph\u1ea1m T\u00e0i", "dob": "20-04-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0977450016", "type": "Co-Worker"}
-{"id": "32a10506", "name": "Ph\u1ea1m D\u0169ng", "dob": "25-02-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0933051202", "type": "Employee"}
-{"id": "32a10542", "name": "Ph\u1ea1m D\u01b0\u01a1ng", "dob": "03-07-1972", "edu_lv": "Trung C\u1ea5p", "phone": "0929998702", "type": "Employee"}
-{"id": "32a1057e", "name": "Ph\u1ea1m L\u00e2m", "dob": "30-09-1995", "edu_lv": "12/12", "phone": "0917399130", "type": "Co-Worker"}
-{"id": "32a105ba", "name": "Ph\u1ea1m Minh", "dob": "13-09-1991", "edu_lv": "10/12", "phone": "0995971476", "type": "Employee"}
-{"id": "32a105f6", "name": "Ph\u1ea1m \u0110\u1ee9c", "dob": "01-09-1981", "edu_lv": "12/12", "phone": "0916556358", "type": "Employee"}
-{"id": "32a10632", "name": "Ph\u1ea1m B\u00e1ch", "dob": "23-05-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0975779668", "type": "Employee"}
-{"id": "32a10664", "name": "Ph\u1ea1m Tu\u1ea5n", "dob": "29-06-1999", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0998420306", "type": "Co-Worker"}
-{"id": "32a106a0", "name": "Ph\u1ea1m Quy\u1ebft", "dob": "27-04-1981", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0919380713", "type": "Employee"}
-{"id": "32a106dc", "name": "Ph\u1ea1m Nam", "dob": "11-10-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0918545477", "type": "Employee"}
-{"id": "32a10718", "name": "Ph\u1ea1m B\u1eafc", "dob": "02-06-1978", "edu_lv": "11/12", "phone": "0916736260", "type": "Employee"}
-{"id": "32a10754", "name": "Ph\u1ea1m Trung", "dob": "17-07-1994", "edu_lv": "Trung C\u1ea5p", "phone": "0998838299", "type": "Employee"}
-{"id": "32a10790", "name": "Ph\u1ea1m Giang", "dob": "28-04-1982", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0958903962", "type": "Co-Worker"}
-{"id": "32a107d6", "name": "Ph\u1ea1m Qu\u00e2n", "dob": "10-10-1975", "edu_lv": "9/12", "phone": "0978209514", "type": "Employee"}
-{"id": "32a1081c", "name": "Ph\u1ea1m Linh", "dob": "01-03-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0940110355", "type": "Employee"}
-{"id": "32a10858", "name": "Ph\u1ea1m Huy\u1ec1n", "dob": "19-12-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997619633", "type": "Employee"}
-{"id": "32a10894", "name": "Ph\u1ea1m Tr\u01b0\u1eddng", "dob": "03-06-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0961660763", "type": "Employee"}
-{"id": "32a108d0", "name": "Ph\u1ea1m Th\u1ecd", "dob": "04-03-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0973553524", "type": "Employee"}
-{"id": "32a1090c", "name": "Ph\u1ea1m Ki\u1ec7t", "dob": "25-01-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0996090443", "type": "Co-Worker"}
-{"id": "32a10948", "name": "Ph\u1ea1m \u0110\u1ea1t", "dob": "31-01-1997", "edu_lv": "9/12", "phone": "0968016122", "type": "Co-Worker"}
-{"id": "32a10984", "name": "B\u00f9i T\u00e0i", "dob": "19-01-1974", "edu_lv": "9/12", "phone": "0923927987", "type": "Employee"}
-{"id": "32a109c0", "name": "B\u00f9i D\u0169ng", "dob": "28-11-1985", "edu_lv": "11/12", "phone": "0923931086", "type": "Co-Worker"}
-{"id": "32a109fc", "name": "B\u00f9i D\u01b0\u01a1ng", "dob": "16-03-1999", "edu_lv": "12/12", "phone": "0980256363", "type": "Co-Worker"}
-{"id": "32a10a38", "name": "B\u00f9i L\u00e2m", "dob": "07-02-1988", "edu_lv": "9/12", "phone": "0923013240", "type": "Employee"}
-{"id": "32a10a74", "name": "B\u00f9i Minh", "dob": "17-11-1978", "edu_lv": "10/12", "phone": "0913680601", "type": "Co-Worker"}
-{"id": "32a10ab0", "name": "B\u00f9i \u0110\u1ee9c", "dob": "30-07-1993", "edu_lv": "12/12", "phone": "0983254698", "type": "Co-Worker"}
-{"id": "32a10af6", "name": "B\u00f9i B\u00e1ch", "dob": "12-03-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0927640165", "type": "Co-Worker"}
-{"id": "32a10b32", "name": "B\u00f9i Tu\u1ea5n", "dob": "15-12-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0925600401", "type": "Co-Worker"}
-{"id": "32a10b6e", "name": "B\u00f9i Quy\u1ebft", "dob": "26-04-1983", "edu_lv": "9/12", "phone": "0934546587", "type": "Co-Worker"}
-{"id": "32a10baa", "name": "B\u00f9i Nam", "dob": "24-01-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997655781", "type": "Co-Worker"}
-{"id": "32a10be6", "name": "B\u00f9i B\u1eafc", "dob": "08-10-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0961810351", "type": "Co-Worker"}
-{"id": "32a10c22", "name": "B\u00f9i Trung", "dob": "26-03-1996", "edu_lv": "9/12", "phone": "0925775170", "type": "Employee"}
-{"id": "32a10c5e", "name": "B\u00f9i Giang", "dob": "09-08-2000", "edu_lv": "11/12", "phone": "0991534154", "type": "Employee"}
-{"id": "32a10c9a", "name": "B\u00f9i Qu\u00e2n", "dob": "26-02-1992", "edu_lv": "12/12", "phone": "0949878204", "type": "Employee"}
-{"id": "32a10ce0", "name": "B\u00f9i Linh", "dob": "05-01-1994", "edu_lv": "11/12", "phone": "0942011879", "type": "Co-Worker"}
-{"id": "32a10d12", "name": "B\u00f9i Huy\u1ec1n", "dob": "17-12-1982", "edu_lv": "9/12", "phone": "0944311707", "type": "Employee"}
-{"id": "32a10d4e", "name": "B\u00f9i Tr\u01b0\u1eddng", "dob": "01-11-1990", "edu_lv": "9/12", "phone": "0929771293", "type": "Employee"}
-{"id": "32a10d8a", "name": "B\u00f9i Th\u1ecd", "dob": "22-07-1975", "edu_lv": "9/12", "phone": "0995090369", "type": "Employee"}
-{"id": "32a10dc6", "name": "B\u00f9i Ki\u1ec7t", "dob": "20-09-1997", "edu_lv": "9/12", "phone": "0971138626", "type": "Co-Worker"}
-{"id": "32a10e02", "name": "B\u00f9i \u0110\u1ea1t", "dob": "30-11-1973", "edu_lv": "Trung C\u1ea5p", "phone": "0934385127", "type": "Co-Worker"}
-{"id": "32a10e3e", "name": "Cao T\u00e0i", "dob": "08-03-1990", "edu_lv": "10/12", "phone": "0940200300", "type": "Employee"}
-{"id": "32a10e7a", "name": "Cao D\u0169ng", "dob": "06-07-1971", "edu_lv": "10/12", "phone": "0986123175", "type": "Employee"}
-{"id": "32a10f7e", "name": "Cao D\u01b0\u01a1ng", "dob": "03-04-1976", "edu_lv": "12/12", "phone": "0991620978", "type": "Employee"}
-{"id": "32a10fba", "name": "Cao L\u00e2m", "dob": "24-07-1997", "edu_lv": "11/12", "phone": "0956965450", "type": "Co-Worker"}
-{"id": "32a10fe2", "name": "Cao Minh", "dob": "07-01-1993", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0995805509", "type": "Co-Worker"}
-{"id": "32a11000", "name": "Cao \u0110\u1ee9c", "dob": "10-08-1982", "edu_lv": "10/12", "phone": "0956154898", "type": "Co-Worker"}
-{"id": "32a11028", "name": "Cao B\u00e1ch", "dob": "15-12-1993", "edu_lv": "9/12", "phone": "0993503418", "type": "Co-Worker"}
-{"id": "32a1114a", "name": "Cao Tu\u1ea5n", "dob": "06-06-1988", "edu_lv": "10/12", "phone": "0965195967", "type": "Employee"}
-{"id": "32a111ae", "name": "Cao Quy\u1ebft", "dob": "03-04-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0970940257", "type": "Co-Worker"}
-{"id": "32a1126c", "name": "Cao Nam", "dob": "16-02-1979", "edu_lv": "11/12", "phone": "0985474563", "type": "Employee"}
-{"id": "32a112b2", "name": "Cao B\u1eafc", "dob": "14-07-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0981159927", "type": "Co-Worker"}
-{"id": "32a112f8", "name": "Cao Trung", "dob": "08-02-1970", "edu_lv": "Trung C\u1ea5p", "phone": "0979236243", "type": "Employee"}
-{"id": "32a11334", "name": "Cao Giang", "dob": "16-07-1982", "edu_lv": "Trung C\u1ea5p", "phone": "0961217395", "type": "Co-Worker"}
-{"id": "32a11370", "name": "Cao Qu\u00e2n", "dob": "18-10-1999", "edu_lv": "9/12", "phone": "0937677827", "type": "Employee"}
-{"id": "32a113ac", "name": "Cao Linh", "dob": "17-11-1992", "edu_lv": "Trung C\u1ea5p", "phone": "0930334406", "type": "Co-Worker"}
-{"id": "32a114c4", "name": "Cao Huy\u1ec1n", "dob": "17-12-1971", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0977886198", "type": "Employee"}
-{"id": "32a114ec", "name": "Cao Tr\u01b0\u1eddng", "dob": "20-07-1993", "edu_lv": "10/12", "phone": "0935287074", "type": "Employee"}
-{"id": "32a1150a", "name": "Cao Th\u1ecd", "dob": "13-09-1984", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0938653631", "type": "Co-Worker"}
-{"id": "32a11532", "name": "Cao Ki\u1ec7t", "dob": "05-02-1992", "edu_lv": "Trung C\u1ea5p", "phone": "0995357211", "type": "Co-Worker"}
-{"id": "32a1158c", "name": "Cao \u0110\u1ea1t", "dob": "08-06-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0988137058", "type": "Co-Worker"}
-{"id": "32a115aa", "name": "Tr\u1ea7n T\u00e0i", "dob": "21-06-1970", "edu_lv": "10/12", "phone": "0969451240", "type": "Co-Worker"}
-{"id": "32a115d2", "name": "Tr\u1ea7n D\u0169ng", "dob": "21-02-1990", "edu_lv": "12/12", "phone": "0913173250", "type": "Co-Worker"}
-{"id": "32a115f0", "name": "Tr\u1ea7n D\u01b0\u01a1ng", "dob": "21-05-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0951225511", "type": "Co-Worker"}
-{"id": "32a11618", "name": "Tr\u1ea7n L\u00e2m", "dob": "09-09-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0957720205", "type": "Employee"}
-{"id": "32a11636", "name": "Tr\u1ea7n Minh", "dob": "22-10-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997018166", "type": "Co-Worker"}
-{"id": "32a1165e", "name": "Tr\u1ea7n \u0110\u1ee9c", "dob": "07-12-1976", "edu_lv": "12/12", "phone": "0912229733", "type": "Employee"}
-{"id": "32a1167c", "name": "Tr\u1ea7n B\u00e1ch", "dob": "04-10-1974", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0936315638", "type": "Co-Worker"}
-{"id": "32a116a4", "name": "Tr\u1ea7n Tu\u1ea5n", "dob": "23-09-2000", "edu_lv": "12/12", "phone": "0989918433", "type": "Co-Worker"}
-{"id": "32a116cc", "name": "Tr\u1ea7n Quy\u1ebft", "dob": "09-10-1974", "edu_lv": "12/12", "phone": "0920891914", "type": "Co-Worker"}
-{"id": "32a116ea", "name": "Tr\u1ea7n Nam", "dob": "16-10-2000", "edu_lv": "12/12", "phone": "0935670987", "type": "Employee"}
-{"id": "32a11708", "name": "Tr\u1ea7n B\u1eafc", "dob": "19-05-1999", "edu_lv": "Trung C\u1ea5p", "phone": "0987292069", "type": "Co-Worker"}
-{"id": "32a11730", "name": "Tr\u1ea7n Trung", "dob": "19-09-1993", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0915271189", "type": "Co-Worker"}
-{"id": "32a1174e", "name": "Tr\u1ea7n Giang", "dob": "08-11-1975", "edu_lv": "10/12", "phone": "0981437372", "type": "Co-Worker"}
-{"id": "32a1176c", "name": "Tr\u1ea7n Qu\u00e2n", "dob": "27-01-1988", "edu_lv": "12/12", "phone": "0964764454", "type": "Co-Worker"}
-{"id": "32a11794", "name": "Tr\u1ea7n Linh", "dob": "21-09-1986", "edu_lv": "11/12", "phone": "0967965937", "type": "Employee"}
-{"id": "32a117b2", "name": "Tr\u1ea7n Huy\u1ec1n", "dob": "01-09-1974", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0997430791", "type": "Employee"}
-{"id": "32a117d0", "name": "Tr\u1ea7n Tr\u01b0\u1eddng", "dob": "28-09-1982", "edu_lv": "12/12", "phone": "0981361125", "type": "Co-Worker"}
-{"id": "32a117f8", "name": "Tr\u1ea7n Th\u1ecd", "dob": "19-05-1999", "edu_lv": "12/12", "phone": "0952348853", "type": "Employee"}
-{"id": "32a11816", "name": "Tr\u1ea7n Ki\u1ec7t", "dob": "04-06-1999", "edu_lv": "9/12", "phone": "0935593549", "type": "Co-Worker"}
-{"id": "32a11834", "name": "Tr\u1ea7n \u0110\u1ea1t", "dob": "03-07-1993", "edu_lv": "12/12", "phone": "0992605289", "type": "Employee"}
-{"id": "32a1185c", "name": "L\u00ea T\u00e0i", "dob": "18-04-1997", "edu_lv": "10/12", "phone": "0976939530", "type": "Co-Worker"}
-{"id": "32a1187a", "name": "L\u00ea D\u0169ng", "dob": "30-06-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0980790437", "type": "Employee"}
-{"id": "32a11898", "name": "L\u00ea D\u01b0\u01a1ng", "dob": "20-11-1990", "edu_lv": "10/12", "phone": "0976816356", "type": "Co-Worker"}
-{"id": "32a118c0", "name": "L\u00ea L\u00e2m", "dob": "07-04-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0913090499", "type": "Co-Worker"}
-{"id": "32a118de", "name": "L\u00ea Minh", "dob": "16-12-1992", "edu_lv": "11/12", "phone": "0926682660", "type": "Employee"}
-{"id": "32a118fc", "name": "L\u00ea \u0110\u1ee9c", "dob": "12-06-1975", "edu_lv": "9/12", "phone": "0918693272", "type": "Employee"}
-{"id": "32a11924", "name": "L\u00ea B\u00e1ch", "dob": "24-01-1998", "edu_lv": "11/12", "phone": "0995436958", "type": "Employee"}
-{"id": "32a11942", "name": "L\u00ea Tu\u1ea5n", "dob": "14-05-1988", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0974429780", "type": "Co-Worker"}
-{"id": "32a11960", "name": "L\u00ea Quy\u1ebft", "dob": "10-12-1992", "edu_lv": "9/12", "phone": "0920101483", "type": "Co-Worker"}
-{"id": "32a11988", "name": "L\u00ea Nam", "dob": "15-04-1988", "edu_lv": "12/12", "phone": "0995777915", "type": "Employee"}
-{"id": "32a119a6", "name": "L\u00ea B\u1eafc", "dob": "18-11-1980", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997310500", "type": "Employee"}
-{"id": "32a119ce", "name": "L\u00ea Trung", "dob": "17-06-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0977802885", "type": "Employee"}
-{"id": "32a11a5a", "name": "L\u00ea Giang", "dob": "30-07-1998", "edu_lv": "12/12", "phone": "0951855964", "type": "Employee"}
-{"id": "32a11adc", "name": "L\u00ea Qu\u00e2n", "dob": "01-07-1996", "edu_lv": "Trung C\u1ea5p", "phone": "0940351865", "type": "Employee"}
-{"id": "32a11b22", "name": "L\u00ea Linh", "dob": "15-06-1994", "edu_lv": "12/12", "phone": "0956557843", "type": "Co-Worker"}
-{"id": "32a11b54", "name": "L\u00ea Huy\u1ec1n", "dob": "11-01-1972", "edu_lv": "9/12", "phone": "0962549797", "type": "Co-Worker"}
-{"id": "32a11b90", "name": "L\u00ea Tr\u01b0\u1eddng", "dob": "18-02-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0948578900", "type": "Employee"}
-{"id": "32a11bcc", "name": "L\u00ea Th\u1ecd", "dob": "03-05-1976", "edu_lv": "9/12", "phone": "0914010767", "type": "Co-Worker"}
-{"id": "32a11bfe", "name": "L\u00ea Ki\u1ec7t", "dob": "13-08-1972", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0980640965", "type": "Co-Worker"}
-{"id": "32a11c3a", "name": "L\u00ea \u0110\u1ea1t", "dob": "28-02-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0974669353", "type": "Co-Worker"}
-{"id": "32a11c6c", "name": "\u0110\u1ed7 T\u00e0i", "dob": "25-04-1993", "edu_lv": "10/12", "phone": "0996975051", "type": "Employee"}
-{"id": "32a11ca8", "name": "\u0110\u1ed7 D\u0169ng", "dob": "29-10-1993", "edu_lv": "10/12", "phone": "0931944784", "type": "Co-Worker"}
-{"id": "32a11ce4", "name": "\u0110\u1ed7 D\u01b0\u01a1ng", "dob": "11-02-1995", "edu_lv": "10/12", "phone": "0945133836", "type": "Co-Worker"}
-{"id": "32a11d20", "name": "\u0110\u1ed7 L\u00e2m", "dob": "15-11-1982", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0915423765", "type": "Employee"}
-{"id": "32a11dd4", "name": "\u0110\u1ed7 Minh", "dob": "12-05-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0986545699", "type": "Co-Worker"}
-{"id": "32a11f28", "name": "\u0110\u1ed7 \u0110\u1ee9c", "dob": "03-02-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0979044248", "type": "Employee"}
-{"id": "32a11f96", "name": "\u0110\u1ed7 B\u00e1ch", "dob": "18-10-1984", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0945979724", "type": "Co-Worker"}
-{"id": "32a11fbe", "name": "\u0110\u1ed7 Tu\u1ea5n", "dob": "19-11-1979", "edu_lv": "12/12", "phone": "0966574809", "type": "Co-Worker"}
-{"id": "32a11fe6", "name": "\u0110\u1ed7 Quy\u1ebft", "dob": "10-08-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0920231304", "type": "Employee"}
-{"id": "32a12004", "name": "\u0110\u1ed7 Nam", "dob": "23-07-1971", "edu_lv": "11/12", "phone": "0913309932", "type": "Co-Worker"}
-{"id": "32a1202c", "name": "\u0110\u1ed7 B\u1eafc", "dob": "06-03-1989", "edu_lv": "11/12", "phone": "0988244163", "type": "Employee"}
-{"id": "32a1204a", "name": "\u0110\u1ed7 Trung", "dob": "06-09-1983", "edu_lv": "10/12", "phone": "0952188155", "type": "Co-Worker"}
-{"id": "32a12068", "name": "\u0110\u1ed7 Giang", "dob": "08-07-1984", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0989152542", "type": "Co-Worker"}
-{"id": "32a12090", "name": "\u0110\u1ed7 Qu\u00e2n", "dob": "28-12-1994", "edu_lv": "12/12", "phone": "0978822187", "type": "Employee"}
-{"id": "32a120c2", "name": "\u0110\u1ed7 Linh", "dob": "02-12-1990", "edu_lv": "9/12", "phone": "0972384024", "type": "Employee"}
-{"id": "32a120ea", "name": "\u0110\u1ed7 Huy\u1ec1n", "dob": "05-06-1980", "edu_lv": "9/12", "phone": "0938654105", "type": "Co-Worker"}
-{"id": "32a12108", "name": "\u0110\u1ed7 Tr\u01b0\u1eddng", "dob": "10-08-2000", "edu_lv": "11/12", "phone": "0968519196", "type": "Co-Worker"}
-{"id": "32a12126", "name": "\u0110\u1ed7 Th\u1ecd", "dob": "24-08-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0928590268", "type": "Co-Worker"}
-{"id": "32a1214e", "name": "\u0110\u1ed7 Ki\u1ec7t", "dob": "06-12-1972", "edu_lv": "11/12", "phone": "0976420051", "type": "Employee"}
-{"id": "32a1216c", "name": "\u0110\u1ed7 \u0110\u1ea1t", "dob": "27-03-1989", "edu_lv": "11/12", "phone": "0916708409", "type": "Co-Worker"}
-{"id": "32a1218a", "name": "Ho\u00e0ng T\u00e0i", "dob": "11-05-1990", "edu_lv": "9/12", "phone": "0914576432", "type": "Employee"}
-{"id": "32a121b2", "name": "Ho\u00e0ng D\u0169ng", "dob": "24-10-1997", "edu_lv": "9/12", "phone": "0982719200", "type": "Employee"}
-{"id": "32a12216", "name": "Ho\u00e0ng D\u01b0\u01a1ng", "dob": "07-12-1996", "edu_lv": "11/12", "phone": "0993598166", "type": "Employee"}
-{"id": "32a1223e", "name": "Ho\u00e0ng L\u00e2m", "dob": "18-05-1972", "edu_lv": "10/12", "phone": "0924637061", "type": "Co-Worker"}
-{"id": "32a12266", "name": "Ho\u00e0ng Minh", "dob": "14-02-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0919372470", "type": "Co-Worker"}
-{"id": "32a12284", "name": "Ho\u00e0ng \u0110\u1ee9c", "dob": "27-06-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0956264212", "type": "Employee"}
-{"id": "32a122ac", "name": "Ho\u00e0ng B\u00e1ch", "dob": "05-11-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0998378441", "type": "Co-Worker"}
-{"id": "32a122ca", "name": "Ho\u00e0ng Tu\u1ea5n", "dob": "09-03-1999", "edu_lv": "11/12", "phone": "0998126687", "type": "Employee"}
-{"id": "32a122f2", "name": "Ho\u00e0ng Quy\u1ebft", "dob": "18-03-1973", "edu_lv": "12/12", "phone": "0965832773", "type": "Co-Worker"}
-{"id": "32a12310", "name": "Ho\u00e0ng Nam", "dob": "21-04-1979", "edu_lv": "11/12", "phone": "0947116708", "type": "Employee"}
-{"id": "32a1232e", "name": "Ho\u00e0ng B\u1eafc", "dob": "13-04-1990", "edu_lv": "10/12", "phone": "0973291262", "type": "Employee"}
-{"id": "32a12356", "name": "Ho\u00e0ng Trung", "dob": "04-08-1975", "edu_lv": "9/12", "phone": "0971641882", "type": "Employee"}
-{"id": "32a12374", "name": "Ho\u00e0ng Giang", "dob": "22-07-1988", "edu_lv": "9/12", "phone": "0913776459", "type": "Co-Worker"}
-{"id": "32a12392", "name": "Ho\u00e0ng Qu\u00e2n", "dob": "09-01-1992", "edu_lv": "Trung C\u1ea5p", "phone": "0947936166", "type": "Co-Worker"}
-{"id": "32a123ba", "name": "Ho\u00e0ng Linh", "dob": "22-10-1970", "edu_lv": "10/12", "phone": "0985991665", "type": "Co-Worker"}
-{"id": "32a123d8", "name": "Ho\u00e0ng Huy\u1ec1n", "dob": "17-09-1997", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0968903697", "type": "Co-Worker"}
-{"id": "32a12400", "name": "Ho\u00e0ng Tr\u01b0\u1eddng", "dob": "04-01-1993", "edu_lv": "9/12", "phone": "0929168644", "type": "Co-Worker"}
-{"id": "32a12478", "name": "Ho\u00e0ng Th\u1ecd", "dob": "25-10-1997", "edu_lv": "11/12", "phone": "0941852494", "type": "Co-Worker"}
-{"id": "32a12504", "name": "Ho\u00e0ng Ki\u1ec7t", "dob": "07-01-1971", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0976824248", "type": "Employee"}
-{"id": "32a1254a", "name": "Ho\u00e0ng \u0110\u1ea1t", "dob": "24-09-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0925033489", "type": "Employee"}
-{"id": "32a125d6", "name": "Phan T\u00e0i", "dob": "19-03-1995", "edu_lv": "10/12", "phone": "0985013777", "type": "Co-Worker"}
-{"id": "32a1261c", "name": "Phan D\u0169ng", "dob": "21-01-2000", "edu_lv": "11/12", "phone": "0929479466", "type": "Co-Worker"}
-{"id": "32a12662", "name": "Phan D\u01b0\u01a1ng", "dob": "19-03-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0973256586", "type": "Co-Worker"}
-{"id": "32a126a8", "name": "Phan L\u00e2m", "dob": "15-02-1994", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0946718015", "type": "Employee"}
-{"id": "32a126ee", "name": "Phan Minh", "dob": "17-09-1987", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0932314729", "type": "Co-Worker"}
-{"id": "32a1272a", "name": "Phan \u0110\u1ee9c", "dob": "07-01-1977", "edu_lv": "11/12", "phone": "0962351690", "type": "Employee"}
-{"id": "32a12766", "name": "Phan B\u00e1ch", "dob": "26-10-1994", "edu_lv": "9/12", "phone": "0948250021", "type": "Employee"}
-{"id": "32a127a2", "name": "Phan Tu\u1ea5n", "dob": "03-02-2000", "edu_lv": "9/12", "phone": "0925828442", "type": "Employee"}
-{"id": "32a127de", "name": "Phan Quy\u1ebft", "dob": "04-03-1971", "edu_lv": "11/12", "phone": "0942248218", "type": "Employee"}
-{"id": "32a1281a", "name": "Phan Nam", "dob": "13-03-1990", "edu_lv": "10/12", "phone": "0962291354", "type": "Employee"}
-{"id": "32a12856", "name": "Phan B\u1eafc", "dob": "13-04-1978", "edu_lv": "10/12", "phone": "0958603330", "type": "Employee"}
-{"id": "32a12892", "name": "Phan Trung", "dob": "22-03-1989", "edu_lv": "10/12", "phone": "0922137290", "type": "Employee"}
-{"id": "32a128ce", "name": "Phan Giang", "dob": "03-06-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0929508640", "type": "Co-Worker"}
-{"id": "32a12914", "name": "Phan Qu\u00e2n", "dob": "21-06-1974", "edu_lv": "12/12", "phone": "0984433093", "type": "Co-Worker"}
-{"id": "32a12950", "name": "Phan Linh", "dob": "13-11-2000", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0926749086", "type": "Employee"}
-{"id": "32a1298c", "name": "Phan Huy\u1ec1n", "dob": "19-11-1978", "edu_lv": "10/12", "phone": "0960911652", "type": "Employee"}
-{"id": "32a129c8", "name": "Phan Tr\u01b0\u1eddng", "dob": "01-07-1972", "edu_lv": "Trung C\u1ea5p", "phone": "0947943321", "type": "Employee"}
-{"id": "32a12a04", "name": "Phan Th\u1ecd", "dob": "26-12-1994", "edu_lv": "10/12", "phone": "0992643159", "type": "Employee"}
-{"id": "32a12a40", "name": "Phan Ki\u1ec7t", "dob": "13-11-1983", "edu_lv": "12/12", "phone": "0960684889", "type": "Co-Worker"}
-{"id": "32a12a7c", "name": "Phan \u0110\u1ea1t", "dob": "14-07-1971", "edu_lv": "12/12", "phone": "0942928638", "type": "Employee"}
-{"id": "32a12ab8", "name": "V\u0169 T\u00e0i", "dob": "20-02-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0919686428", "type": "Employee"}
-{"id": "32a12af4", "name": "V\u0169 D\u0169ng", "dob": "11-01-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0922082053", "type": "Co-Worker"}
-{"id": "32a12b30", "name": "V\u0169 D\u01b0\u01a1ng", "dob": "20-10-1981", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0977936699", "type": "Employee"}
-{"id": "32a12b6c", "name": "V\u0169 L\u00e2m", "dob": "18-09-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0989896062", "type": "Employee"}
-{"id": "32a12bb2", "name": "V\u0169 Minh", "dob": "12-12-1993", "edu_lv": "10/12", "phone": "0924618614", "type": "Employee"}
-{"id": "32a12bee", "name": "V\u0169 \u0110\u1ee9c", "dob": "12-08-1999", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0942561895", "type": "Co-Worker"}
-{"id": "32a12c2a", "name": "V\u0169 B\u00e1ch", "dob": "24-06-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0941500512", "type": "Employee"}
-{"id": "32a12c66", "name": "V\u0169 Tu\u1ea5n", "dob": "10-08-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0923572182", "type": "Co-Worker"}
-{"id": "32a12ca2", "name": "V\u0169 Quy\u1ebft", "dob": "09-11-1988", "edu_lv": "12/12", "phone": "0972367391", "type": "Employee"}
-{"id": "32a12ce8", "name": "V\u0169 Nam", "dob": "27-10-1982", "edu_lv": "12/12", "phone": "0982729373", "type": "Employee"}
-{"id": "32a12d24", "name": "V\u0169 B\u1eafc", "dob": "09-01-1982", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0987825872", "type": "Employee"}
-{"id": "32a12d60", "name": "V\u0169 Trung", "dob": "20-10-1971", "edu_lv": "Trung C\u1ea5p", "phone": "0938252403", "type": "Co-Worker"}
-{"id": "32a12d9c", "name": "V\u0169 Giang", "dob": "28-10-1992", "edu_lv": "Trung C\u1ea5p", "phone": "0936316105", "type": "Employee"}
-{"id": "32a12dd8", "name": "V\u0169 Qu\u00e2n", "dob": "28-12-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0990908949", "type": "Employee"}
-{"id": "32a12e64", "name": "V\u0169 Linh", "dob": "29-02-1992", "edu_lv": "9/12", "phone": "0986655195", "type": "Co-Worker"}
-{"id": "32a12eb4", "name": "V\u0169 Huy\u1ec1n", "dob": "03-09-1985", "edu_lv": "10/12", "phone": "0966752508", "type": "Co-Worker"}
-{"id": "32a12ef0", "name": "V\u0169 Tr\u01b0\u1eddng", "dob": "03-11-1975", "edu_lv": "Trung C\u1ea5p", "phone": "0982841845", "type": "Employee"}
-{"id": "32a12f2c", "name": "V\u0169 Th\u1ecd", "dob": "29-09-1990", "edu_lv": "10/12", "phone": "0985412422", "type": "Employee"}
-{"id": "32a12f68", "name": "V\u0169 Ki\u1ec7t", "dob": "15-08-1974", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0943980156", "type": "Co-Worker"}
-{"id": "32a12fa4", "name": "V\u0169 \u0110\u1ea1t", "dob": "15-07-1993", "edu_lv": "10/12", "phone": "0982435415", "type": "Employee"}
-{"id": "32a12fe0", "name": "D\u01b0\u01a1ng T\u00e0i", "dob": "28-10-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0964146177", "type": "Co-Worker"}
-{"id": "32a1301c", "name": "D\u01b0\u01a1ng D\u0169ng", "dob": "04-03-1995", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0953927157", "type": "Employee"}
-{"id": "32a13062", "name": "D\u01b0\u01a1ng D\u01b0\u01a1ng", "dob": "09-12-1992", "edu_lv": "10/12", "phone": "0956237456", "type": "Co-Worker"}
-{"id": "32a1309e", "name": "D\u01b0\u01a1ng L\u00e2m", "dob": "27-07-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0957391491", "type": "Employee"}
-{"id": "32a130da", "name": "D\u01b0\u01a1ng Minh", "dob": "02-02-1970", "edu_lv": "12/12", "phone": "0928747977", "type": "Co-Worker"}
-{"id": "32a131c0", "name": "D\u01b0\u01a1ng \u0110\u1ee9c", "dob": "31-12-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0971792342", "type": "Employee"}
-{"id": "32a1321a", "name": "D\u01b0\u01a1ng B\u00e1ch", "dob": "14-05-1973", "edu_lv": "12/12", "phone": "0931479341", "type": "Employee"}
-{"id": "32a1326a", "name": "D\u01b0\u01a1ng Tu\u1ea5n", "dob": "23-07-1983", "edu_lv": "9/12", "phone": "0944174798", "type": "Employee"}
-{"id": "32a132ba", "name": "D\u01b0\u01a1ng Quy\u1ebft", "dob": "27-02-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0970966298", "type": "Co-Worker"}
-{"id": "32a1330a", "name": "D\u01b0\u01a1ng Nam", "dob": "06-01-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0934132174", "type": "Employee"}
-{"id": "32a13350", "name": "D\u01b0\u01a1ng B\u1eafc", "dob": "11-04-1978", "edu_lv": "10/12", "phone": "0921455977", "type": "Co-Worker"}
-{"id": "32a13396", "name": "D\u01b0\u01a1ng Trung", "dob": "06-04-1989", "edu_lv": "11/12", "phone": "0911399763", "type": "Co-Worker"}
-{"id": "32a13418", "name": "D\u01b0\u01a1ng Giang", "dob": "27-02-1993", "edu_lv": "11/12", "phone": "0919532169", "type": "Employee"}
-{"id": "32a1345e", "name": "D\u01b0\u01a1ng Qu\u00e2n", "dob": "17-06-1992", "edu_lv": "10/12", "phone": "0971789206", "type": "Employee"}
-{"id": "32a134a4", "name": "D\u01b0\u01a1ng Linh", "dob": "01-05-1986", "edu_lv": "12/12", "phone": "0998759848", "type": "Co-Worker"}
-{"id": "32a134e0", "name": "D\u01b0\u01a1ng Huy\u1ec1n", "dob": "11-07-1992", "edu_lv": "12/12", "phone": "0946657099", "type": "Employee"}
-{"id": "32a13512", "name": "D\u01b0\u01a1ng Tr\u01b0\u1eddng", "dob": "21-09-1976", "edu_lv": "10/12", "phone": "0986908465", "type": "Co-Worker"}
-{"id": "32a1354e", "name": "D\u01b0\u01a1ng Th\u1ecd", "dob": "11-02-1984", "edu_lv": "11/12", "phone": "0983123231", "type": "Employee"}
-{"id": "32a1358a", "name": "D\u01b0\u01a1ng Ki\u1ec7t", "dob": "17-01-1988", "edu_lv": "Trung C\u1ea5p", "phone": "0937473678", "type": "Co-Worker"}
-{"id": "32a135c6", "name": "D\u01b0\u01a1ng \u0110\u1ea1t", "dob": "01-04-2000", "edu_lv": "12/12", "phone": "0950488300", "type": "Employee"}
-{"id": "32a13602", "name": "V\u00f5 T\u00e0i", "dob": "09-10-1983", "edu_lv": "Trung C\u1ea5p", "phone": "0960877784", "type": "Employee"}
-{"id": "32a1363e", "name": "V\u00f5 D\u0169ng", "dob": "09-07-1985", "edu_lv": "10/12", "phone": "0966791486", "type": "Co-Worker"}
-{"id": "32a1367a", "name": "V\u00f5 D\u01b0\u01a1ng", "dob": "23-02-1974", "edu_lv": "10/12", "phone": "0971660028", "type": "Co-Worker"}
-{"id": "32a13896", "name": "V\u00f5 L\u00e2m", "dob": "09-06-1997", "edu_lv": "10/12", "phone": "0911696814", "type": "Employee"}
-{"id": "32a13922", "name": "V\u00f5 Minh", "dob": "29-01-1994", "edu_lv": "11/12", "phone": "0943118206", "type": "Co-Worker"}
-{"id": "32a13a26", "name": "V\u00f5 \u0110\u1ee9c", "dob": "14-03-1996", "edu_lv": "10/12", "phone": "0976997249", "type": "Co-Worker"}
-{"id": "32a13a8a", "name": "V\u00f5 B\u00e1ch", "dob": "24-04-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0985156957", "type": "Employee"}
-{"id": "32a13c38", "name": "V\u00f5 Tu\u1ea5n", "dob": "15-11-1994", "edu_lv": "12/12", "phone": "0916641815", "type": "Co-Worker"}
-{"id": "32a13cd8", "name": "V\u00f5 Quy\u1ebft", "dob": "28-10-1983", "edu_lv": "10/12", "phone": "0982604718", "type": "Co-Worker"}
-{"id": "32a13d32", "name": "V\u00f5 Nam", "dob": "28-10-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0928637386", "type": "Co-Worker"}
-{"id": "32a13d8c", "name": "V\u00f5 B\u1eafc", "dob": "12-06-1986", "edu_lv": "10/12", "phone": "0934842465", "type": "Co-Worker"}
-{"id": "32a13dd2", "name": "V\u00f5 Trung", "dob": "20-06-1984", "edu_lv": "12/12", "phone": "0996791124", "type": "Employee"}
-{"id": "32a13e86", "name": "V\u00f5 Giang", "dob": "13-04-1995", "edu_lv": "10/12", "phone": "0983171151", "type": "Employee"}
-{"id": "32a13ef4", "name": "V\u00f5 Qu\u00e2n", "dob": "26-11-1985", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0964420618", "type": "Employee"}
-{"id": "32a13f44", "name": "V\u00f5 Linh", "dob": "05-04-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0954261386", "type": "Employee"}
-{"id": "32a13f80", "name": "V\u00f5 Huy\u1ec1n", "dob": "03-09-1999", "edu_lv": "12/12", "phone": "0959678592", "type": "Co-Worker"}
-{"id": "32a13fc6", "name": "V\u00f5 Tr\u01b0\u1eddng", "dob": "10-05-1978", "edu_lv": "9/12", "phone": "0966454379", "type": "Co-Worker"}
-{"id": "32a1400c", "name": "V\u00f5 Th\u1ecd", "dob": "06-04-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0972773703", "type": "Co-Worker"}
-{"id": "32a14048", "name": "V\u00f5 Ki\u1ec7t", "dob": "16-03-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0980818704", "type": "Co-Worker"}
-{"id": "32a1408e", "name": "V\u00f5 \u0110\u1ea1t", "dob": "25-06-1982", "edu_lv": "9/12", "phone": "0976304909", "type": "Co-Worker"}
-{"id": "32a140ca", "name": "L\u00fd T\u00e0i", "dob": "27-07-1971", "edu_lv": "12/12", "phone": "0957991102", "type": "Employee"}
-{"id": "32a14106", "name": "L\u00fd D\u0169ng", "dob": "01-02-1980", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0930308455", "type": "Employee"}
-{"id": "32a1414c", "name": "L\u00fd D\u01b0\u01a1ng", "dob": "23-02-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0957184377", "type": "Employee"}
-{"id": "32a14188", "name": "L\u00fd L\u00e2m", "dob": "17-03-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0940162281", "type": "Employee"}
-{"id": "32a141ce", "name": "L\u00fd Minh", "dob": "14-05-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0987066867", "type": "Co-Worker"}
-{"id": "32a1420a", "name": "L\u00fd \u0110\u1ee9c", "dob": "26-05-1996", "edu_lv": "12/12", "phone": "0924028146", "type": "Employee"}
-{"id": "32a14250", "name": "L\u00fd B\u00e1ch", "dob": "29-03-1992", "edu_lv": "9/12", "phone": "0957241523", "type": "Employee"}
-{"id": "32a14296", "name": "L\u00fd Tu\u1ea5n", "dob": "08-09-1993", "edu_lv": "12/12", "phone": "0995523764", "type": "Employee"}
-{"id": "32a142d2", "name": "L\u00fd Quy\u1ebft", "dob": "28-11-1987", "edu_lv": "11/12", "phone": "0939663570", "type": "Co-Worker"}
-{"id": "32a14318", "name": "L\u00fd Nam", "dob": "18-09-1980", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0972039652", "type": "Employee"}
-{"id": "32a14354", "name": "L\u00fd B\u1eafc", "dob": "03-07-1983", "edu_lv": "Trung C\u1ea5p", "phone": "0930122544", "type": "Employee"}
-{"id": "32a14390", "name": "L\u00fd Trung", "dob": "05-06-1972", "edu_lv": "11/12", "phone": "0957996847", "type": "Employee"}
-{"id": "32a143cc", "name": "L\u00fd Giang", "dob": "28-10-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0942383937", "type": "Employee"}
-{"id": "32a14412", "name": "L\u00fd Qu\u00e2n", "dob": "11-01-1984", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0978262955", "type": "Employee"}
-{"id": "32a1444e", "name": "L\u00fd Linh", "dob": "24-06-1993", "edu_lv": "12/12", "phone": "0957057327", "type": "Co-Worker"}
-{"id": "32a14494", "name": "L\u00fd Huy\u1ec1n", "dob": "15-02-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0960417063", "type": "Co-Worker"}
-{"id": "32a144d0", "name": "L\u00fd Tr\u01b0\u1eddng", "dob": "12-10-2000", "edu_lv": "9/12", "phone": "0986155434", "type": "Co-Worker"}
-{"id": "32a1450c", "name": "L\u00fd Th\u1ecd", "dob": "07-06-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0971400606", "type": "Co-Worker"}
-{"id": "32a14552", "name": "L\u00fd Ki\u1ec7t", "dob": "14-12-1991", "edu_lv": "11/12", "phone": "0986964950", "type": "Co-Worker"}
-{"id": "32a1458e", "name": "L\u00fd \u0110\u1ea1t", "dob": "22-12-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0939017377", "type": "Co-Worker"}
-{"id": "32a1466a", "name": "Phan T\u00e0i", "dob": "12-04-1982", "edu_lv": "9/12", "phone": "0944683268", "type": "Co-Worker"}
-{"id": "32a1471e", "name": "Phan D\u0169ng", "dob": "13-07-1985", "edu_lv": "12/12", "phone": "0965407327", "type": "Employee"}
-{"id": "32a147b4", "name": "Phan D\u01b0\u01a1ng", "dob": "16-09-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0940362769", "type": "Employee"}
-{"id": "32a147dc", "name": "Phan L\u00e2m", "dob": "27-05-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0994014035", "type": "Co-Worker"}
-{"id": "32a14804", "name": "Phan Minh", "dob": "22-12-1994", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0997712233", "type": "Co-Worker"}
-{"id": "32a1482c", "name": "Phan \u0110\u1ee9c", "dob": "31-05-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0945660353", "type": "Employee"}
-{"id": "32a1493a", "name": "Phan B\u00e1ch", "dob": "09-05-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0972499642", "type": "Employee"}
-{"id": "32a14980", "name": "Phan Tu\u1ea5n", "dob": "11-12-1988", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0936770050", "type": "Employee"}
-{"id": "32a14a0c", "name": "Phan Quy\u1ebft", "dob": "18-11-1999", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0998745715", "type": "Employee"}
-{"id": "32a14a52", "name": "Phan Nam", "dob": "14-10-1997", "edu_lv": "Trung C\u1ea5p", "phone": "0981631287", "type": "Employee"}
-{"id": "32a14a98", "name": "Phan B\u1eafc", "dob": "23-10-1991", "edu_lv": "9/12", "phone": "0921261247", "type": "Co-Worker"}
-{"id": "32a14ade", "name": "Phan Trung", "dob": "25-11-1987", "edu_lv": "11/12", "phone": "0983308670", "type": "Employee"}
-{"id": "32a14bec", "name": "Phan Giang", "dob": "13-09-1994", "edu_lv": "11/12", "phone": "0915123145", "type": "Co-Worker"}
-{"id": "32a14ce6", "name": "Phan Qu\u00e2n", "dob": "12-04-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0926538735", "type": "Employee"}
-{"id": "32a14db8", "name": "Phan Linh", "dob": "15-06-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0927614592", "type": "Employee"}
-{"id": "32a14e12", "name": "Phan Huy\u1ec1n", "dob": "23-10-1976", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0985473708", "type": "Co-Worker"}
-{"id": "32a14e58", "name": "Phan Tr\u01b0\u1eddng", "dob": "13-12-1984", "edu_lv": "11/12", "phone": "0958184074", "type": "Co-Worker"}
-{"id": "32a14e94", "name": "Phan Th\u1ecd", "dob": "20-12-1980", "edu_lv": "12/12", "phone": "0982051684", "type": "Co-Worker"}
-{"id": "32a14ed0", "name": "Phan Ki\u1ec7t", "dob": "23-10-1981", "edu_lv": "11/12", "phone": "0979743170", "type": "Co-Worker"}
-{"id": "32a14f0c", "name": "Phan \u0110\u1ea1t", "dob": "24-07-1992", "edu_lv": "11/12", "phone": "0943252825", "type": "Employee"}
-{"id": "32a14f48", "name": "Ng\u00f4 T\u00e0i", "dob": "22-04-1989", "edu_lv": "9/12", "phone": "0963537006", "type": "Co-Worker"}
-{"id": "32a14f84", "name": "Ng\u00f4 D\u0169ng", "dob": "15-05-1997", "edu_lv": "11/12", "phone": "0921335746", "type": "Co-Worker"}
-{"id": "32a14fc0", "name": "Ng\u00f4 D\u01b0\u01a1ng", "dob": "01-09-1983", "edu_lv": "9/12", "phone": "0974409606", "type": "Co-Worker"}
-{"id": "32a14ff2", "name": "Ng\u00f4 L\u00e2m", "dob": "02-06-1981", "edu_lv": "10/12", "phone": "0912934048", "type": "Co-Worker"}
-{"id": "32a15042", "name": "Ng\u00f4 Minh", "dob": "02-12-1998", "edu_lv": "9/12", "phone": "0970042608", "type": "Employee"}
-{"id": "32a15088", "name": "Ng\u00f4 \u0110\u1ee9c", "dob": "11-09-1996", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0982131855", "type": "Employee"}
-{"id": "32a150c4", "name": "Ng\u00f4 B\u00e1ch", "dob": "12-03-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0989182610", "type": "Employee"}
-{"id": "32a15100", "name": "Ng\u00f4 Tu\u1ea5n", "dob": "13-05-2000", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0919737436", "type": "Co-Worker"}
-{"id": "32a1513c", "name": "Ng\u00f4 Quy\u1ebft", "dob": "02-05-1994", "edu_lv": "9/12", "phone": "0931666115", "type": "Co-Worker"}
-{"id": "32a1516e", "name": "Ng\u00f4 Nam", "dob": "22-06-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0972646056", "type": "Employee"}
-{"id": "32a151aa", "name": "Ng\u00f4 B\u1eafc", "dob": "25-10-1994", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0974190575", "type": "Employee"}
-{"id": "32a151dc", "name": "Ng\u00f4 Trung", "dob": "04-03-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0953402378", "type": "Employee"}
-{"id": "32a15218", "name": "Ng\u00f4 Giang", "dob": "01-12-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0969780873", "type": "Co-Worker"}
-{"id": "32a15254", "name": "Ng\u00f4 Qu\u00e2n", "dob": "14-08-1997", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0932097794", "type": "Employee"}
-{"id": "32a15290", "name": "Ng\u00f4 Linh", "dob": "07-06-1990", "edu_lv": "9/12", "phone": "0923649368", "type": "Co-Worker"}
-{"id": "32a152cc", "name": "Ng\u00f4 Huy\u1ec1n", "dob": "25-01-1990", "edu_lv": "9/12", "phone": "0995060282", "type": "Co-Worker"}
-{"id": "32a15308", "name": "Ng\u00f4 Tr\u01b0\u1eddng", "dob": "02-11-2000", "edu_lv": "12/12", "phone": "0961287447", "type": "Co-Worker"}
-{"id": "32a1534e", "name": "Ng\u00f4 Th\u1ecd", "dob": "24-08-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0912273913", "type": "Employee"}
-{"id": "32a1538a", "name": "Ng\u00f4 Ki\u1ec7t", "dob": "03-03-1986", "edu_lv": "9/12", "phone": "0982380790", "type": "Co-Worker"}
-{"id": "32a153c6", "name": "Ng\u00f4 \u0110\u1ea1t", "dob": "26-09-1977", "edu_lv": "11/12", "phone": "0939913688", "type": "Employee"}
-{"id": "32a15402", "name": "Nguy\u1ec5n T\u00e0i", "dob": "09-01-1981", "edu_lv": "9/12", "phone": "0941437521", "type": "Co-Worker"}
-{"id": "32a155ba", "name": "Nguy\u1ec5n D\u0169ng", "dob": "16-01-1998", "edu_lv": "9/12", "phone": "0973880019", "type": "Employee"}
-{"id": "32a155f6", "name": "Nguy\u1ec5n D\u01b0\u01a1ng", "dob": "24-10-1978", "edu_lv": "12/12", "phone": "0921560556", "type": "Co-Worker"}
-{"id": "32a1561e", "name": "Nguy\u1ec5n L\u00e2m", "dob": "19-12-1994", "edu_lv": "9/12", "phone": "0947542543", "type": "Employee"}
-{"id": "32a15646", "name": "Nguy\u1ec5n Minh", "dob": "12-11-1973", "edu_lv": "11/12", "phone": "0918020770", "type": "Co-Worker"}
-{"id": "32a15664", "name": "Nguy\u1ec5n \u0110\u1ee9c", "dob": "31-05-1989", "edu_lv": "11/12", "phone": "0991902621", "type": "Employee"}
-{"id": "32a1568c", "name": "Nguy\u1ec5n B\u00e1ch", "dob": "19-10-1971", "edu_lv": "9/12", "phone": "0927569213", "type": "Employee"}
-{"id": "32a156b4", "name": "Nguy\u1ec5n Tu\u1ea5n", "dob": "04-03-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0949918590", "type": "Employee"}
-{"id": "32a156d2", "name": "Nguy\u1ec5n Quy\u1ebft", "dob": "17-12-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0964706079", "type": "Employee"}
-{"id": "32a156fa", "name": "Nguy\u1ec5n Nam", "dob": "17-08-1977", "edu_lv": "10/12", "phone": "0942035417", "type": "Co-Worker"}
-{"id": "32a15718", "name": "Nguy\u1ec5n B\u1eafc", "dob": "08-09-1999", "edu_lv": "11/12", "phone": "0929758350", "type": "Co-Worker"}
-{"id": "32a15740", "name": "Nguy\u1ec5n Trung", "dob": "23-12-1974", "edu_lv": "Trung C\u1ea5p", "phone": "0965258994", "type": "Co-Worker"}
-{"id": "32a1575e", "name": "Nguy\u1ec5n Giang", "dob": "05-08-1986", "edu_lv": "11/12", "phone": "0951664316", "type": "Employee"}
-{"id": "32a15786", "name": "Nguy\u1ec5n Qu\u00e2n", "dob": "04-07-1990", "edu_lv": "11/12", "phone": "0962033146", "type": "Employee"}
-{"id": "32a157a4", "name": "Nguy\u1ec5n Linh", "dob": "23-06-1975", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0972917189", "type": "Co-Worker"}
-{"id": "32a157d6", "name": "Nguy\u1ec5n Huy\u1ec1n", "dob": "07-01-1988", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0971511651", "type": "Employee"}
-{"id": "32a157f4", "name": "Nguy\u1ec5n Tr\u01b0\u1eddng", "dob": "28-09-2000", "edu_lv": "12/12", "phone": "0978906510", "type": "Co-Worker"}
-{"id": "32a15880", "name": "Nguy\u1ec5n Th\u1ecd", "dob": "29-04-1983", "edu_lv": "11/12", "phone": "0911411378", "type": "Employee"}
-{"id": "32a158da", "name": "Nguy\u1ec5n Ki\u1ec7t", "dob": "17-02-1983", "edu_lv": "11/12", "phone": "0939817659", "type": "Employee"}
-{"id": "32a15916", "name": "Nguy\u1ec5n \u0110\u1ea1t", "dob": "21-02-1979", "edu_lv": "9/12", "phone": "0939121412", "type": "Co-Worker"}
-{"id": "32a15a92", "name": "\u0110\u1eb7ng T\u00e0i", "dob": "23-07-1982", "edu_lv": "11/12", "phone": "0921163563", "type": "Employee"}
-{"id": "32a15b32", "name": "\u0110\u1eb7ng D\u0169ng", "dob": "07-01-2000", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0983653641", "type": "Employee"}
-{"id": "32a15b8c", "name": "\u0110\u1eb7ng D\u01b0\u01a1ng", "dob": "15-12-1978", "edu_lv": "12/12", "phone": "0986489899", "type": "Employee"}
-{"id": "32a15bd2", "name": "\u0110\u1eb7ng L\u00e2m", "dob": "05-04-1985", "edu_lv": "12/12", "phone": "0938320241", "type": "Employee"}
-{"id": "32a15c18", "name": "\u0110\u1eb7ng Minh", "dob": "20-01-1975", "edu_lv": "Trung C\u1ea5p", "phone": "0922550906", "type": "Employee"}
-{"id": "32a15c5e", "name": "\u0110\u1eb7ng \u0110\u1ee9c", "dob": "11-09-1983", "edu_lv": "9/12", "phone": "0975913854", "type": "Employee"}
-{"id": "32a15d26", "name": "\u0110\u1eb7ng B\u00e1ch", "dob": "02-03-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0955423850", "type": "Co-Worker"}
-{"id": "32a15d62", "name": "\u0110\u1eb7ng Tu\u1ea5n", "dob": "23-11-1986", "edu_lv": "9/12", "phone": "0954697053", "type": "Employee"}
-{"id": "32a15da8", "name": "\u0110\u1eb7ng Quy\u1ebft", "dob": "02-12-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0954104215", "type": "Employee"}
-{"id": "32a15de4", "name": "\u0110\u1eb7ng Nam", "dob": "27-08-1997", "edu_lv": "12/12", "phone": "0948156552", "type": "Co-Worker"}
-{"id": "32a15e2a", "name": "\u0110\u1eb7ng B\u1eafc", "dob": "13-01-2000", "edu_lv": "9/12", "phone": "0956641781", "type": "Co-Worker"}
-{"id": "32a15ea2", "name": "\u0110\u1eb7ng Trung", "dob": "29-04-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0983830081", "type": "Co-Worker"}
-{"id": "32a15ee8", "name": "\u0110\u1eb7ng Giang", "dob": "13-11-1999", "edu_lv": "Trung C\u1ea5p", "phone": "0949876314", "type": "Co-Worker"}
-{"id": "32a15f2e", "name": "\u0110\u1eb7ng Qu\u00e2n", "dob": "04-07-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0928888059", "type": "Employee"}
-{"id": "32a15f74", "name": "\u0110\u1eb7ng Linh", "dob": "19-09-1984", "edu_lv": "12/12", "phone": "0996818703", "type": "Co-Worker"}
-{"id": "32a15fb0", "name": "\u0110\u1eb7ng Huy\u1ec1n", "dob": "15-03-1978", "edu_lv": "11/12", "phone": "0932782604", "type": "Employee"}
-{"id": "32a15ff6", "name": "\u0110\u1eb7ng Tr\u01b0\u1eddng", "dob": "20-04-1976", "edu_lv": "10/12", "phone": "0956458445", "type": "Co-Worker"}
-{"id": "32a16032", "name": "\u0110\u1eb7ng Th\u1ecd", "dob": "28-08-1983", "edu_lv": "11/12", "phone": "0945636670", "type": "Co-Worker"}
-{"id": "32a1606e", "name": "\u0110\u1eb7ng Ki\u1ec7t", "dob": "21-07-1998", "edu_lv": "Trung C\u1ea5p", "phone": "0989537159", "type": "Co-Worker"}
-{"id": "32a160aa", "name": "\u0110\u1eb7ng \u0110\u1ea1t", "dob": "23-10-1999", "edu_lv": "9/12", "phone": "0936657970", "type": "Employee"}
-{"id": "32a160f0", "name": "Ph\u1ea1m T\u00e0i", "dob": "11-02-1987", "edu_lv": "9/12", "phone": "0915614718", "type": "Co-Worker"}
-{"id": "32a1612c", "name": "Ph\u1ea1m D\u0169ng", "dob": "26-11-1972", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0994674833", "type": "Co-Worker"}
-{"id": "32a16168", "name": "Ph\u1ea1m D\u01b0\u01a1ng", "dob": "13-06-1996", "edu_lv": "Trung C\u1ea5p", "phone": "0968213428", "type": "Employee"}
-{"id": "32a161a4", "name": "Ph\u1ea1m L\u00e2m", "dob": "11-04-1972", "edu_lv": "12/12", "phone": "0925019801", "type": "Co-Worker"}
-{"id": "32a161e0", "name": "Ph\u1ea1m Minh", "dob": "03-04-1973", "edu_lv": "12/12", "phone": "0989863931", "type": "Co-Worker"}
-{"id": "32a16226", "name": "Ph\u1ea1m \u0110\u1ee9c", "dob": "04-05-1998", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0941566297", "type": "Employee"}
-{"id": "32a16262", "name": "Ph\u1ea1m B\u00e1ch", "dob": "20-11-1976", "edu_lv": "12/12", "phone": "0940427994", "type": "Co-Worker"}
-{"id": "32a1629e", "name": "Ph\u1ea1m Tu\u1ea5n", "dob": "03-07-1979", "edu_lv": "12/12", "phone": "0933576356", "type": "Co-Worker"}
-{"id": "32a162e4", "name": "Ph\u1ea1m Quy\u1ebft", "dob": "26-11-1998", "edu_lv": "12/12", "phone": "0984631930", "type": "Employee"}
-{"id": "32a16320", "name": "Ph\u1ea1m Nam", "dob": "16-05-1999", "edu_lv": "9/12", "phone": "0960841619", "type": "Co-Worker"}
-{"id": "32a1635c", "name": "Ph\u1ea1m B\u1eafc", "dob": "28-07-2000", "edu_lv": "10/12", "phone": "0914849114", "type": "Co-Worker"}
-{"id": "32a163a2", "name": "Ph\u1ea1m Trung", "dob": "18-08-1980", "edu_lv": "9/12", "phone": "0996167146", "type": "Employee"}
-{"id": "32a163de", "name": "Ph\u1ea1m Giang", "dob": "01-02-1973", "edu_lv": "Trung C\u1ea5p", "phone": "0981387223", "type": "Co-Worker"}
-{"id": "32a1641a", "name": "Ph\u1ea1m Qu\u00e2n", "dob": "05-11-1990", "edu_lv": "11/12", "phone": "0916673007", "type": "Employee"}
-{"id": "32a16460", "name": "Ph\u1ea1m Linh", "dob": "12-01-1973", "edu_lv": "12/12", "phone": "0968756694", "type": "Employee"}
-{"id": "32a1649c", "name": "Ph\u1ea1m Huy\u1ec1n", "dob": "15-10-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0933174895", "type": "Employee"}
-{"id": "32a164e2", "name": "Ph\u1ea1m Tr\u01b0\u1eddng", "dob": "03-06-1983", "edu_lv": "Trung C\u1ea5p", "phone": "0934531673", "type": "Employee"}
-{"id": "32a1651e", "name": "Ph\u1ea1m Th\u1ecd", "dob": "04-08-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0972953528", "type": "Employee"}
-{"id": "32a1655a", "name": "Ph\u1ea1m Ki\u1ec7t", "dob": "15-01-1987", "edu_lv": "9/12", "phone": "0991288313", "type": "Employee"}
-{"id": "32a16596", "name": "Ph\u1ea1m \u0110\u1ea1t", "dob": "26-09-1970", "edu_lv": "11/12", "phone": "0966252159", "type": "Co-Worker"}
-{"id": "32a165dc", "name": "B\u00f9i T\u00e0i", "dob": "02-06-1987", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0952176343", "type": "Employee"}
-{"id": "32a16618", "name": "B\u00f9i D\u0169ng", "dob": "05-11-1974", "edu_lv": "Trung C\u1ea5p", "phone": "0924894219", "type": "Employee"}
-{"id": "32a1665e", "name": "B\u00f9i D\u01b0\u01a1ng", "dob": "20-07-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0917644292", "type": "Employee"}
-{"id": "32a1669a", "name": "B\u00f9i L\u00e2m", "dob": "11-10-1991", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0949247795", "type": "Employee"}
-{"id": "32a166d6", "name": "B\u00f9i Minh", "dob": "29-10-1997", "edu_lv": "10/12", "phone": "0911046309", "type": "Employee"}
-{"id": "32a1671c", "name": "B\u00f9i \u0110\u1ee9c", "dob": "03-01-1998", "edu_lv": "11/12", "phone": "0921004840", "type": "Employee"}
-{"id": "32a16776", "name": "B\u00f9i B\u00e1ch", "dob": "14-05-1982", "edu_lv": "11/12", "phone": "0920898361", "type": "Employee"}
-{"id": "32a167b2", "name": "B\u00f9i Tu\u1ea5n", "dob": "25-07-1977", "edu_lv": "10/12", "phone": "0914308890", "type": "Employee"}
-{"id": "32a167f8", "name": "B\u00f9i Quy\u1ebft", "dob": "17-08-1998", "edu_lv": "12/12", "phone": "0966625213", "type": "Co-Worker"}
-{"id": "32a16834", "name": "B\u00f9i Nam", "dob": "28-09-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0997386301", "type": "Co-Worker"}
-{"id": "32a1687a", "name": "B\u00f9i B\u1eafc", "dob": "10-06-1998", "edu_lv": "11/12", "phone": "0956805664", "type": "Co-Worker"}
-{"id": "32a168c0", "name": "B\u00f9i Trung", "dob": "22-02-1998", "edu_lv": "12/12", "phone": "0912225470", "type": "Employee"}
-{"id": "32a168fc", "name": "B\u00f9i Giang", "dob": "25-12-1989", "edu_lv": "Trung C\u1ea5p", "phone": "0953111696", "type": "Co-Worker"}
-{"id": "32a16938", "name": "B\u00f9i Qu\u00e2n", "dob": "27-02-1998", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0934007129", "type": "Co-Worker"}
-{"id": "32a1697e", "name": "B\u00f9i Linh", "dob": "26-10-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0917323453", "type": "Co-Worker"}
-{"id": "32a169c4", "name": "B\u00f9i Huy\u1ec1n", "dob": "27-07-1979", "edu_lv": "Trung C\u1ea5p", "phone": "0912979671", "type": "Co-Worker"}
-{"id": "32a16a00", "name": "B\u00f9i Tr\u01b0\u1eddng", "dob": "29-10-1992", "edu_lv": "9/12", "phone": "0949495650", "type": "Employee"}
-{"id": "32a16a46", "name": "B\u00f9i Th\u1ecd", "dob": "25-03-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0973971280", "type": "Employee"}
-{"id": "32a16a8c", "name": "B\u00f9i Ki\u1ec7t", "dob": "28-05-1983", "edu_lv": "10/12", "phone": "0968456781", "type": "Employee"}
-{"id": "32a16ac8", "name": "B\u00f9i \u0110\u1ea1t", "dob": "10-10-1997", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0939504490", "type": "Co-Worker"}
-{"id": "32a16b04", "name": "Cao T\u00e0i", "dob": "27-03-1979", "edu_lv": "12/12", "phone": "0995413356", "type": "Co-Worker"}
-{"id": "32a16b4a", "name": "Cao D\u0169ng", "dob": "20-07-1970", "edu_lv": "12/12", "phone": "0925731330", "type": "Employee"}
-{"id": "32a16b86", "name": "Cao D\u01b0\u01a1ng", "dob": "26-07-1997", "edu_lv": "11/12", "phone": "0936672582", "type": "Co-Worker"}
-{"id": "32a16bcc", "name": "Cao L\u00e2m", "dob": "19-10-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0982907100", "type": "Co-Worker"}
-{"id": "32a16c08", "name": "Cao Minh", "dob": "13-06-1980", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0930482442", "type": "Employee"}
-{"id": "32a16c44", "name": "Cao \u0110\u1ee9c", "dob": "22-05-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0984848947", "type": "Employee"}
-{"id": "32a16cda", "name": "Cao B\u00e1ch", "dob": "14-09-1998", "edu_lv": "9/12", "phone": "0956999865", "type": "Co-Worker"}
-{"id": "32a16d20", "name": "Cao Tu\u1ea5n", "dob": "24-02-1996", "edu_lv": "12/12", "phone": "0924705281", "type": "Employee"}
-{"id": "32a16d66", "name": "Cao Quy\u1ebft", "dob": "18-06-1991", "edu_lv": "9/12", "phone": "0941302466", "type": "Co-Worker"}
-{"id": "32a16dac", "name": "Cao Nam", "dob": "12-04-1985", "edu_lv": "12/12", "phone": "0995699226", "type": "Co-Worker"}
-{"id": "32a16e6a", "name": "Cao B\u1eafc", "dob": "17-05-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0946870606", "type": "Co-Worker"}
-{"id": "32a16f00", "name": "Cao Trung", "dob": "09-09-1982", "edu_lv": "10/12", "phone": "0981999515", "type": "Co-Worker"}
-{"id": "32a16fb4", "name": "Cao Giang", "dob": "01-11-1977", "edu_lv": "9/12", "phone": "0999719576", "type": "Co-Worker"}
-{"id": "32a16ffa", "name": "Cao Qu\u00e2n", "dob": "16-12-1996", "edu_lv": "9/12", "phone": "0946233224", "type": "Employee"}
-{"id": "32a1707c", "name": "Cao Linh", "dob": "10-07-1971", "edu_lv": "Trung C\u1ea5p", "phone": "0952752097", "type": "Employee"}
-{"id": "32a170c2", "name": "Cao Huy\u1ec1n", "dob": "13-07-1973", "edu_lv": "10/12", "phone": "0924423740", "type": "Employee"}
-{"id": "32a170fe", "name": "Cao Tr\u01b0\u1eddng", "dob": "01-12-1994", "edu_lv": "10/12", "phone": "0954785620", "type": "Employee"}
-{"id": "32a1713a", "name": "Cao Th\u1ecd", "dob": "14-01-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0961131917", "type": "Co-Worker"}
-{"id": "32a17176", "name": "Cao Ki\u1ec7t", "dob": "08-07-1983", "edu_lv": "12/12", "phone": "0997169968", "type": "Employee"}
-{"id": "32a171b2", "name": "Cao \u0110\u1ea1t", "dob": "27-09-1993", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0925909780", "type": "Co-Worker"}
-{"id": "32a17234", "name": "Tr\u1ea7n T\u00e0i", "dob": "12-09-1973", "edu_lv": "10/12", "phone": "0981632525", "type": "Employee"}
-{"id": "32a1727a", "name": "Tr\u1ea7n D\u0169ng", "dob": "12-03-1985", "edu_lv": "Trung C\u1ea5p", "phone": "0976000338", "type": "Co-Worker"}
-{"id": "32a172b6", "name": "Tr\u1ea7n D\u01b0\u01a1ng", "dob": "02-05-1994", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0926575512", "type": "Employee"}
-{"id": "32a172f2", "name": "Tr\u1ea7n L\u00e2m", "dob": "03-02-1983", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0999962452", "type": "Employee"}
-{"id": "32a1732e", "name": "Tr\u1ea7n Minh", "dob": "20-03-1970", "edu_lv": "11/12", "phone": "0979469811", "type": "Co-Worker"}
-{"id": "32a17374", "name": "Tr\u1ea7n \u0110\u1ee9c", "dob": "25-12-1985", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0975908398", "type": "Employee"}
-{"id": "32a173a6", "name": "Tr\u1ea7n B\u00e1ch", "dob": "28-10-1998", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0960547444", "type": "Employee"}
-{"id": "32a173e2", "name": "Tr\u1ea7n Tu\u1ea5n", "dob": "13-05-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0971928322", "type": "Employee"}
-{"id": "32a1741e", "name": "Tr\u1ea7n Quy\u1ebft", "dob": "24-01-1983", "edu_lv": "Trung C\u1ea5p", "phone": "0979157786", "type": "Co-Worker"}
-{"id": "32a1745a", "name": "Tr\u1ea7n Nam", "dob": "07-04-1974", "edu_lv": "10/12", "phone": "0971382447", "type": "Co-Worker"}
-{"id": "32a17496", "name": "Tr\u1ea7n B\u1eafc", "dob": "23-12-1984", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0943433222", "type": "Employee"}
-{"id": "32a174c8", "name": "Tr\u1ea7n Trung", "dob": "23-02-1996", "edu_lv": "11/12", "phone": "0925353725", "type": "Co-Worker"}
-{"id": "32a1750e", "name": "Tr\u1ea7n Giang", "dob": "28-04-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0995326909", "type": "Employee"}
-{"id": "32a1754a", "name": "Tr\u1ea7n Qu\u00e2n", "dob": "05-03-1988", "edu_lv": "Trung C\u1ea5p", "phone": "0922935237", "type": "Employee"}
-{"id": "32a17586", "name": "Tr\u1ea7n Linh", "dob": "21-05-1997", "edu_lv": "12/12", "phone": "0946966810", "type": "Employee"}
-{"id": "32a175c2", "name": "Tr\u1ea7n Huy\u1ec1n", "dob": "30-04-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0979075243", "type": "Co-Worker"}
-{"id": "32a175f4", "name": "Tr\u1ea7n Tr\u01b0\u1eddng", "dob": "25-02-1999", "edu_lv": "Trung C\u1ea5p", "phone": "0947635384", "type": "Employee"}
-{"id": "32a17630", "name": "Tr\u1ea7n Th\u1ecd", "dob": "09-08-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0950187530", "type": "Co-Worker"}
-{"id": "32a17662", "name": "Tr\u1ea7n Ki\u1ec7t", "dob": "09-11-2000", "edu_lv": "10/12", "phone": "0964456253", "type": "Co-Worker"}
-{"id": "32a17766", "name": "Tr\u1ea7n \u0110\u1ea1t", "dob": "01-01-1991", "edu_lv": "9/12", "phone": "0914032189", "type": "Co-Worker"}
-{"id": "32a177d4", "name": "L\u00ea T\u00e0i", "dob": "16-07-1997", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0993810272", "type": "Employee"}
-{"id": "32a17810", "name": "L\u00ea D\u0169ng", "dob": "18-03-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0910335018", "type": "Co-Worker"}
-{"id": "32a17838", "name": "L\u00ea D\u01b0\u01a1ng", "dob": "05-01-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0968212210", "type": "Employee"}
-{"id": "32a1786a", "name": "L\u00ea L\u00e2m", "dob": "13-10-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0922141619", "type": "Co-Worker"}
-{"id": "32a17888", "name": "L\u00ea Minh", "dob": "05-03-1983", "edu_lv": "9/12", "phone": "0969382024", "type": "Employee"}
-{"id": "32a178b0", "name": "L\u00ea \u0110\u1ee9c", "dob": "13-12-1988", "edu_lv": "10/12", "phone": "0986862049", "type": "Co-Worker"}
-{"id": "32a178ce", "name": "L\u00ea B\u00e1ch", "dob": "26-11-1975", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0975248998", "type": "Co-Worker"}
-{"id": "32a178f6", "name": "L\u00ea Tu\u1ea5n", "dob": "13-07-1973", "edu_lv": "10/12", "phone": "0976407584", "type": "Co-Worker"}
-{"id": "32a17932", "name": "L\u00ea Quy\u1ebft", "dob": "29-01-1991", "edu_lv": "10/12", "phone": "0997089447", "type": "Co-Worker"}
-{"id": "32a1796e", "name": "L\u00ea Nam", "dob": "14-02-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0953811841", "type": "Co-Worker"}
-{"id": "32a179a0", "name": "L\u00ea B\u1eafc", "dob": "08-08-1978", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0978874129", "type": "Employee"}
-{"id": "32a179dc", "name": "L\u00ea Trung", "dob": "08-10-1985", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0981824984", "type": "Employee"}
-{"id": "32a17a0e", "name": "L\u00ea Giang", "dob": "27-04-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0926107846", "type": "Co-Worker"}
-{"id": "32a17a4a", "name": "L\u00ea Qu\u00e2n", "dob": "27-07-1996", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0993189687", "type": "Co-Worker"}
-{"id": "32a17a7c", "name": "L\u00ea Linh", "dob": "24-04-1989", "edu_lv": "12/12", "phone": "0924961315", "type": "Employee"}
-{"id": "32a17ab8", "name": "L\u00ea Huy\u1ec1n", "dob": "14-05-1973", "edu_lv": "Trung C\u1ea5p", "phone": "0922595388", "type": "Employee"}
-{"id": "32a17aea", "name": "L\u00ea Tr\u01b0\u1eddng", "dob": "05-12-1977", "edu_lv": "11/12", "phone": "0912939505", "type": "Employee"}
-{"id": "32a17b26", "name": "L\u00ea Th\u1ecd", "dob": "08-09-1991", "edu_lv": "12/12", "phone": "0966941898", "type": "Employee"}
-{"id": "32a17b62", "name": "L\u00ea Ki\u1ec7t", "dob": "28-12-1981", "edu_lv": "12/12", "phone": "0936115774", "type": "Employee"}
-{"id": "32a17b9e", "name": "L\u00ea \u0110\u1ea1t", "dob": "18-07-1973", "edu_lv": "11/12", "phone": "0946335347", "type": "Employee"}
-{"id": "32a17bc6", "name": "\u0110\u1ed7 T\u00e0i", "dob": "23-04-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0915302421", "type": "Employee"}
-{"id": "32a17bee", "name": "\u0110\u1ed7 D\u0169ng", "dob": "13-02-1973", "edu_lv": "Trung C\u1ea5p", "phone": "0970218284", "type": "Co-Worker"}
-{"id": "32a17c0c", "name": "\u0110\u1ed7 D\u01b0\u01a1ng", "dob": "03-05-1998", "edu_lv": "10/12", "phone": "0952009290", "type": "Co-Worker"}
-{"id": "32a17c2a", "name": "\u0110\u1ed7 L\u00e2m", "dob": "28-08-1999", "edu_lv": "11/12", "phone": "0954867548", "type": "Employee"}
-{"id": "32a17c52", "name": "\u0110\u1ed7 Minh", "dob": "30-10-1993", "edu_lv": "10/12", "phone": "0910324349", "type": "Employee"}
-{"id": "32a17c70", "name": "\u0110\u1ed7 \u0110\u1ee9c", "dob": "13-11-1984", "edu_lv": "9/12", "phone": "0929940731", "type": "Employee"}
-{"id": "32a17c8e", "name": "\u0110\u1ed7 B\u00e1ch", "dob": "04-06-1977", "edu_lv": "9/12", "phone": "0975777613", "type": "Employee"}
-{"id": "32a17cb6", "name": "\u0110\u1ed7 Tu\u1ea5n", "dob": "17-04-1994", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0980670476", "type": "Employee"}
-{"id": "32a17cd4", "name": "\u0110\u1ed7 Quy\u1ebft", "dob": "15-01-1985", "edu_lv": "Trung C\u1ea5p", "phone": "0925358588", "type": "Co-Worker"}
-{"id": "32a17cfc", "name": "\u0110\u1ed7 Nam", "dob": "13-07-1996", "edu_lv": "Trung C\u1ea5p", "phone": "0987516901", "type": "Co-Worker"}
-{"id": "32a17d24", "name": "\u0110\u1ed7 B\u1eafc", "dob": "05-11-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0947245691", "type": "Co-Worker"}
-{"id": "32a17d42", "name": "\u0110\u1ed7 Trung", "dob": "13-08-1989", "edu_lv": "9/12", "phone": "0926248418", "type": "Co-Worker"}
-{"id": "32a17d60", "name": "\u0110\u1ed7 Giang", "dob": "13-11-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0942363534", "type": "Co-Worker"}
-{"id": "32a17d88", "name": "\u0110\u1ed7 Qu\u00e2n", "dob": "02-03-1981", "edu_lv": "12/12", "phone": "0976275547", "type": "Co-Worker"}
-{"id": "32a17da6", "name": "\u0110\u1ed7 Linh", "dob": "13-05-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0993512271", "type": "Co-Worker"}
-{"id": "32a17dce", "name": "\u0110\u1ed7 Huy\u1ec1n", "dob": "13-10-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0999735520", "type": "Employee"}
-{"id": "32a17dec", "name": "\u0110\u1ed7 Tr\u01b0\u1eddng", "dob": "31-05-1991", "edu_lv": "12/12", "phone": "0963341049", "type": "Co-Worker"}
-{"id": "32a17e50", "name": "\u0110\u1ed7 Th\u1ecd", "dob": "10-09-1974", "edu_lv": "9/12", "phone": "0939785213", "type": "Employee"}
-{"id": "32a17e82", "name": "\u0110\u1ed7 Ki\u1ec7t", "dob": "05-12-1997", "edu_lv": "9/12", "phone": "0979854452", "type": "Employee"}
-{"id": "32a17eaa", "name": "\u0110\u1ed7 \u0110\u1ea1t", "dob": "05-02-1988", "edu_lv": "9/12", "phone": "0988652273", "type": "Co-Worker"}
+{"id": "8ee092ae", "name": "Ng\u00f4 T\u00e0i", "dob": "28-02-1981", "edu_lv": "11/12", "phone": "0926279009", "type": "Co-Worker"}
+{"id": "8ee0965a", "name": "Ng\u00f4 D\u0169ng", "dob": "07-05-2000", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0950267532", "type": "Employee"}
+{"id": "8ee096b4", "name": "Ng\u00f4 D\u01b0\u01a1ng", "dob": "03-07-1998", "edu_lv": "10/12", "phone": "0955239840", "type": "Co-Worker"}
+{"id": "8ee096f0", "name": "Ng\u00f4 L\u00e2m", "dob": "05-09-1976", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0966126789", "type": "Co-Worker"}
+{"id": "8ee0972c", "name": "Ng\u00f4 Minh", "dob": "19-06-1975", "edu_lv": "12/12", "phone": "0963653568", "type": "Co-Worker"}
+{"id": "8ee0975e", "name": "Ng\u00f4 \u0110\u1ee9c", "dob": "24-10-1970", "edu_lv": "9/12", "phone": "0994187770", "type": "Employee"}
+{"id": "8ee0979a", "name": "Ng\u00f4 B\u00e1ch", "dob": "27-05-1988", "edu_lv": "11/12", "phone": "0925484234", "type": "Co-Worker"}
+{"id": "8ee097c2", "name": "Ng\u00f4 Tu\u1ea5n", "dob": "22-11-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0977917803", "type": "Co-Worker"}
+{"id": "8ee097f4", "name": "Ng\u00f4 Quy\u1ebft", "dob": "21-12-1984", "edu_lv": "9/12", "phone": "0930617554", "type": "Employee"}
+{"id": "8ee09826", "name": "Ng\u00f4 Nam", "dob": "06-06-1972", "edu_lv": "10/12", "phone": "0950996773", "type": "Co-Worker"}
+{"id": "8ee09858", "name": "Ng\u00f4 B\u1eafc", "dob": "01-08-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0945028995", "type": "Co-Worker"}
+{"id": "8ee0988a", "name": "Ng\u00f4 Trung", "dob": "13-02-1988", "edu_lv": "12/12", "phone": "0925455124", "type": "Employee"}
+{"id": "8ee098bc", "name": "Ng\u00f4 Giang", "dob": "30-01-1975", "edu_lv": "12/12", "phone": "0990587698", "type": "Employee"}
+{"id": "8ee098ee", "name": "Ng\u00f4 Qu\u00e2n", "dob": "12-10-1997", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0976866715", "type": "Employee"}
+{"id": "8ee09916", "name": "Ng\u00f4 Linh", "dob": "30-09-1978", "edu_lv": "10/12", "phone": "0989346907", "type": "Co-Worker"}
+{"id": "8ee09948", "name": "Ng\u00f4 Huy\u1ec1n", "dob": "26-05-1987", "edu_lv": "11/12", "phone": "0949121838", "type": "Employee"}
+{"id": "8ee0997a", "name": "Ng\u00f4 Tr\u01b0\u1eddng", "dob": "09-05-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0936928879", "type": "Employee"}
+{"id": "8ee099ac", "name": "Ng\u00f4 Th\u1ecd", "dob": "28-10-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0941485477", "type": "Co-Worker"}
+{"id": "8ee099de", "name": "Ng\u00f4 Ki\u1ec7t", "dob": "28-01-1981", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0998916644", "type": "Co-Worker"}
+{"id": "8ee09a06", "name": "Ng\u00f4 \u0110\u1ea1t", "dob": "29-10-1994", "edu_lv": "10/12", "phone": "0919630508", "type": "Employee"}
+{"id": "8ee09a38", "name": "Nguy\u1ec5n T\u00e0i", "dob": "26-07-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0966024643", "type": "Employee"}
+{"id": "8ee09a6a", "name": "Nguy\u1ec5n D\u0169ng", "dob": "01-11-1993", "edu_lv": "11/12", "phone": "0987888132", "type": "Employee"}
+{"id": "8ee09a9c", "name": "Nguy\u1ec5n D\u01b0\u01a1ng", "dob": "11-05-1999", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0945908472", "type": "Co-Worker"}
+{"id": "8ee09ac4", "name": "Nguy\u1ec5n L\u00e2m", "dob": "17-10-1973", "edu_lv": "11/12", "phone": "0933419929", "type": "Employee"}
+{"id": "8ee09af6", "name": "Nguy\u1ec5n Minh", "dob": "29-12-1978", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0996773430", "type": "Employee"}
+{"id": "8ee09b28", "name": "Nguy\u1ec5n \u0110\u1ee9c", "dob": "19-10-1981", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0961374242", "type": "Employee"}
+{"id": "8ee09b5a", "name": "Nguy\u1ec5n B\u00e1ch", "dob": "24-06-1991", "edu_lv": "9/12", "phone": "0930490608", "type": "Co-Worker"}
+{"id": "8ee09b8c", "name": "Nguy\u1ec5n Tu\u1ea5n", "dob": "19-02-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0988012134", "type": "Co-Worker"}
+{"id": "8ee09bbe", "name": "Nguy\u1ec5n Quy\u1ebft", "dob": "06-08-1982", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0950118926", "type": "Employee"}
+{"id": "8ee09be6", "name": "Nguy\u1ec5n Nam", "dob": "25-01-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0944971850", "type": "Employee"}
+{"id": "8ee09c18", "name": "Nguy\u1ec5n B\u1eafc", "dob": "01-06-1998", "edu_lv": "11/12", "phone": "0976732686", "type": "Employee"}
+{"id": "8ee09c4a", "name": "Nguy\u1ec5n Trung", "dob": "22-03-1982", "edu_lv": "9/12", "phone": "0962288581", "type": "Co-Worker"}
+{"id": "8ee09c72", "name": "Nguy\u1ec5n Giang", "dob": "19-02-1989", "edu_lv": "Trung C\u1ea5p", "phone": "0927794967", "type": "Employee"}
+{"id": "8ee09ca4", "name": "Nguy\u1ec5n Qu\u00e2n", "dob": "16-05-1977", "edu_lv": "9/12", "phone": "0910306049", "type": "Co-Worker"}
+{"id": "8ee09cd6", "name": "Nguy\u1ec5n Linh", "dob": "27-07-1973", "edu_lv": "9/12", "phone": "0977947115", "type": "Employee"}
+{"id": "8ee09d08", "name": "Nguy\u1ec5n Huy\u1ec1n", "dob": "22-06-1971", "edu_lv": "11/12", "phone": "0910687333", "type": "Co-Worker"}
+{"id": "8ee09d3a", "name": "Nguy\u1ec5n Tr\u01b0\u1eddng", "dob": "02-05-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0953231863", "type": "Co-Worker"}
+{"id": "8ee09d6c", "name": "Nguy\u1ec5n Th\u1ecd", "dob": "07-02-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0995917166", "type": "Co-Worker"}
+{"id": "8ee09d94", "name": "Nguy\u1ec5n Ki\u1ec7t", "dob": "14-05-1987", "edu_lv": "12/12", "phone": "0956819954", "type": "Co-Worker"}
+{"id": "8ee09dc6", "name": "Nguy\u1ec5n \u0110\u1ea1t", "dob": "16-04-1976", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0938353078", "type": "Co-Worker"}
+{"id": "8ee09df8", "name": "\u0110\u1eb7ng T\u00e0i", "dob": "02-08-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0980009204", "type": "Co-Worker"}
+{"id": "8ee09e2a", "name": "\u0110\u1eb7ng D\u0169ng", "dob": "28-02-1984", "edu_lv": "12/12", "phone": "0953066829", "type": "Co-Worker"}
+{"id": "8ee09e5c", "name": "\u0110\u1eb7ng D\u01b0\u01a1ng", "dob": "12-07-1984", "edu_lv": "12/12", "phone": "0999265148", "type": "Co-Worker"}
+{"id": "8ee09e84", "name": "\u0110\u1eb7ng L\u00e2m", "dob": "07-06-1975", "edu_lv": "10/12", "phone": "0911469438", "type": "Employee"}
+{"id": "8ee09eb6", "name": "\u0110\u1eb7ng Minh", "dob": "07-07-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0985561961", "type": "Co-Worker"}
+{"id": "8ee09ee8", "name": "\u0110\u1eb7ng \u0110\u1ee9c", "dob": "16-08-1994", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0938391879", "type": "Employee"}
+{"id": "8ee09f1a", "name": "\u0110\u1eb7ng B\u00e1ch", "dob": "09-08-1973", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0984281202", "type": "Employee"}
+{"id": "8ee09f4c", "name": "\u0110\u1eb7ng Tu\u1ea5n", "dob": "03-02-1978", "edu_lv": "12/12", "phone": "0953529602", "type": "Employee"}
+{"id": "8ee09f7e", "name": "\u0110\u1eb7ng Quy\u1ebft", "dob": "11-09-1976", "edu_lv": "9/12", "phone": "0923602428", "type": "Employee"}
+{"id": "8ee09fa6", "name": "\u0110\u1eb7ng Nam", "dob": "21-11-1975", "edu_lv": "10/12", "phone": "0933951595", "type": "Employee"}
+{"id": "8ee09fd8", "name": "\u0110\u1eb7ng B\u1eafc", "dob": "21-12-1992", "edu_lv": "10/12", "phone": "0931344559", "type": "Co-Worker"}
+{"id": "8ee0a00a", "name": "\u0110\u1eb7ng Trung", "dob": "01-02-1988", "edu_lv": "11/12", "phone": "0918555538", "type": "Co-Worker"}
+{"id": "8ee0a03c", "name": "\u0110\u1eb7ng Giang", "dob": "23-12-1971", "edu_lv": "10/12", "phone": "0954331914", "type": "Co-Worker"}
+{"id": "8ee0a06e", "name": "\u0110\u1eb7ng Qu\u00e2n", "dob": "27-12-1970", "edu_lv": "9/12", "phone": "0953213567", "type": "Co-Worker"}
+{"id": "8ee0a096", "name": "\u0110\u1eb7ng Linh", "dob": "17-01-1997", "edu_lv": "9/12", "phone": "0910398280", "type": "Employee"}
+{"id": "8ee0a0c8", "name": "\u0110\u1eb7ng Huy\u1ec1n", "dob": "18-07-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0990561424", "type": "Co-Worker"}
+{"id": "8ee0a0fa", "name": "\u0110\u1eb7ng Tr\u01b0\u1eddng", "dob": "05-02-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0965988249", "type": "Employee"}
+{"id": "8ee0a122", "name": "\u0110\u1eb7ng Th\u1ecd", "dob": "02-02-1973", "edu_lv": "11/12", "phone": "0925008535", "type": "Co-Worker"}
+{"id": "8ee0a154", "name": "\u0110\u1eb7ng Ki\u1ec7t", "dob": "29-11-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0924384408", "type": "Co-Worker"}
+{"id": "8ee0a190", "name": "\u0110\u1eb7ng \u0110\u1ea1t", "dob": "26-06-1992", "edu_lv": "11/12", "phone": "0999679062", "type": "Employee"}
+{"id": "8ee0a1c2", "name": "Ph\u1ea1m T\u00e0i", "dob": "31-03-1981", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0998791162", "type": "Co-Worker"}
+{"id": "8ee0a1f4", "name": "Ph\u1ea1m D\u0169ng", "dob": "25-07-1983", "edu_lv": "12/12", "phone": "0947273700", "type": "Co-Worker"}
+{"id": "8ee0a280", "name": "Ph\u1ea1m D\u01b0\u01a1ng", "dob": "03-09-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0970482835", "type": "Co-Worker"}
+{"id": "8ee0a2b2", "name": "Ph\u1ea1m L\u00e2m", "dob": "29-04-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0983118172", "type": "Employee"}
+{"id": "8ee0a2e4", "name": "Ph\u1ea1m Minh", "dob": "21-11-2000", "edu_lv": "12/12", "phone": "0983613909", "type": "Employee"}
+{"id": "8ee0a316", "name": "Ph\u1ea1m \u0110\u1ee9c", "dob": "22-12-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0985154427", "type": "Co-Worker"}
+{"id": "8ee0a348", "name": "Ph\u1ea1m B\u00e1ch", "dob": "26-12-1997", "edu_lv": "11/12", "phone": "0987450691", "type": "Co-Worker"}
+{"id": "8ee0a37a", "name": "Ph\u1ea1m Tu\u1ea5n", "dob": "13-11-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0936981142", "type": "Co-Worker"}
+{"id": "8ee0a3ac", "name": "Ph\u1ea1m Quy\u1ebft", "dob": "25-11-1976", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0969839332", "type": "Employee"}
+{"id": "8ee0a3de", "name": "Ph\u1ea1m Nam", "dob": "07-02-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0938719796", "type": "Co-Worker"}
+{"id": "8ee0a410", "name": "Ph\u1ea1m B\u1eafc", "dob": "28-05-1984", "edu_lv": "10/12", "phone": "0975782031", "type": "Employee"}
+{"id": "8ee0a442", "name": "Ph\u1ea1m Trung", "dob": "09-06-1994", "edu_lv": "Trung C\u1ea5p", "phone": "0969229611", "type": "Employee"}
+{"id": "8ee0a46a", "name": "Ph\u1ea1m Giang", "dob": "13-02-1997", "edu_lv": "9/12", "phone": "0930117667", "type": "Employee"}
+{"id": "8ee0a4b0", "name": "Ph\u1ea1m Qu\u00e2n", "dob": "15-10-1996", "edu_lv": "11/12", "phone": "0938895177", "type": "Co-Worker"}
+{"id": "8ee0a4e2", "name": "Ph\u1ea1m Linh", "dob": "23-10-1988", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0930401002", "type": "Employee"}
+{"id": "8ee0a514", "name": "Ph\u1ea1m Huy\u1ec1n", "dob": "31-01-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0988982618", "type": "Employee"}
+{"id": "8ee0a546", "name": "Ph\u1ea1m Tr\u01b0\u1eddng", "dob": "27-10-1998", "edu_lv": "11/12", "phone": "0998361036", "type": "Employee"}
+{"id": "8ee0a56e", "name": "Ph\u1ea1m Th\u1ecd", "dob": "05-09-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0986500274", "type": "Employee"}
+{"id": "8ee0a5a0", "name": "Ph\u1ea1m Ki\u1ec7t", "dob": "12-01-1972", "edu_lv": "Trung C\u1ea5p", "phone": "0999956415", "type": "Employee"}
+{"id": "8ee0a5d2", "name": "Ph\u1ea1m \u0110\u1ea1t", "dob": "07-05-1985", "edu_lv": "Trung C\u1ea5p", "phone": "0985410688", "type": "Employee"}
+{"id": "8ee0a604", "name": "B\u00f9i T\u00e0i", "dob": "05-02-1975", "edu_lv": "9/12", "phone": "0944995613", "type": "Employee"}
+{"id": "8ee0a62c", "name": "B\u00f9i D\u0169ng", "dob": "08-07-1970", "edu_lv": "10/12", "phone": "0986255637", "type": "Employee"}
+{"id": "8ee0a65e", "name": "B\u00f9i D\u01b0\u01a1ng", "dob": "30-05-1995", "edu_lv": "12/12", "phone": "0989150826", "type": "Employee"}
+{"id": "8ee0a690", "name": "B\u00f9i L\u00e2m", "dob": "21-09-2000", "edu_lv": "10/12", "phone": "0953130439", "type": "Co-Worker"}
+{"id": "8ee0a6c2", "name": "B\u00f9i Minh", "dob": "23-02-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0955767095", "type": "Co-Worker"}
+{"id": "8ee0a6ea", "name": "B\u00f9i \u0110\u1ee9c", "dob": "16-12-1987", "edu_lv": "9/12", "phone": "0975668361", "type": "Employee"}
+{"id": "8ee0a71c", "name": "B\u00f9i B\u00e1ch", "dob": "11-05-1976", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0972956797", "type": "Co-Worker"}
+{"id": "8ee0a74e", "name": "B\u00f9i Tu\u1ea5n", "dob": "22-02-1996", "edu_lv": "11/12", "phone": "0955856837", "type": "Co-Worker"}
+{"id": "8ee0a780", "name": "B\u00f9i Quy\u1ebft", "dob": "05-04-1994", "edu_lv": "12/12", "phone": "0913166484", "type": "Employee"}
+{"id": "8ee0a7bc", "name": "B\u00f9i Nam", "dob": "07-07-1985", "edu_lv": "10/12", "phone": "0922033701", "type": "Employee"}
+{"id": "8ee0a7e4", "name": "B\u00f9i B\u1eafc", "dob": "18-08-1987", "edu_lv": "10/12", "phone": "0959776294", "type": "Co-Worker"}
+{"id": "8ee0a816", "name": "B\u00f9i Trung", "dob": "24-08-1992", "edu_lv": "11/12", "phone": "0994344331", "type": "Employee"}
+{"id": "8ee0a848", "name": "B\u00f9i Giang", "dob": "18-07-1972", "edu_lv": "9/12", "phone": "0957748015", "type": "Co-Worker"}
+{"id": "8ee0a87a", "name": "B\u00f9i Qu\u00e2n", "dob": "09-05-1979", "edu_lv": "Trung C\u1ea5p", "phone": "0986864682", "type": "Co-Worker"}
+{"id": "8ee0a8a2", "name": "B\u00f9i Linh", "dob": "08-02-1980", "edu_lv": "12/12", "phone": "0982936737", "type": "Employee"}
+{"id": "8ee0a8d4", "name": "B\u00f9i Huy\u1ec1n", "dob": "09-10-1995", "edu_lv": "Trung C\u1ea5p", "phone": "0927192789", "type": "Employee"}
+{"id": "8ee0a906", "name": "B\u00f9i Tr\u01b0\u1eddng", "dob": "27-07-1989", "edu_lv": "10/12", "phone": "0962028003", "type": "Employee"}
+{"id": "8ee0a92e", "name": "B\u00f9i Th\u1ecd", "dob": "01-12-1983", "edu_lv": "11/12", "phone": "0930126227", "type": "Co-Worker"}
+{"id": "8ee0a960", "name": "B\u00f9i Ki\u1ec7t", "dob": "19-09-1991", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0983070234", "type": "Co-Worker"}
+{"id": "8ee0a992", "name": "B\u00f9i \u0110\u1ea1t", "dob": "01-04-1999", "edu_lv": "12/12", "phone": "0990768647", "type": "Employee"}
+{"id": "8ee0a9c4", "name": "Cao T\u00e0i", "dob": "04-06-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0971466196", "type": "Co-Worker"}
+{"id": "8ee0a9f6", "name": "Cao D\u0169ng", "dob": "21-12-1971", "edu_lv": "9/12", "phone": "0943210058", "type": "Co-Worker"}
+{"id": "8ee0aa28", "name": "Cao D\u01b0\u01a1ng", "dob": "28-11-1975", "edu_lv": "Trung C\u1ea5p", "phone": "0949296286", "type": "Co-Worker"}
+{"id": "8ee0aa50", "name": "Cao L\u00e2m", "dob": "08-09-1974", "edu_lv": "11/12", "phone": "0966746620", "type": "Co-Worker"}
+{"id": "8ee0aa82", "name": "Cao Minh", "dob": "03-09-1986", "edu_lv": "12/12", "phone": "0999513471", "type": "Employee"}
+{"id": "8ee0aab4", "name": "Cao \u0110\u1ee9c", "dob": "16-05-1990", "edu_lv": "11/12", "phone": "0944014556", "type": "Co-Worker"}
+{"id": "8ee0aae6", "name": "Cao B\u00e1ch", "dob": "01-07-1976", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0962569399", "type": "Co-Worker"}
+{"id": "8ee0ab18", "name": "Cao Tu\u1ea5n", "dob": "22-11-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0962916427", "type": "Co-Worker"}
+{"id": "8ee0ab4a", "name": "Cao Quy\u1ebft", "dob": "25-01-1997", "edu_lv": "Trung C\u1ea5p", "phone": "0930783772", "type": "Co-Worker"}
+{"id": "8ee0ab7c", "name": "Cao Nam", "dob": "21-10-1971", "edu_lv": "10/12", "phone": "0952991620", "type": "Employee"}
+{"id": "8ee0abae", "name": "Cao B\u1eafc", "dob": "30-12-1988", "edu_lv": "12/12", "phone": "0925484192", "type": "Employee"}
+{"id": "8ee0abe0", "name": "Cao Trung", "dob": "09-07-1972", "edu_lv": "12/12", "phone": "0923456052", "type": "Employee"}
+{"id": "8ee0ac08", "name": "Cao Giang", "dob": "12-06-1984", "edu_lv": "10/12", "phone": "0978786790", "type": "Employee"}
+{"id": "8ee0ac3a", "name": "Cao Qu\u00e2n", "dob": "05-02-1992", "edu_lv": "10/12", "phone": "0968805402", "type": "Employee"}
+{"id": "8ee0ac6c", "name": "Cao Linh", "dob": "14-02-1982", "edu_lv": "12/12", "phone": "0973675663", "type": "Employee"}
+{"id": "8ee0ac9e", "name": "Cao Huy\u1ec1n", "dob": "16-09-1973", "edu_lv": "10/12", "phone": "0960618475", "type": "Co-Worker"}
+{"id": "8ee0acd0", "name": "Cao Tr\u01b0\u1eddng", "dob": "10-03-1990", "edu_lv": "12/12", "phone": "0910830050", "type": "Co-Worker"}
+{"id": "8ee0acf8", "name": "Cao Th\u1ecd", "dob": "10-05-1989", "edu_lv": "12/12", "phone": "0982129848", "type": "Employee"}
+{"id": "8ee0ad2a", "name": "Cao Ki\u1ec7t", "dob": "03-04-1991", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0964197627", "type": "Co-Worker"}
+{"id": "8ee0ad5c", "name": "Cao \u0110\u1ea1t", "dob": "27-04-1999", "edu_lv": "10/12", "phone": "0924263749", "type": "Co-Worker"}
+{"id": "8ee0ad84", "name": "Tr\u1ea7n T\u00e0i", "dob": "01-03-1970", "edu_lv": "Trung C\u1ea5p", "phone": "0933858907", "type": "Employee"}
+{"id": "8ee0adb6", "name": "Tr\u1ea7n D\u0169ng", "dob": "19-09-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0929651764", "type": "Co-Worker"}
+{"id": "8ee0ade8", "name": "Tr\u1ea7n D\u01b0\u01a1ng", "dob": "27-11-1985", "edu_lv": "12/12", "phone": "0931616847", "type": "Co-Worker"}
+{"id": "8ee0ae1a", "name": "Tr\u1ea7n L\u00e2m", "dob": "03-05-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0958134484", "type": "Co-Worker"}
+{"id": "8ee0ae42", "name": "Tr\u1ea7n Minh", "dob": "16-01-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0915367391", "type": "Employee"}
+{"id": "8ee0aeba", "name": "Tr\u1ea7n \u0110\u1ee9c", "dob": "30-08-1991", "edu_lv": "11/12", "phone": "0939761663", "type": "Employee"}
+{"id": "8ee0aeec", "name": "Tr\u1ea7n B\u00e1ch", "dob": "06-11-1972", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0915543205", "type": "Co-Worker"}
+{"id": "8ee0af28", "name": "Tr\u1ea7n Tu\u1ea5n", "dob": "15-01-1994", "edu_lv": "12/12", "phone": "0949001935", "type": "Employee"}
+{"id": "8ee0af5a", "name": "Tr\u1ea7n Quy\u1ebft", "dob": "07-04-1998", "edu_lv": "11/12", "phone": "0923354272", "type": "Employee"}
+{"id": "8ee0af8c", "name": "Tr\u1ea7n Nam", "dob": "19-05-1980", "edu_lv": "11/12", "phone": "0927093123", "type": "Employee"}
+{"id": "8ee0afbe", "name": "Tr\u1ea7n B\u1eafc", "dob": "21-07-2000", "edu_lv": "9/12", "phone": "0978787306", "type": "Co-Worker"}
+{"id": "8ee0aff0", "name": "Tr\u1ea7n Trung", "dob": "31-03-1992", "edu_lv": "11/12", "phone": "0918957998", "type": "Employee"}
+{"id": "8ee0b018", "name": "Tr\u1ea7n Giang", "dob": "22-12-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0934796259", "type": "Co-Worker"}
+{"id": "8ee0b04a", "name": "Tr\u1ea7n Qu\u00e2n", "dob": "28-08-1998", "edu_lv": "12/12", "phone": "0910327801", "type": "Co-Worker"}
+{"id": "8ee0b07c", "name": "Tr\u1ea7n Linh", "dob": "10-02-1976", "edu_lv": "10/12", "phone": "0919985671", "type": "Co-Worker"}
+{"id": "8ee0b0a4", "name": "Tr\u1ea7n Huy\u1ec1n", "dob": "26-01-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0983745175", "type": "Co-Worker"}
+{"id": "8ee0b0d6", "name": "Tr\u1ea7n Tr\u01b0\u1eddng", "dob": "27-10-1978", "edu_lv": "12/12", "phone": "0989011921", "type": "Employee"}
+{"id": "8ee0b108", "name": "Tr\u1ea7n Th\u1ecd", "dob": "05-11-1991", "edu_lv": "11/12", "phone": "0958611783", "type": "Co-Worker"}
+{"id": "8ee0b130", "name": "Tr\u1ea7n Ki\u1ec7t", "dob": "09-06-1971", "edu_lv": "9/12", "phone": "0937206246", "type": "Co-Worker"}
+{"id": "8ee0b162", "name": "Tr\u1ea7n \u0110\u1ea1t", "dob": "19-05-1989", "edu_lv": "12/12", "phone": "0910151500", "type": "Co-Worker"}
+{"id": "8ee0b194", "name": "L\u00ea T\u00e0i", "dob": "13-11-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0965396387", "type": "Co-Worker"}
+{"id": "8ee0b1c6", "name": "L\u00ea D\u0169ng", "dob": "16-04-1977", "edu_lv": "12/12", "phone": "0955286862", "type": "Co-Worker"}
+{"id": "8ee0b1ee", "name": "L\u00ea D\u01b0\u01a1ng", "dob": "30-12-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0944380447", "type": "Employee"}
+{"id": "8ee0b220", "name": "L\u00ea L\u00e2m", "dob": "08-02-1994", "edu_lv": "12/12", "phone": "0915330377", "type": "Co-Worker"}
+{"id": "8ee0b252", "name": "L\u00ea Minh", "dob": "16-05-1991", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0939971922", "type": "Employee"}
+{"id": "8ee0b284", "name": "L\u00ea \u0110\u1ee9c", "dob": "11-09-1982", "edu_lv": "10/12", "phone": "0923150328", "type": "Employee"}
+{"id": "8ee0b2ac", "name": "L\u00ea B\u00e1ch", "dob": "24-07-1990", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0958549142", "type": "Employee"}
+{"id": "8ee0b2de", "name": "L\u00ea Tu\u1ea5n", "dob": "25-06-1976", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0931825917", "type": "Co-Worker"}
+{"id": "8ee0b310", "name": "L\u00ea Quy\u1ebft", "dob": "18-05-1981", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0971342606", "type": "Employee"}
+{"id": "8ee0b342", "name": "L\u00ea Nam", "dob": "07-04-1997", "edu_lv": "11/12", "phone": "0931127858", "type": "Co-Worker"}
+{"id": "8ee0b36a", "name": "L\u00ea B\u1eafc", "dob": "08-10-1978", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0973330164", "type": "Employee"}
+{"id": "8ee0b39c", "name": "L\u00ea Trung", "dob": "11-04-1992", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0989726371", "type": "Employee"}
+{"id": "8ee0b3ce", "name": "L\u00ea Giang", "dob": "27-12-1980", "edu_lv": "10/12", "phone": "0925623587", "type": "Co-Worker"}
+{"id": "8ee0b3f6", "name": "L\u00ea Qu\u00e2n", "dob": "19-07-1996", "edu_lv": "10/12", "phone": "0952557979", "type": "Employee"}
+{"id": "8ee0b428", "name": "L\u00ea Linh", "dob": "09-06-1993", "edu_lv": "9/12", "phone": "0923204639", "type": "Employee"}
+{"id": "8ee0b45a", "name": "L\u00ea Huy\u1ec1n", "dob": "31-08-1979", "edu_lv": "12/12", "phone": "0958444167", "type": "Employee"}
+{"id": "8ee0b482", "name": "L\u00ea Tr\u01b0\u1eddng", "dob": "30-08-1980", "edu_lv": "11/12", "phone": "0998210541", "type": "Co-Worker"}
+{"id": "8ee0b4b4", "name": "L\u00ea Th\u1ecd", "dob": "07-08-1995", "edu_lv": "9/12", "phone": "0929303571", "type": "Co-Worker"}
+{"id": "8ee0b4e6", "name": "L\u00ea Ki\u1ec7t", "dob": "01-04-1994", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0979640112", "type": "Co-Worker"}
+{"id": "8ee0b50e", "name": "L\u00ea \u0110\u1ea1t", "dob": "03-10-1999", "edu_lv": "9/12", "phone": "0931082430", "type": "Co-Worker"}
+{"id": "8ee0b540", "name": "\u0110\u1ed7 T\u00e0i", "dob": "26-06-1975", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0990566202", "type": "Employee"}
+{"id": "8ee0b572", "name": "\u0110\u1ed7 D\u0169ng", "dob": "12-02-1994", "edu_lv": "9/12", "phone": "0993431836", "type": "Co-Worker"}
+{"id": "8ee0b5a4", "name": "\u0110\u1ed7 D\u01b0\u01a1ng", "dob": "22-10-1981", "edu_lv": "9/12", "phone": "0966503267", "type": "Employee"}
+{"id": "8ee0b5cc", "name": "\u0110\u1ed7 L\u00e2m", "dob": "15-02-1980", "edu_lv": "11/12", "phone": "0960429024", "type": "Co-Worker"}
+{"id": "8ee0b5fe", "name": "\u0110\u1ed7 Minh", "dob": "21-02-1980", "edu_lv": "12/12", "phone": "0920631955", "type": "Employee"}
+{"id": "8ee0b630", "name": "\u0110\u1ed7 \u0110\u1ee9c", "dob": "11-03-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0972452865", "type": "Employee"}
+{"id": "8ee0b658", "name": "\u0110\u1ed7 B\u00e1ch", "dob": "05-02-1995", "edu_lv": "Trung C\u1ea5p", "phone": "0920928531", "type": "Co-Worker"}
+{"id": "8ee0b68a", "name": "\u0110\u1ed7 Tu\u1ea5n", "dob": "18-06-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0923260085", "type": "Employee"}
+{"id": "8ee0b6bc", "name": "\u0110\u1ed7 Quy\u1ebft", "dob": "18-06-1970", "edu_lv": "Trung C\u1ea5p", "phone": "0962431741", "type": "Employee"}
+{"id": "8ee0b6e4", "name": "\u0110\u1ed7 Nam", "dob": "22-04-1980", "edu_lv": "9/12", "phone": "0918417879", "type": "Employee"}
+{"id": "8ee0b716", "name": "\u0110\u1ed7 B\u1eafc", "dob": "30-05-1992", "edu_lv": "10/12", "phone": "0962876054", "type": "Co-Worker"}
+{"id": "8ee0b748", "name": "\u0110\u1ed7 Trung", "dob": "22-01-1989", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0991473930", "type": "Employee"}
+{"id": "8ee0b770", "name": "\u0110\u1ed7 Giang", "dob": "21-05-1977", "edu_lv": "9/12", "phone": "0956709267", "type": "Employee"}
+{"id": "8ee0b7a2", "name": "\u0110\u1ed7 Qu\u00e2n", "dob": "02-03-1989", "edu_lv": "Trung C\u1ea5p", "phone": "0924093632", "type": "Co-Worker"}
+{"id": "8ee0b7de", "name": "\u0110\u1ed7 Linh", "dob": "18-08-1979", "edu_lv": "12/12", "phone": "0988796286", "type": "Employee"}
+{"id": "8ee0b810", "name": "\u0110\u1ed7 Huy\u1ec1n", "dob": "01-02-1987", "edu_lv": "9/12", "phone": "0976165146", "type": "Co-Worker"}
+{"id": "8ee0b838", "name": "\u0110\u1ed7 Tr\u01b0\u1eddng", "dob": "13-01-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0947534404", "type": "Co-Worker"}
+{"id": "8ee0b86a", "name": "\u0110\u1ed7 Th\u1ecd", "dob": "07-08-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0993565105", "type": "Co-Worker"}
+{"id": "8ee0b89c", "name": "\u0110\u1ed7 Ki\u1ec7t", "dob": "04-01-1989", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0933358747", "type": "Co-Worker"}
+{"id": "8ee0b8c4", "name": "\u0110\u1ed7 \u0110\u1ea1t", "dob": "03-04-1975", "edu_lv": "10/12", "phone": "0913549508", "type": "Employee"}
+{"id": "8ee0b8f6", "name": "Ho\u00e0ng T\u00e0i", "dob": "14-12-1977", "edu_lv": "12/12", "phone": "0990630450", "type": "Co-Worker"}
+{"id": "8ee0b928", "name": "Ho\u00e0ng D\u0169ng", "dob": "16-08-1981", "edu_lv": "9/12", "phone": "0961706468", "type": "Co-Worker"}
+{"id": "8ee0b95a", "name": "Ho\u00e0ng D\u01b0\u01a1ng", "dob": "29-08-1984", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0964730185", "type": "Employee"}
+{"id": "8ee0b982", "name": "Ho\u00e0ng L\u00e2m", "dob": "30-07-1971", "edu_lv": "10/12", "phone": "0920142291", "type": "Employee"}
+{"id": "8ee0b9b4", "name": "Ho\u00e0ng Minh", "dob": "24-10-1983", "edu_lv": "11/12", "phone": "0913978028", "type": "Employee"}
+{"id": "8ee0b9e6", "name": "Ho\u00e0ng \u0110\u1ee9c", "dob": "05-12-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0984782412", "type": "Employee"}
+{"id": "8ee0ba0e", "name": "Ho\u00e0ng B\u00e1ch", "dob": "01-12-1971", "edu_lv": "Trung C\u1ea5p", "phone": "0935872291", "type": "Co-Worker"}
+{"id": "8ee0ba40", "name": "Ho\u00e0ng Tu\u1ea5n", "dob": "06-01-1971", "edu_lv": "11/12", "phone": "0934572427", "type": "Employee"}
+{"id": "8ee0ba90", "name": "Ho\u00e0ng Quy\u1ebft", "dob": "27-06-1988", "edu_lv": "10/12", "phone": "0953860954", "type": "Co-Worker"}
+{"id": "8ee0bac2", "name": "Ho\u00e0ng Nam", "dob": "19-03-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0921481960", "type": "Co-Worker"}
+{"id": "8ee0baf4", "name": "Ho\u00e0ng B\u1eafc", "dob": "06-10-1999", "edu_lv": "10/12", "phone": "0945077378", "type": "Employee"}
+{"id": "8ee0bb26", "name": "Ho\u00e0ng Trung", "dob": "02-10-1999", "edu_lv": "11/12", "phone": "0926149543", "type": "Co-Worker"}
+{"id": "8ee0bb58", "name": "Ho\u00e0ng Giang", "dob": "21-03-1988", "edu_lv": "9/12", "phone": "0995522140", "type": "Co-Worker"}
+{"id": "8ee0bb8a", "name": "Ho\u00e0ng Qu\u00e2n", "dob": "18-02-1981", "edu_lv": "Trung C\u1ea5p", "phone": "0972865908", "type": "Co-Worker"}
+{"id": "8ee0bbb2", "name": "Ho\u00e0ng Linh", "dob": "13-12-1977", "edu_lv": "10/12", "phone": "0932437442", "type": "Co-Worker"}
+{"id": "8ee0bbe4", "name": "Ho\u00e0ng Huy\u1ec1n", "dob": "15-04-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0927399078", "type": "Co-Worker"}
+{"id": "8ee0bc16", "name": "Ho\u00e0ng Tr\u01b0\u1eddng", "dob": "23-07-1979", "edu_lv": "12/12", "phone": "0982245304", "type": "Co-Worker"}
+{"id": "8ee0bc3e", "name": "Ho\u00e0ng Th\u1ecd", "dob": "17-08-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0956755421", "type": "Co-Worker"}
+{"id": "8ee0bc70", "name": "Ho\u00e0ng Ki\u1ec7t", "dob": "18-05-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0992043384", "type": "Co-Worker"}
+{"id": "8ee0bca2", "name": "Ho\u00e0ng \u0110\u1ea1t", "dob": "07-01-1991", "edu_lv": "10/12", "phone": "0991231666", "type": "Employee"}
+{"id": "8ee0bcd4", "name": "Phan T\u00e0i", "dob": "26-02-1996", "edu_lv": "10/12", "phone": "0945144700", "type": "Employee"}
+{"id": "8ee0bcfc", "name": "Phan D\u0169ng", "dob": "29-04-1991", "edu_lv": "10/12", "phone": "0986795272", "type": "Co-Worker"}
+{"id": "8ee0bd2e", "name": "Phan D\u01b0\u01a1ng", "dob": "17-08-1998", "edu_lv": "9/12", "phone": "0975499028", "type": "Co-Worker"}
+{"id": "8ee0bd60", "name": "Phan L\u00e2m", "dob": "20-10-1974", "edu_lv": "9/12", "phone": "0978697052", "type": "Employee"}
+{"id": "8ee0bd92", "name": "Phan Minh", "dob": "19-05-1975", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0958413560", "type": "Co-Worker"}
+{"id": "8ee0bdba", "name": "Phan \u0110\u1ee9c", "dob": "13-04-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0996570404", "type": "Employee"}
+{"id": "8ee0bdec", "name": "Phan B\u00e1ch", "dob": "27-06-2000", "edu_lv": "9/12", "phone": "0978285619", "type": "Co-Worker"}
+{"id": "8ee0be1e", "name": "Phan Tu\u1ea5n", "dob": "11-04-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0936236625", "type": "Co-Worker"}
+{"id": "8ee0be46", "name": "Phan Quy\u1ebft", "dob": "03-03-1979", "edu_lv": "9/12", "phone": "0971866585", "type": "Employee"}
+{"id": "8ee0be78", "name": "Phan Nam", "dob": "27-12-1970", "edu_lv": "10/12", "phone": "0965834085", "type": "Co-Worker"}
+{"id": "8ee0beaa", "name": "Phan B\u1eafc", "dob": "29-12-1971", "edu_lv": "Trung C\u1ea5p", "phone": "0930678442", "type": "Co-Worker"}
+{"id": "8ee0bed2", "name": "Phan Trung", "dob": "12-01-1973", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0947211494", "type": "Co-Worker"}
+{"id": "8ee0bf04", "name": "Phan Giang", "dob": "19-01-1978", "edu_lv": "12/12", "phone": "0957216867", "type": "Co-Worker"}
+{"id": "8ee0bf36", "name": "Phan Qu\u00e2n", "dob": "09-02-1974", "edu_lv": "Trung C\u1ea5p", "phone": "0953331124", "type": "Co-Worker"}
+{"id": "8ee0bf68", "name": "Phan Linh", "dob": "04-08-1971", "edu_lv": "11/12", "phone": "0938058054", "type": "Employee"}
+{"id": "8ee0bf90", "name": "Phan Huy\u1ec1n", "dob": "17-07-1973", "edu_lv": "9/12", "phone": "0933023313", "type": "Employee"}
+{"id": "8ee0bfc2", "name": "Phan Tr\u01b0\u1eddng", "dob": "08-10-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0921091206", "type": "Co-Worker"}
+{"id": "8ee0bff4", "name": "Phan Th\u1ecd", "dob": "31-08-1975", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0992155709", "type": "Employee"}
+{"id": "8ee0c01c", "name": "Phan Ki\u1ec7t", "dob": "02-03-1992", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0986135092", "type": "Employee"}
+{"id": "8ee0c04e", "name": "Phan \u0110\u1ea1t", "dob": "15-08-1992", "edu_lv": "Trung C\u1ea5p", "phone": "0912953925", "type": "Employee"}
+{"id": "8ee0c080", "name": "V\u0169 T\u00e0i", "dob": "02-07-1974", "edu_lv": "12/12", "phone": "0997817372", "type": "Employee"}
+{"id": "8ee0c0a8", "name": "V\u0169 D\u0169ng", "dob": "20-11-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0960044502", "type": "Employee"}
+{"id": "8ee0c0da", "name": "V\u0169 D\u01b0\u01a1ng", "dob": "15-01-1970", "edu_lv": "9/12", "phone": "0939276529", "type": "Co-Worker"}
+{"id": "8ee0c10c", "name": "V\u0169 L\u00e2m", "dob": "25-11-1998", "edu_lv": "9/12", "phone": "0953016093", "type": "Employee"}
+{"id": "8ee0c134", "name": "V\u0169 Minh", "dob": "26-06-1981", "edu_lv": "12/12", "phone": "0923420889", "type": "Co-Worker"}
+{"id": "8ee0c166", "name": "V\u0169 \u0110\u1ee9c", "dob": "25-05-1977", "edu_lv": "11/12", "phone": "0962060023", "type": "Co-Worker"}
+{"id": "8ee0c198", "name": "V\u0169 B\u00e1ch", "dob": "16-07-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0955344693", "type": "Co-Worker"}
+{"id": "8ee0c1c0", "name": "V\u0169 Tu\u1ea5n", "dob": "26-06-1977", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0992910299", "type": "Employee"}
+{"id": "8ee0c1f2", "name": "V\u0169 Quy\u1ebft", "dob": "28-01-1996", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0920059541", "type": "Co-Worker"}
+{"id": "8ee0c224", "name": "V\u0169 Nam", "dob": "10-09-1997", "edu_lv": "12/12", "phone": "0947324959", "type": "Employee"}
+{"id": "8ee0c256", "name": "V\u0169 B\u1eafc", "dob": "24-06-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0969888756", "type": "Co-Worker"}
+{"id": "8ee0c27e", "name": "V\u0169 Trung", "dob": "06-02-1988", "edu_lv": "9/12", "phone": "0928653894", "type": "Employee"}
+{"id": "8ee0c2b0", "name": "V\u0169 Giang", "dob": "18-08-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0982254881", "type": "Co-Worker"}
+{"id": "8ee0c2e2", "name": "V\u0169 Qu\u00e2n", "dob": "26-05-1999", "edu_lv": "11/12", "phone": "0922839223", "type": "Employee"}
+{"id": "8ee0c314", "name": "V\u0169 Linh", "dob": "10-12-1983", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0918641444", "type": "Employee"}
+{"id": "8ee0c346", "name": "V\u0169 Huy\u1ec1n", "dob": "24-08-1993", "edu_lv": "9/12", "phone": "0997580881", "type": "Co-Worker"}
+{"id": "8ee0c36e", "name": "V\u0169 Tr\u01b0\u1eddng", "dob": "07-06-1970", "edu_lv": "12/12", "phone": "0976852137", "type": "Co-Worker"}
+{"id": "8ee0c3a0", "name": "V\u0169 Th\u1ecd", "dob": "26-08-1978", "edu_lv": "Trung C\u1ea5p", "phone": "0947317825", "type": "Employee"}
+{"id": "8ee0c3d2", "name": "V\u0169 Ki\u1ec7t", "dob": "12-03-1970", "edu_lv": "Trung C\u1ea5p", "phone": "0923619990", "type": "Co-Worker"}
+{"id": "8ee0c3fa", "name": "V\u0169 \u0110\u1ea1t", "dob": "23-05-1974", "edu_lv": "9/12", "phone": "0946851970", "type": "Employee"}
+{"id": "8ee0c42c", "name": "D\u01b0\u01a1ng T\u00e0i", "dob": "04-03-1995", "edu_lv": "Trung C\u1ea5p", "phone": "0924963034", "type": "Employee"}
+{"id": "8ee0c45e", "name": "D\u01b0\u01a1ng D\u0169ng", "dob": "23-01-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0923224156", "type": "Employee"}
+{"id": "8ee0c486", "name": "D\u01b0\u01a1ng D\u01b0\u01a1ng", "dob": "01-12-1978", "edu_lv": "12/12", "phone": "0982996838", "type": "Employee"}
+{"id": "8ee0c4b8", "name": "D\u01b0\u01a1ng L\u00e2m", "dob": "28-01-1982", "edu_lv": "12/12", "phone": "0928360145", "type": "Co-Worker"}
+{"id": "8ee0c4ea", "name": "D\u01b0\u01a1ng Minh", "dob": "03-08-1988", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0967774307", "type": "Employee"}
+{"id": "8ee0c512", "name": "D\u01b0\u01a1ng \u0110\u1ee9c", "dob": "20-04-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0948590554", "type": "Co-Worker"}
+{"id": "8ee0c544", "name": "D\u01b0\u01a1ng B\u00e1ch", "dob": "28-12-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0939732651", "type": "Co-Worker"}
+{"id": "8ee0c576", "name": "D\u01b0\u01a1ng Tu\u1ea5n", "dob": "20-01-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0984259494", "type": "Co-Worker"}
+{"id": "8ee0c59e", "name": "D\u01b0\u01a1ng Quy\u1ebft", "dob": "28-03-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0968965994", "type": "Employee"}
+{"id": "8ee0c5d0", "name": "D\u01b0\u01a1ng Nam", "dob": "08-06-1974", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0927263504", "type": "Employee"}
+{"id": "8ee0c602", "name": "D\u01b0\u01a1ng B\u1eafc", "dob": "07-08-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0969865605", "type": "Employee"}
+{"id": "8ee0c710", "name": "D\u01b0\u01a1ng Trung", "dob": "20-03-1998", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0994510547", "type": "Co-Worker"}
+{"id": "8ee0c756", "name": "D\u01b0\u01a1ng Giang", "dob": "23-06-1982", "edu_lv": "Trung C\u1ea5p", "phone": "0937709647", "type": "Employee"}
+{"id": "8ee0c79c", "name": "D\u01b0\u01a1ng Qu\u00e2n", "dob": "16-06-1974", "edu_lv": "9/12", "phone": "0996666001", "type": "Co-Worker"}
+{"id": "8ee0c7d8", "name": "D\u01b0\u01a1ng Linh", "dob": "07-07-1979", "edu_lv": "11/12", "phone": "0997548091", "type": "Co-Worker"}
+{"id": "8ee0c814", "name": "D\u01b0\u01a1ng Huy\u1ec1n", "dob": "02-10-1985", "edu_lv": "Trung C\u1ea5p", "phone": "0919135637", "type": "Co-Worker"}
+{"id": "8ee0c85a", "name": "D\u01b0\u01a1ng Tr\u01b0\u1eddng", "dob": "06-10-1981", "edu_lv": "10/12", "phone": "0949503431", "type": "Employee"}
+{"id": "8ee0c88c", "name": "D\u01b0\u01a1ng Th\u1ecd", "dob": "21-07-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0993573429", "type": "Employee"}
+{"id": "8ee0c8be", "name": "D\u01b0\u01a1ng Ki\u1ec7t", "dob": "21-08-1992", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0956581667", "type": "Co-Worker"}
+{"id": "8ee0c8f0", "name": "D\u01b0\u01a1ng \u0110\u1ea1t", "dob": "04-07-2000", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0941613043", "type": "Co-Worker"}
+{"id": "8ee0c918", "name": "V\u00f5 T\u00e0i", "dob": "27-03-1977", "edu_lv": "10/12", "phone": "0992991336", "type": "Employee"}
+{"id": "8ee0c94a", "name": "V\u00f5 D\u0169ng", "dob": "23-08-1983", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0919728914", "type": "Co-Worker"}
+{"id": "8ee0c97c", "name": "V\u00f5 D\u01b0\u01a1ng", "dob": "13-07-1974", "edu_lv": "9/12", "phone": "0913450756", "type": "Employee"}
+{"id": "8ee0c9ae", "name": "V\u00f5 L\u00e2m", "dob": "28-08-1998", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0935422100", "type": "Co-Worker"}
+{"id": "8ee0c9d6", "name": "V\u00f5 Minh", "dob": "24-03-1998", "edu_lv": "Trung C\u1ea5p", "phone": "0922676234", "type": "Co-Worker"}
+{"id": "8ee0ca08", "name": "V\u00f5 \u0110\u1ee9c", "dob": "12-10-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0954785980", "type": "Co-Worker"}
+{"id": "8ee0ca3a", "name": "V\u00f5 B\u00e1ch", "dob": "09-12-1977", "edu_lv": "10/12", "phone": "0962110987", "type": "Employee"}
+{"id": "8ee0ca62", "name": "V\u00f5 Tu\u1ea5n", "dob": "15-02-1991", "edu_lv": "11/12", "phone": "0981910122", "type": "Co-Worker"}
+{"id": "8ee0ca94", "name": "V\u00f5 Quy\u1ebft", "dob": "09-06-1976", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0999498076", "type": "Co-Worker"}
+{"id": "8ee0cac6", "name": "V\u00f5 Nam", "dob": "23-08-1972", "edu_lv": "11/12", "phone": "0967168016", "type": "Co-Worker"}
+{"id": "8ee0caf8", "name": "V\u00f5 B\u1eafc", "dob": "27-12-1988", "edu_lv": "11/12", "phone": "0951494066", "type": "Co-Worker"}
+{"id": "8ee0cb2a", "name": "V\u00f5 Trung", "dob": "01-10-1990", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0938953644", "type": "Co-Worker"}
+{"id": "8ee0cb52", "name": "V\u00f5 Giang", "dob": "01-03-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0940579146", "type": "Co-Worker"}
+{"id": "8ee0cb84", "name": "V\u00f5 Qu\u00e2n", "dob": "23-06-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0944616085", "type": "Co-Worker"}
+{"id": "8ee0cbb6", "name": "V\u00f5 Linh", "dob": "25-02-1990", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0916531542", "type": "Employee"}
+{"id": "8ee0cbe8", "name": "V\u00f5 Huy\u1ec1n", "dob": "16-08-1998", "edu_lv": "Trung C\u1ea5p", "phone": "0965812221", "type": "Employee"}
+{"id": "8ee0cc10", "name": "V\u00f5 Tr\u01b0\u1eddng", "dob": "17-05-1972", "edu_lv": "Trung C\u1ea5p", "phone": "0959935934", "type": "Co-Worker"}
+{"id": "8ee0cc42", "name": "V\u00f5 Th\u1ecd", "dob": "06-10-1987", "edu_lv": "9/12", "phone": "0929490625", "type": "Co-Worker"}
+{"id": "8ee0cc74", "name": "V\u00f5 Ki\u1ec7t", "dob": "20-03-1986", "edu_lv": "10/12", "phone": "0914943382", "type": "Employee"}
+{"id": "8ee0cca6", "name": "V\u00f5 \u0110\u1ea1t", "dob": "09-02-1999", "edu_lv": "9/12", "phone": "0944935365", "type": "Employee"}
+{"id": "8ee0ccce", "name": "L\u00fd T\u00e0i", "dob": "02-03-1982", "edu_lv": "Trung C\u1ea5p", "phone": "0971871074", "type": "Employee"}
+{"id": "8ee0cd00", "name": "L\u00fd D\u0169ng", "dob": "22-03-1998", "edu_lv": "9/12", "phone": "0998855667", "type": "Co-Worker"}
+{"id": "8ee0cd32", "name": "L\u00fd D\u01b0\u01a1ng", "dob": "24-02-1992", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0941765225", "type": "Co-Worker"}
+{"id": "8ee0cd5a", "name": "L\u00fd L\u00e2m", "dob": "01-06-1999", "edu_lv": "12/12", "phone": "0973111781", "type": "Employee"}
+{"id": "8ee0cd8c", "name": "L\u00fd Minh", "dob": "02-11-1974", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0941071972", "type": "Employee"}
+{"id": "8ee0cdbe", "name": "L\u00fd \u0110\u1ee9c", "dob": "25-12-1995", "edu_lv": "11/12", "phone": "0919785760", "type": "Employee"}
+{"id": "8ee0cde6", "name": "L\u00fd B\u00e1ch", "dob": "06-05-2000", "edu_lv": "11/12", "phone": "0980237991", "type": "Co-Worker"}
+{"id": "8ee0ce18", "name": "L\u00fd Tu\u1ea5n", "dob": "27-04-1991", "edu_lv": "Trung C\u1ea5p", "phone": "0969940274", "type": "Co-Worker"}
+{"id": "8ee0ce4a", "name": "L\u00fd Quy\u1ebft", "dob": "12-08-1982", "edu_lv": "9/12", "phone": "0987775143", "type": "Employee"}
+{"id": "8ee0ce7c", "name": "L\u00fd Nam", "dob": "05-05-1994", "edu_lv": "Trung C\u1ea5p", "phone": "0984318651", "type": "Employee"}
+{"id": "8ee0ceae", "name": "L\u00fd B\u1eafc", "dob": "27-08-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0930062638", "type": "Co-Worker"}
+{"id": "8ee0ced6", "name": "L\u00fd Trung", "dob": "26-02-1982", "edu_lv": "11/12", "phone": "0993886824", "type": "Co-Worker"}
+{"id": "8ee0cf08", "name": "L\u00fd Giang", "dob": "14-03-1994", "edu_lv": "11/12", "phone": "0976981219", "type": "Co-Worker"}
+{"id": "8ee0cf3a", "name": "L\u00fd Qu\u00e2n", "dob": "30-10-1989", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0983663012", "type": "Employee"}
+{"id": "8ee0cf62", "name": "L\u00fd Linh", "dob": "09-02-1972", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0957537303", "type": "Employee"}
+{"id": "8ee0cf94", "name": "L\u00fd Huy\u1ec1n", "dob": "25-07-1985", "edu_lv": "12/12", "phone": "0975110789", "type": "Employee"}
+{"id": "8ee0cfc6", "name": "L\u00fd Tr\u01b0\u1eddng", "dob": "10-02-1975", "edu_lv": "12/12", "phone": "0970022017", "type": "Employee"}
+{"id": "8ee0cfee", "name": "L\u00fd Th\u1ecd", "dob": "07-05-1995", "edu_lv": "11/12", "phone": "0972826047", "type": "Co-Worker"}
+{"id": "8ee0d020", "name": "L\u00fd Ki\u1ec7t", "dob": "20-07-1985", "edu_lv": "10/12", "phone": "0922075827", "type": "Employee"}
+{"id": "8ee0d052", "name": "L\u00fd \u0110\u1ea1t", "dob": "28-10-1983", "edu_lv": "11/12", "phone": "0968125255", "type": "Employee"}
+{"id": "8ee0d084", "name": "Phan T\u00e0i", "dob": "11-04-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0911058994", "type": "Co-Worker"}
+{"id": "8ee0d0ac", "name": "Phan D\u0169ng", "dob": "26-07-1976", "edu_lv": "11/12", "phone": "0950273943", "type": "Co-Worker"}
+{"id": "8ee0d0de", "name": "Phan D\u01b0\u01a1ng", "dob": "10-07-1990", "edu_lv": "10/12", "phone": "0927653109", "type": "Employee"}
+{"id": "8ee0d110", "name": "Phan L\u00e2m", "dob": "03-02-1994", "edu_lv": "11/12", "phone": "0928320854", "type": "Employee"}
+{"id": "8ee0d142", "name": "Phan Minh", "dob": "27-06-1999", "edu_lv": "9/12", "phone": "0995045224", "type": "Co-Worker"}
+{"id": "8ee0d16a", "name": "Phan \u0110\u1ee9c", "dob": "02-08-1987", "edu_lv": "9/12", "phone": "0928197011", "type": "Employee"}
+{"id": "8ee0d19c", "name": "Phan B\u00e1ch", "dob": "01-05-1988", "edu_lv": "Trung C\u1ea5p", "phone": "0917016453", "type": "Co-Worker"}
+{"id": "8ee0d1ce", "name": "Phan Tu\u1ea5n", "dob": "27-12-1981", "edu_lv": "9/12", "phone": "0912435770", "type": "Employee"}
+{"id": "8ee0d1f6", "name": "Phan Quy\u1ebft", "dob": "10-12-1974", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0974969531", "type": "Employee"}
+{"id": "8ee0d228", "name": "Phan Nam", "dob": "07-10-1978", "edu_lv": "Trung C\u1ea5p", "phone": "0941266176", "type": "Co-Worker"}
+{"id": "8ee0d25a", "name": "Phan B\u1eafc", "dob": "06-12-1982", "edu_lv": "11/12", "phone": "0975214724", "type": "Employee"}
+{"id": "8ee0d28c", "name": "Phan Trung", "dob": "19-11-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0915713716", "type": "Co-Worker"}
+{"id": "8ee0d2be", "name": "Phan Giang", "dob": "06-04-1977", "edu_lv": "11/12", "phone": "0960993261", "type": "Employee"}
+{"id": "8ee0d2e6", "name": "Phan Qu\u00e2n", "dob": "08-08-1990", "edu_lv": "12/12", "phone": "0939778049", "type": "Employee"}
+{"id": "8ee0d336", "name": "Phan Linh", "dob": "06-06-1997", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0984380453", "type": "Co-Worker"}
+{"id": "8ee0d368", "name": "Phan Huy\u1ec1n", "dob": "22-09-1993", "edu_lv": "10/12", "phone": "0938478399", "type": "Employee"}
+{"id": "8ee0d39a", "name": "Phan Tr\u01b0\u1eddng", "dob": "04-05-1986", "edu_lv": "11/12", "phone": "0923994722", "type": "Co-Worker"}
+{"id": "8ee0d3cc", "name": "Phan Th\u1ecd", "dob": "11-11-1990", "edu_lv": "10/12", "phone": "0929937033", "type": "Employee"}
+{"id": "8ee0d3fe", "name": "Phan Ki\u1ec7t", "dob": "04-01-1971", "edu_lv": "10/12", "phone": "0989684202", "type": "Co-Worker"}
+{"id": "8ee0d430", "name": "Phan \u0110\u1ea1t", "dob": "07-09-1974", "edu_lv": "Trung C\u1ea5p", "phone": "0912332621", "type": "Co-Worker"}
+{"id": "8ee0d458", "name": "Ng\u00f4 T\u00e0i", "dob": "26-01-1990", "edu_lv": "11/12", "phone": "0923222205", "type": "Co-Worker"}
+{"id": "8ee0d48a", "name": "Ng\u00f4 D\u0169ng", "dob": "14-06-1973", "edu_lv": "9/12", "phone": "0984097206", "type": "Employee"}
+{"id": "8ee0d4bc", "name": "Ng\u00f4 D\u01b0\u01a1ng", "dob": "23-04-1975", "edu_lv": "10/12", "phone": "0954198074", "type": "Employee"}
+{"id": "8ee0d4ee", "name": "Ng\u00f4 L\u00e2m", "dob": "07-09-1984", "edu_lv": "9/12", "phone": "0914758209", "type": "Co-Worker"}
+{"id": "8ee0d516", "name": "Ng\u00f4 Minh", "dob": "18-12-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0928716771", "type": "Employee"}
+{"id": "8ee0d548", "name": "Ng\u00f4 \u0110\u1ee9c", "dob": "06-03-1981", "edu_lv": "9/12", "phone": "0999033463", "type": "Employee"}
+{"id": "8ee0d57a", "name": "Ng\u00f4 B\u00e1ch", "dob": "15-08-1993", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0947237210", "type": "Co-Worker"}
+{"id": "8ee0d5ac", "name": "Ng\u00f4 Tu\u1ea5n", "dob": "22-06-1984", "edu_lv": "11/12", "phone": "0960235742", "type": "Employee"}
+{"id": "8ee0d5d4", "name": "Ng\u00f4 Quy\u1ebft", "dob": "14-11-1977", "edu_lv": "12/12", "phone": "0924475059", "type": "Employee"}
+{"id": "8ee0d606", "name": "Ng\u00f4 Nam", "dob": "17-09-1982", "edu_lv": "9/12", "phone": "0993942236", "type": "Employee"}
+{"id": "8ee0d638", "name": "Ng\u00f4 B\u1eafc", "dob": "13-04-1992", "edu_lv": "9/12", "phone": "0926530536", "type": "Employee"}
+{"id": "8ee0d66a", "name": "Ng\u00f4 Trung", "dob": "14-05-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0913581541", "type": "Employee"}
+{"id": "8ee0d692", "name": "Ng\u00f4 Giang", "dob": "15-06-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0958162586", "type": "Co-Worker"}
+{"id": "8ee0d6c4", "name": "Ng\u00f4 Qu\u00e2n", "dob": "31-07-1979", "edu_lv": "10/12", "phone": "0939726986", "type": "Co-Worker"}
+{"id": "8ee0d6f6", "name": "Ng\u00f4 Linh", "dob": "03-02-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0966573741", "type": "Employee"}
+{"id": "8ee0d728", "name": "Ng\u00f4 Huy\u1ec1n", "dob": "07-04-1971", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0921826993", "type": "Co-Worker"}
+{"id": "8ee0d750", "name": "Ng\u00f4 Tr\u01b0\u1eddng", "dob": "05-10-1993", "edu_lv": "11/12", "phone": "0979720590", "type": "Co-Worker"}
+{"id": "8ee0d782", "name": "Ng\u00f4 Th\u1ecd", "dob": "28-05-1985", "edu_lv": "10/12", "phone": "0968282232", "type": "Co-Worker"}
+{"id": "8ee0d7b4", "name": "Ng\u00f4 Ki\u1ec7t", "dob": "09-08-1998", "edu_lv": "12/12", "phone": "0941612546", "type": "Employee"}
+{"id": "8ee0d7dc", "name": "Ng\u00f4 \u0110\u1ea1t", "dob": "20-05-1989", "edu_lv": "12/12", "phone": "0923556642", "type": "Co-Worker"}
+{"id": "8ee0d80e", "name": "Nguy\u1ec5n T\u00e0i", "dob": "15-12-1970", "edu_lv": "10/12", "phone": "0962919796", "type": "Co-Worker"}
+{"id": "8ee0d840", "name": "Nguy\u1ec5n D\u0169ng", "dob": "26-03-1982", "edu_lv": "9/12", "phone": "0979975385", "type": "Co-Worker"}
+{"id": "8ee0d872", "name": "Nguy\u1ec5n D\u01b0\u01a1ng", "dob": "28-05-2000", "edu_lv": "12/12", "phone": "0977173235", "type": "Co-Worker"}
+{"id": "8ee0d89a", "name": "Nguy\u1ec5n L\u00e2m", "dob": "05-03-1990", "edu_lv": "11/12", "phone": "0978825089", "type": "Employee"}
+{"id": "8ee0d8cc", "name": "Nguy\u1ec5n Minh", "dob": "09-06-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0958852573", "type": "Co-Worker"}
+{"id": "8ee0d8fe", "name": "Nguy\u1ec5n \u0110\u1ee9c", "dob": "28-04-1989", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0919846785", "type": "Co-Worker"}
+{"id": "8ee0d930", "name": "Nguy\u1ec5n B\u00e1ch", "dob": "03-06-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0963172366", "type": "Co-Worker"}
+{"id": "8ee0d962", "name": "Nguy\u1ec5n Tu\u1ea5n", "dob": "31-10-1984", "edu_lv": "12/12", "phone": "0930262105", "type": "Co-Worker"}
+{"id": "8ee0d98a", "name": "Nguy\u1ec5n Quy\u1ebft", "dob": "07-05-2000", "edu_lv": "Trung C\u1ea5p", "phone": "0957382047", "type": "Co-Worker"}
+{"id": "8ee0d9bc", "name": "Nguy\u1ec5n Nam", "dob": "23-05-1972", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0989325073", "type": "Co-Worker"}
+{"id": "8ee0d9ee", "name": "Nguy\u1ec5n B\u1eafc", "dob": "24-10-1970", "edu_lv": "10/12", "phone": "0991061314", "type": "Co-Worker"}
+{"id": "8ee0da20", "name": "Nguy\u1ec5n Trung", "dob": "03-04-1977", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0920620489", "type": "Co-Worker"}
+{"id": "8ee0da48", "name": "Nguy\u1ec5n Giang", "dob": "28-03-1978", "edu_lv": "11/12", "phone": "0927429728", "type": "Employee"}
+{"id": "8ee0da7a", "name": "Nguy\u1ec5n Qu\u00e2n", "dob": "26-01-1982", "edu_lv": "Trung C\u1ea5p", "phone": "0961998544", "type": "Employee"}
+{"id": "8ee0daac", "name": "Nguy\u1ec5n Linh", "dob": "11-12-1978", "edu_lv": "Trung C\u1ea5p", "phone": "0925782493", "type": "Co-Worker"}
+{"id": "8ee0dade", "name": "Nguy\u1ec5n Huy\u1ec1n", "dob": "30-12-1984", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0978336379", "type": "Co-Worker"}
+{"id": "8ee0db10", "name": "Nguy\u1ec5n Tr\u01b0\u1eddng", "dob": "24-06-1993", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0960606154", "type": "Employee"}
+{"id": "8ee0db42", "name": "Nguy\u1ec5n Th\u1ecd", "dob": "22-12-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0983566325", "type": "Co-Worker"}
+{"id": "8ee0db74", "name": "Nguy\u1ec5n Ki\u1ec7t", "dob": "28-04-1971", "edu_lv": "12/12", "phone": "0977988039", "type": "Co-Worker"}
+{"id": "8ee0dba6", "name": "Nguy\u1ec5n \u0110\u1ea1t", "dob": "02-04-1992", "edu_lv": "9/12", "phone": "0987770375", "type": "Co-Worker"}
+{"id": "8ee0dbce", "name": "\u0110\u1eb7ng T\u00e0i", "dob": "04-05-1976", "edu_lv": "12/12", "phone": "0948446569", "type": "Co-Worker"}
+{"id": "8ee0dc00", "name": "\u0110\u1eb7ng D\u0169ng", "dob": "20-09-1975", "edu_lv": "11/12", "phone": "0932817057", "type": "Employee"}
+{"id": "8ee0dc32", "name": "\u0110\u1eb7ng D\u01b0\u01a1ng", "dob": "06-11-1993", "edu_lv": "11/12", "phone": "0940474644", "type": "Co-Worker"}
+{"id": "8ee0dc64", "name": "\u0110\u1eb7ng L\u00e2m", "dob": "23-09-1981", "edu_lv": "11/12", "phone": "0938074698", "type": "Employee"}
+{"id": "8ee0dc96", "name": "\u0110\u1eb7ng Minh", "dob": "19-07-1991", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0973512516", "type": "Employee"}
+{"id": "8ee0dcbe", "name": "\u0110\u1eb7ng \u0110\u1ee9c", "dob": "16-01-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0950280257", "type": "Co-Worker"}
+{"id": "8ee0dcf0", "name": "\u0110\u1eb7ng B\u00e1ch", "dob": "27-01-1975", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0995719177", "type": "Co-Worker"}
+{"id": "8ee0dd22", "name": "\u0110\u1eb7ng Tu\u1ea5n", "dob": "15-02-1977", "edu_lv": "Trung C\u1ea5p", "phone": "0913147238", "type": "Co-Worker"}
+{"id": "8ee0dd54", "name": "\u0110\u1eb7ng Quy\u1ebft", "dob": "24-10-1981", "edu_lv": "11/12", "phone": "0973933637", "type": "Employee"}
+{"id": "8ee0dd7c", "name": "\u0110\u1eb7ng Nam", "dob": "28-10-1984", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0927000319", "type": "Co-Worker"}
+{"id": "8ee0ddae", "name": "\u0110\u1eb7ng B\u1eafc", "dob": "13-04-1974", "edu_lv": "Trung C\u1ea5p", "phone": "0996831289", "type": "Employee"}
+{"id": "8ee0dde0", "name": "\u0110\u1eb7ng Trung", "dob": "18-09-1972", "edu_lv": "10/12", "phone": "0972212568", "type": "Employee"}
+{"id": "8ee0de12", "name": "\u0110\u1eb7ng Giang", "dob": "01-12-1982", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0946773828", "type": "Co-Worker"}
+{"id": "8ee0de3a", "name": "\u0110\u1eb7ng Qu\u00e2n", "dob": "14-11-1984", "edu_lv": "Trung C\u1ea5p", "phone": "0913214835", "type": "Employee"}
+{"id": "8ee0de6c", "name": "\u0110\u1eb7ng Linh", "dob": "22-08-1970", "edu_lv": "10/12", "phone": "0912562558", "type": "Co-Worker"}
+{"id": "8ee0de9e", "name": "\u0110\u1eb7ng Huy\u1ec1n", "dob": "08-10-1975", "edu_lv": "Trung C\u1ea5p", "phone": "0911407114", "type": "Employee"}
+{"id": "8ee0ded0", "name": "\u0110\u1eb7ng Tr\u01b0\u1eddng", "dob": "23-11-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0938184851", "type": "Employee"}
+{"id": "8ee0df16", "name": "\u0110\u1eb7ng Th\u1ecd", "dob": "21-09-2000", "edu_lv": "9/12", "phone": "0999732343", "type": "Employee"}
+{"id": "8ee0df48", "name": "\u0110\u1eb7ng Ki\u1ec7t", "dob": "07-04-1970", "edu_lv": "9/12", "phone": "0966010358", "type": "Employee"}
+{"id": "8ee0df70", "name": "\u0110\u1eb7ng \u0110\u1ea1t", "dob": "15-02-1970", "edu_lv": "9/12", "phone": "0933914162", "type": "Employee"}
+{"id": "8ee0dfa2", "name": "Ph\u1ea1m T\u00e0i", "dob": "02-01-1986", "edu_lv": "11/12", "phone": "0934059684", "type": "Co-Worker"}
+{"id": "8ee0dfd4", "name": "Ph\u1ea1m D\u0169ng", "dob": "06-04-1982", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0919340064", "type": "Employee"}
+{"id": "8ee0e006", "name": "Ph\u1ea1m D\u01b0\u01a1ng", "dob": "11-01-1971", "edu_lv": "10/12", "phone": "0956089064", "type": "Co-Worker"}
+{"id": "8ee0e038", "name": "Ph\u1ea1m L\u00e2m", "dob": "17-02-1983", "edu_lv": "9/12", "phone": "0925285625", "type": "Co-Worker"}
+{"id": "8ee0e06a", "name": "Ph\u1ea1m Minh", "dob": "04-05-1970", "edu_lv": "10/12", "phone": "0921088076", "type": "Employee"}
+{"id": "8ee0e092", "name": "Ph\u1ea1m \u0110\u1ee9c", "dob": "18-04-1973", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0942026701", "type": "Co-Worker"}
+{"id": "8ee0e0c4", "name": "Ph\u1ea1m B\u00e1ch", "dob": "30-07-1997", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0925684495", "type": "Co-Worker"}
+{"id": "8ee0e0f6", "name": "Ph\u1ea1m Tu\u1ea5n", "dob": "16-01-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0983419807", "type": "Co-Worker"}
+{"id": "8ee0e128", "name": "Ph\u1ea1m Quy\u1ebft", "dob": "09-09-1993", "edu_lv": "9/12", "phone": "0915202353", "type": "Employee"}
+{"id": "8ee0e150", "name": "Ph\u1ea1m Nam", "dob": "06-02-1995", "edu_lv": "12/12", "phone": "0988429935", "type": "Co-Worker"}
+{"id": "8ee0e182", "name": "Ph\u1ea1m B\u1eafc", "dob": "02-12-1989", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0981830934", "type": "Co-Worker"}
+{"id": "8ee0e1b4", "name": "Ph\u1ea1m Trung", "dob": "15-09-1997", "edu_lv": "Trung C\u1ea5p", "phone": "0984553806", "type": "Employee"}
+{"id": "8ee0e1e6", "name": "Ph\u1ea1m Giang", "dob": "05-05-1981", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0925835276", "type": "Co-Worker"}
+{"id": "8ee0e20e", "name": "Ph\u1ea1m Qu\u00e2n", "dob": "31-10-1981", "edu_lv": "10/12", "phone": "0955082887", "type": "Employee"}
+{"id": "8ee0e240", "name": "Ph\u1ea1m Linh", "dob": "22-09-1981", "edu_lv": "12/12", "phone": "0955111883", "type": "Co-Worker"}
+{"id": "8ee0e272", "name": "Ph\u1ea1m Huy\u1ec1n", "dob": "01-04-1976", "edu_lv": "12/12", "phone": "0997093030", "type": "Employee"}
+{"id": "8ee0e2a4", "name": "Ph\u1ea1m Tr\u01b0\u1eddng", "dob": "10-11-1981", "edu_lv": "9/12", "phone": "0944251904", "type": "Co-Worker"}
+{"id": "8ee0e2d6", "name": "Ph\u1ea1m Th\u1ecd", "dob": "11-10-1983", "edu_lv": "Trung C\u1ea5p", "phone": "0998585495", "type": "Employee"}
+{"id": "8ee0e2fe", "name": "Ph\u1ea1m Ki\u1ec7t", "dob": "21-03-1971", "edu_lv": "12/12", "phone": "0965275379", "type": "Co-Worker"}
+{"id": "8ee0e330", "name": "Ph\u1ea1m \u0110\u1ea1t", "dob": "02-08-1970", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0950896428", "type": "Co-Worker"}
+{"id": "8ee0e362", "name": "B\u00f9i T\u00e0i", "dob": "10-01-1982", "edu_lv": "11/12", "phone": "0935955800", "type": "Co-Worker"}
+{"id": "8ee0e394", "name": "B\u00f9i D\u0169ng", "dob": "12-04-1980", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0946362038", "type": "Co-Worker"}
+{"id": "8ee0e3bc", "name": "B\u00f9i D\u01b0\u01a1ng", "dob": "30-01-1979", "edu_lv": "10/12", "phone": "0929570812", "type": "Employee"}
+{"id": "8ee0e3ee", "name": "B\u00f9i L\u00e2m", "dob": "21-03-1981", "edu_lv": "9/12", "phone": "0963012313", "type": "Employee"}
+{"id": "8ee0e420", "name": "B\u00f9i Minh", "dob": "21-10-1983", "edu_lv": "9/12", "phone": "0964791723", "type": "Co-Worker"}
+{"id": "8ee0e452", "name": "B\u00f9i \u0110\u1ee9c", "dob": "29-07-1984", "edu_lv": "12/12", "phone": "0960672005", "type": "Employee"}
+{"id": "8ee0e484", "name": "B\u00f9i B\u00e1ch", "dob": "03-12-1977", "edu_lv": "10/12", "phone": "0949579801", "type": "Employee"}
+{"id": "8ee0e4b6", "name": "B\u00f9i Tu\u1ea5n", "dob": "12-04-1988", "edu_lv": "Trung C\u1ea5p", "phone": "0985223058", "type": "Co-Worker"}
+{"id": "8ee0e4e8", "name": "B\u00f9i Quy\u1ebft", "dob": "03-12-1982", "edu_lv": "9/12", "phone": "0916601105", "type": "Employee"}
+{"id": "8ee0e51a", "name": "B\u00f9i Nam", "dob": "24-11-1987", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0953755932", "type": "Employee"}
+{"id": "8ee0e54c", "name": "B\u00f9i B\u1eafc", "dob": "10-11-1970", "edu_lv": "9/12", "phone": "0963892618", "type": "Co-Worker"}
+{"id": "8ee0e574", "name": "B\u00f9i Trung", "dob": "10-04-1983", "edu_lv": "12/12", "phone": "0916476914", "type": "Employee"}
+{"id": "8ee0e5a6", "name": "B\u00f9i Giang", "dob": "25-04-1976", "edu_lv": "12/12", "phone": "0914589683", "type": "Co-Worker"}
+{"id": "8ee0e5d8", "name": "B\u00f9i Qu\u00e2n", "dob": "20-11-1972", "edu_lv": "9/12", "phone": "0999269936", "type": "Employee"}
+{"id": "8ee0e60a", "name": "B\u00f9i Linh", "dob": "15-11-1998", "edu_lv": "10/12", "phone": "0936554739", "type": "Employee"}
+{"id": "8ee0e63c", "name": "B\u00f9i Huy\u1ec1n", "dob": "13-07-1993", "edu_lv": "10/12", "phone": "0989732120", "type": "Co-Worker"}
+{"id": "8ee0e664", "name": "B\u00f9i Tr\u01b0\u1eddng", "dob": "25-11-1990", "edu_lv": "12/12", "phone": "0996079436", "type": "Co-Worker"}
+{"id": "8ee0e696", "name": "B\u00f9i Th\u1ecd", "dob": "19-12-1992", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0940352870", "type": "Co-Worker"}
+{"id": "8ee0e6c8", "name": "B\u00f9i Ki\u1ec7t", "dob": "03-12-1985", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0953556706", "type": "Co-Worker"}
+{"id": "8ee0e6fa", "name": "B\u00f9i \u0110\u1ea1t", "dob": "10-04-1986", "edu_lv": "11/12", "phone": "0920356731", "type": "Employee"}
+{"id": "8ee0e722", "name": "Cao T\u00e0i", "dob": "26-07-1996", "edu_lv": "Trung C\u1ea5p", "phone": "0943972535", "type": "Employee"}
+{"id": "8ee0e754", "name": "Cao D\u0169ng", "dob": "03-10-1995", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0970451434", "type": "Employee"}
+{"id": "8ee0e786", "name": "Cao D\u01b0\u01a1ng", "dob": "03-04-1989", "edu_lv": "9/12", "phone": "0930172555", "type": "Co-Worker"}
+{"id": "8ee0e7b8", "name": "Cao L\u00e2m", "dob": "22-01-1973", "edu_lv": "11/12", "phone": "0950445583", "type": "Co-Worker"}
+{"id": "8ee0e7e0", "name": "Cao Minh", "dob": "27-09-1996", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0924159239", "type": "Co-Worker"}
+{"id": "8ee0e812", "name": "Cao \u0110\u1ee9c", "dob": "10-10-1974", "edu_lv": "10/12", "phone": "0981075563", "type": "Employee"}
+{"id": "8ee0e844", "name": "Cao B\u00e1ch", "dob": "20-11-1995", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0921873026", "type": "Co-Worker"}
+{"id": "8ee0e876", "name": "Cao Tu\u1ea5n", "dob": "13-09-1973", "edu_lv": "9/12", "phone": "0975313086", "type": "Employee"}
+{"id": "8ee0e8a8", "name": "Cao Quy\u1ebft", "dob": "15-05-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0919732325", "type": "Co-Worker"}
+{"id": "8ee0e8d0", "name": "Cao Nam", "dob": "27-09-1982", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0982453976", "type": "Employee"}
+{"id": "8ee0e902", "name": "Cao B\u1eafc", "dob": "05-01-1997", "edu_lv": "Trung C\u1ea5p", "phone": "0919012449", "type": "Co-Worker"}
+{"id": "8ee0e934", "name": "Cao Trung", "dob": "15-08-1970", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0920640096", "type": "Employee"}
+{"id": "8ee0e966", "name": "Cao Giang", "dob": "02-07-1971", "edu_lv": "12/12", "phone": "0914221068", "type": "Co-Worker"}
+{"id": "8ee0e98e", "name": "Cao Qu\u00e2n", "dob": "10-04-1990", "edu_lv": "11/12", "phone": "0914902634", "type": "Co-Worker"}
+{"id": "8ee0e9c0", "name": "Cao Linh", "dob": "24-01-1973", "edu_lv": "9/12", "phone": "0969914419", "type": "Co-Worker"}
+{"id": "8ee0e9f2", "name": "Cao Huy\u1ec1n", "dob": "12-02-1980", "edu_lv": "10/12", "phone": "0961841439", "type": "Co-Worker"}
+{"id": "8ee0ea24", "name": "Cao Tr\u01b0\u1eddng", "dob": "17-01-1991", "edu_lv": "12/12", "phone": "0960963716", "type": "Co-Worker"}
+{"id": "8ee0ea56", "name": "Cao Th\u1ecd", "dob": "08-11-1990", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0910343554", "type": "Employee"}
+{"id": "8ee0ea7e", "name": "Cao Ki\u1ec7t", "dob": "09-04-1982", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0910155491", "type": "Employee"}
+{"id": "8ee0eab0", "name": "Cao \u0110\u1ea1t", "dob": "26-05-1986", "edu_lv": "11/12", "phone": "0948270165", "type": "Employee"}
+{"id": "8ee0eb00", "name": "Tr\u1ea7n T\u00e0i", "dob": "23-11-1984", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0948640558", "type": "Co-Worker"}
+{"id": "8ee0eb32", "name": "Tr\u1ea7n D\u0169ng", "dob": "13-11-1979", "edu_lv": "9/12", "phone": "0946238178", "type": "Employee"}
+{"id": "8ee0eb64", "name": "Tr\u1ea7n D\u01b0\u01a1ng", "dob": "25-05-1979", "edu_lv": "11/12", "phone": "0969696991", "type": "Co-Worker"}
+{"id": "8ee0eb96", "name": "Tr\u1ea7n L\u00e2m", "dob": "11-01-1992", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0937231402", "type": "Co-Worker"}
+{"id": "8ee0ebbe", "name": "Tr\u1ea7n Minh", "dob": "26-05-1985", "edu_lv": "9/12", "phone": "0980033607", "type": "Employee"}
+{"id": "8ee0ebf0", "name": "Tr\u1ea7n \u0110\u1ee9c", "dob": "10-05-1976", "edu_lv": "12/12", "phone": "0945585549", "type": "Co-Worker"}
+{"id": "8ee0ec22", "name": "Tr\u1ea7n B\u00e1ch", "dob": "07-11-1982", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0951837204", "type": "Co-Worker"}
+{"id": "8ee0ec54", "name": "Tr\u1ea7n Tu\u1ea5n", "dob": "15-01-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0990299747", "type": "Co-Worker"}
+{"id": "8ee0ec86", "name": "Tr\u1ea7n Quy\u1ebft", "dob": "26-01-1976", "edu_lv": "Trung C\u1ea5p", "phone": "0932461402", "type": "Co-Worker"}
+{"id": "8ee0ecae", "name": "Tr\u1ea7n Nam", "dob": "21-01-1994", "edu_lv": "9/12", "phone": "0973281658", "type": "Employee"}
+{"id": "8ee0ece0", "name": "Tr\u1ea7n B\u1eafc", "dob": "04-10-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0969419610", "type": "Co-Worker"}
+{"id": "8ee0ed12", "name": "Tr\u1ea7n Trung", "dob": "20-12-1971", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0918289855", "type": "Employee"}
+{"id": "8ee0ed44", "name": "Tr\u1ea7n Giang", "dob": "28-10-1994", "edu_lv": "9/12", "phone": "0963693698", "type": "Co-Worker"}
+{"id": "8ee0ed6c", "name": "Tr\u1ea7n Qu\u00e2n", "dob": "08-08-1987", "edu_lv": "Trung C\u1ea5p", "phone": "0981261842", "type": "Co-Worker"}
+{"id": "8ee0ed9e", "name": "Tr\u1ea7n Linh", "dob": "20-06-1990", "edu_lv": "Trung C\u1ea5p", "phone": "0965467358", "type": "Co-Worker"}
+{"id": "8ee0edd0", "name": "Tr\u1ea7n Huy\u1ec1n", "dob": "13-02-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0911782594", "type": "Employee"}
+{"id": "8ee0ee02", "name": "Tr\u1ea7n Tr\u01b0\u1eddng", "dob": "15-05-1982", "edu_lv": "9/12", "phone": "0953558946", "type": "Co-Worker"}
+{"id": "8ee0ee2a", "name": "Tr\u1ea7n Th\u1ecd", "dob": "21-01-1997", "edu_lv": "12/12", "phone": "0951488838", "type": "Co-Worker"}
+{"id": "8ee0ee5c", "name": "Tr\u1ea7n Ki\u1ec7t", "dob": "06-05-1997", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0938979999", "type": "Co-Worker"}
+{"id": "8ee0ee8e", "name": "Tr\u1ea7n \u0110\u1ea1t", "dob": "04-09-1984", "edu_lv": "10/12", "phone": "0924094504", "type": "Co-Worker"}
+{"id": "8ee0eec0", "name": "L\u00ea T\u00e0i", "dob": "16-06-1997", "edu_lv": "12/12", "phone": "0999224098", "type": "Employee"}
+{"id": "8ee0eef2", "name": "L\u00ea D\u0169ng", "dob": "10-08-1983", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0924592579", "type": "Co-Worker"}
+{"id": "8ee0ef24", "name": "L\u00ea D\u01b0\u01a1ng", "dob": "21-11-1978", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0987089511", "type": "Co-Worker"}
+{"id": "8ee0ef56", "name": "L\u00ea L\u00e2m", "dob": "15-09-1988", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0928789765", "type": "Co-Worker"}
+{"id": "8ee0ef7e", "name": "L\u00ea Minh", "dob": "08-12-1993", "edu_lv": "Trung C\u1ea5p", "phone": "0972740708", "type": "Employee"}
+{"id": "8ee0efb0", "name": "L\u00ea \u0110\u1ee9c", "dob": "22-07-1981", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0924849971", "type": "Employee"}
+{"id": "8ee0efe2", "name": "L\u00ea B\u00e1ch", "dob": "19-07-1986", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0914963542", "type": "Co-Worker"}
+{"id": "8ee0f014", "name": "L\u00ea Tu\u1ea5n", "dob": "10-05-1976", "edu_lv": "10/12", "phone": "0958823579", "type": "Employee"}
+{"id": "8ee0f046", "name": "L\u00ea Quy\u1ebft", "dob": "30-07-1978", "edu_lv": "11/12", "phone": "0988502502", "type": "Employee"}
+{"id": "8ee0f06e", "name": "L\u00ea Nam", "dob": "29-04-1989", "edu_lv": "10/12", "phone": "0956828060", "type": "Employee"}
+{"id": "8ee0f0a0", "name": "L\u00ea B\u1eafc", "dob": "12-09-1972", "edu_lv": "10/12", "phone": "0923701340", "type": "Employee"}
+{"id": "8ee0f0d2", "name": "L\u00ea Trung", "dob": "14-07-1971", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0998730987", "type": "Employee"}
+{"id": "8ee0f0fa", "name": "L\u00ea Giang", "dob": "31-10-1989", "edu_lv": "12/12", "phone": "0925884338", "type": "Employee"}
+{"id": "8ee0f12c", "name": "L\u00ea Qu\u00e2n", "dob": "05-06-1982", "edu_lv": "9/12", "phone": "0970165572", "type": "Co-Worker"}
+{"id": "8ee0f15e", "name": "L\u00ea Linh", "dob": "16-02-1984", "edu_lv": "12/12", "phone": "0940719491", "type": "Co-Worker"}
+{"id": "8ee0f190", "name": "L\u00ea Huy\u1ec1n", "dob": "20-09-1970", "edu_lv": "Trung C\u1ea5p", "phone": "0921278064", "type": "Employee"}
+{"id": "8ee0f1b8", "name": "L\u00ea Tr\u01b0\u1eddng", "dob": "08-03-1986", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0933222315", "type": "Employee"}
+{"id": "8ee0f1ea", "name": "L\u00ea Th\u1ecd", "dob": "08-11-1992", "edu_lv": "11/12", "phone": "0922415703", "type": "Employee"}
+{"id": "8ee0f21c", "name": "L\u00ea Ki\u1ec7t", "dob": "08-12-1981", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0986405880", "type": "Employee"}
+{"id": "8ee0f244", "name": "L\u00ea \u0110\u1ea1t", "dob": "09-08-1988", "edu_lv": "11/12", "phone": "0934901190", "type": "Co-Worker"}
+{"id": "8ee0f276", "name": "\u0110\u1ed7 T\u00e0i", "dob": "23-07-1985", "edu_lv": "Trung C\u1ea5p", "phone": "0978530655", "type": "Employee"}
+{"id": "8ee0f2a8", "name": "\u0110\u1ed7 D\u0169ng", "dob": "11-09-1980", "edu_lv": "10/12", "phone": "0979802086", "type": "Co-Worker"}
+{"id": "8ee0f2da", "name": "\u0110\u1ed7 D\u01b0\u01a1ng", "dob": "04-01-1989", "edu_lv": "Trung C\u1ea5p", "phone": "0973275753", "type": "Employee"}
+{"id": "8ee0f302", "name": "\u0110\u1ed7 L\u00e2m", "dob": "20-09-1990", "edu_lv": "9/12", "phone": "0910536987", "type": "Employee"}
+{"id": "8ee0f334", "name": "\u0110\u1ed7 Minh", "dob": "11-06-2000", "edu_lv": "12/12", "phone": "0992775707", "type": "Employee"}
+{"id": "8ee0f366", "name": "\u0110\u1ed7 \u0110\u1ee9c", "dob": "08-02-1980", "edu_lv": "Trung C\u1ea5p", "phone": "0956008879", "type": "Co-Worker"}
+{"id": "8ee0f38e", "name": "\u0110\u1ed7 B\u00e1ch", "dob": "07-06-1979", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0985915635", "type": "Employee"}
+{"id": "8ee0f3c0", "name": "\u0110\u1ed7 Tu\u1ea5n", "dob": "06-10-1998", "edu_lv": "12/12", "phone": "0953445495", "type": "Employee"}
+{"id": "8ee0f3f2", "name": "\u0110\u1ed7 Quy\u1ebft", "dob": "21-10-2000", "edu_lv": "9/12", "phone": "0961400688", "type": "Employee"}
+{"id": "8ee0f424", "name": "\u0110\u1ed7 Nam", "dob": "31-07-1983", "edu_lv": "12/12", "phone": "0928105016", "type": "Co-Worker"}
+{"id": "8ee0f44c", "name": "\u0110\u1ed7 B\u1eafc", "dob": "18-05-1998", "edu_lv": "11/12", "phone": "0923919211", "type": "Employee"}
+{"id": "8ee0f47e", "name": "\u0110\u1ed7 Trung", "dob": "21-05-1979", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0964569187", "type": "Co-Worker"}
+{"id": "8ee0f4b0", "name": "\u0110\u1ed7 Giang", "dob": "12-05-1988", "edu_lv": "Trung C\u1ea5p", "phone": "0950333197", "type": "Co-Worker"}
+{"id": "8ee0f4e2", "name": "\u0110\u1ed7 Qu\u00e2n", "dob": "26-09-1978", "edu_lv": "\u0110\u1ea1i H\u1ecdc", "phone": "0922361968", "type": "Co-Worker"}
+{"id": "8ee0f50a", "name": "\u0110\u1ed7 Linh", "dob": "01-05-1993", "edu_lv": "12/12", "phone": "0968268929", "type": "Co-Worker"}
+{"id": "8ee0f53c", "name": "\u0110\u1ed7 Huy\u1ec1n", "dob": "02-04-1990", "edu_lv": "Cao \u0110\u1eb3ng", "phone": "0959870148", "type": "Employee"}
+{"id": "8ee0f56e", "name": "\u0110\u1ed7 Tr\u01b0\u1eddng", "dob": "02-06-1980", "edu_lv": "10/12", "phone": "0911910558", "type": "Employee"}
+{"id": "8ee0f5a0", "name": "\u0110\u1ed7 Th\u1ecd", "dob": "14-08-1987", "edu_lv": "9/12", "phone": "0925099500", "type": "Co-Worker"}
+{"id": "8ee0f5c8", "name": "\u0110\u1ed7 Ki\u1ec7t", "dob": "17-11-1980", "edu_lv": "9/12", "phone": "0968324035", "type": "Co-Worker"}
+{"id": "8ee0f5fa", "name": "\u0110\u1ed7 \u0110\u1ea1t", "dob": "08-02-1987", "edu_lv": "12/12", "phone": "0954763027", "type": "Co-Worker"}
